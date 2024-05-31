@@ -41,7 +41,7 @@ def get_config():
     new_list = []
     for url in list_tg:
         a = url.split("/")[-1]
-        url = 'https://t.me/s/'+a
+        url = ''+a
         new_list.append(url)
     return new_list
 
