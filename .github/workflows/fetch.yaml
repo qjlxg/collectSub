@@ -43,7 +43,7 @@ jobs:
         pip install -r ./requirements.txt
     - name: 执行任务
       run: |
-        python ./main.py
+        python ./main (1).py
     - name: Commit
       run: |
         git config --global user.name "GitHub Actions"
