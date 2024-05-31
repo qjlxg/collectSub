@@ -35,7 +35,7 @@ def yaml_check(path_yaml):
 
 @logger.catch
 def get_config():
-    with open('./config.yaml',encoding="UTF-8") as f:
+    with open('./config (1).yaml',encoding="UTF-8") as f:
         data = yaml.load(f, Loader=yaml.FullLoader)
     list_tg = data['tgchannel']
     new_list = []
