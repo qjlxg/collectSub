@@ -79,7 +79,7 @@ def get_channel_http(channel_url):
 #         return url_list
 
 def filter_base64(text):
-    ss = ['ss://','ssr://','vmess://','trojan://']
+    ss = ['ssr://','vmess://','trojan://','vless://','ss://','trojan://','tuic://','hysteria://','hy2://','hysteria2://','juicity://','nekoray://','socks4://','socks5://','socks://','naive+']
     for i in ss:
         if i in text:
             return True
@@ -144,7 +144,7 @@ if __name__=='__main__':
         temp_list = get_channel_http(channel_url)
         url_list.extend(temp_list)
     logger.info('开始筛选---')
-    thread_max_num = threading.Semaphore(32)  # 32线程
+    thread_max_num = threading.Semaphore(256)  # 32线程
     bar = tqdm(total=len(url_list), desc='订阅筛选：')
     thread_list = []
     for url in url_list:
