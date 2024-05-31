@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '0 */4 * * *'
+     - cron: "*/5 * * * *" 
   watch:
     types: started
   # - cron: '0 3,12 * * *'
@@ -50,7 +50,7 @@ jobs:
         git config --global user.email "actions@github.com"
 
         git add ./sub   #这是pre_check.py定义的输出路径
-        git commit -m "🍀 爬取订阅源 $(date '+%Y-%m-%d %H:%M:%S')"
+        git commit -m "牙刷$(date '+%Y-%m-%d %H:%M:%S')"
         
     - name: 推送更改
       uses:  ad-m/github-push-action@master
