@@ -335,7 +335,11 @@ def merge_sub():
     sub_update(url_list,all_yaml)
 
     write_sub_store(all_yaml)
-
+  # 直接提供的代理列表    
+with open('v2ray.txt', 'w', encoding="utf-8") as f:        
+for line in proxy_list:
+            f.write(unquote(line))
+            f.write('\n')
 # 更新当日
 def update_today_sub():
     url_list = get_url_form_channel()
