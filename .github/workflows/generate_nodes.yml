@@ -1,0 +1,73 @@
+#https://github.com/mariahlamb/proxy-sub
+name: generate_nodes
+
+on:
+  push:
+    paths:
+      - 'sub/sub_all_clash.txt'
+      - 'generate_nodes.py'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  generate-nodes-list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('generate_nodes.py') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          python -m pip install --upgrade pip
+          pip install aiohttp==3.9.5 tqdm==4.66.5 aiohttp-retry==2.8.3
+
+      - name: Generate Nodes
+        run: |
+          source venv/bin/activate
+          set -x
+          python generate_nodes.py || { echo "Script failed"; exit 1; }
+
+      - name: Validate output file
+        run: |
+          if [ ! -s all_nodes.txt ]; then
+            echo "Error: all_nodes.txt is empty"
+            exit 1
+          fi
+          echo "Node count: $(wc -l < all_nodes.txt)"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nodes
+          path: all_nodes.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add all_nodes.txt
+          if git diff --quiet --staged; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update Nodes List [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
