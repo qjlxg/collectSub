@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 def parse_args() -> argparse.Namespace:
     """解析命令行参数。"""
     parser = argparse.ArgumentParser(description='提取订阅节点并分批输出')
-    parser.add_argument('--input', default='sub/sub_all_clash.txt', help='订阅文件路径')
+    parser.add_argument('--input', default='sub/sub_all_url_check.txt', help='订阅文件路径')
     parser.add_argument('--output_prefix', default='output/all_nodes', help='输出节点文件的前缀')
     parser.add_argument('--chunk_size', type=int, default=300, help='每个输出文件的节点数量')
     parser.add_argument(
