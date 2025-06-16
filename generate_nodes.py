@@ -6,12 +6,12 @@ import argparse
 import logging
 import dataclasses
 import json
+import re
 from typing import List, Optional, Tuple, Dict, Set, Type
 from tqdm import tqdm
 from urllib.parse import urlparse, parse_qs, unquote
 from functools import lru_cache
 from abc import ABC, abstractmethod
-import re
 
 # 配置日志
 logging.basicConfig(
@@ -24,9 +24,9 @@ logger = logging.getLogger(__name__)
 def parse_args() -> argparse.Namespace:
     """解析命令行参数。"""
     parser = argparse.ArgumentParser(description='提取订阅节点并分批输出')
-    parser.add_argument('--input', default='sub/sub_all_url_check.txt', help='订阅文件路径')
+    parser.add_argument('--input', default='sub/sub_all_clash.txt', help='订阅文件路径')
     parser.add_argument('--output_prefix', default='output/all_nodes', help='输出节点文件的前缀')
-    parser.add_argument('--chunk_size', type=int, default=500, help='每个输出文件的节点数量')
+    parser.add_argument('--chunk_size', type=int, default=300, help='每个输出文件的节点数量')
     parser.add_argument(
         '--strict_dedup',
         action='store_true',
@@ -45,7 +45,31 @@ def is_valid_url(url: str) -> bool:
 
 def normalize_server(server: str) -> str:
     """规范化服务器地址（小写，移除无效字符）。"""
-    return re.sub(r'[^a-zA-Z0-9.-]', '', server.lower())
+    return re.sub(r'[^a-zA-Z0-9.-:[\]]', '', server.lower())
+
+def normalize_ipv6_url(url: str) -> str:
+    """规范化 IPv6 URL，确保地址正确括在方括号中。"""
+    try:
+        parsed = urlparse(url)
+        if ':' in parsed.netloc and not parsed.netloc.startswith('['):
+            # 提取主机和端口
+            netloc = parsed.netloc
+            user_info = ''
+            if '@' in netloc:
+                user_info, netloc = netloc.split('@', 1)
+            host, port = netloc, ''
+            if ':' in netloc and not netloc.endswith(']'):
+                host, port = netloc.rsplit(':', 1)
+            if ':' in host and not host.startswith('['):
+                host = f'[{host}]'
+            new_netloc = f'{user_info}@{host}' if user_info else host
+            if port:
+                new_netloc += f':{port}'
+            # 重构 URL
+            return parsed._replace(netloc=new_netloc).geturl()
+        return url
+    except Exception:
+        return url
 
 def read_subscriptions(file_path: str) -> List[str]:
     """从文件中读取订阅 URL 列表。"""
@@ -116,6 +140,7 @@ class NodeParser(ABC):
 class SSNodeParser(NodeParser):
     def parse(self, node_url: str) -> Optional[ParsedNodeInfo]:
         try:
+            node_url = normalize_ipv6_url(node_url)
             parsed = urlparse(node_url)
             if not parsed.scheme.startswith('ss'):
                 return None
@@ -225,6 +250,7 @@ class VMessNodeParser(NodeParser):
 class VlessTrojanNodeParser(NodeParser):
     def parse(self, node_url: str) -> Optional[ParsedNodeInfo]:
         try:
+            node_url = normalize_ipv6_url(node_url)
             parsed = urlparse(node_url)
             protocol = parsed.scheme
             if protocol not in ['vless', 'trojan']:
@@ -250,13 +276,17 @@ class VlessTrojanNodeParser(NodeParser):
                 security_method=security,
                 network=network
             )
+        except ValueError as e:
+            logger.debug(f"解析 Vless/Trojan 节点 {node_url} 失败 (无效 URL): {e}")
+            return None
         except Exception as e:
-            logger.debug(f"解析 {protocol} 节点 {node_url} 失败: {e}")
+            logger.debug(f"解析 Vless/Trojan 节点 {node_url} 失败: {e}")
             return None
 
 class HysteriaNodeParser(NodeParser):
     def parse(self, node_url: str) -> Optional[ParsedNodeInfo]:
         try:
+            node_url = normalize_ipv6_url(node_url)
             parsed = urlparse(node_url)
             protocol = parsed.scheme
             if protocol not in ['hysteria', 'hy', 'hy2']:
@@ -286,7 +316,7 @@ class HysteriaNodeParser(NodeParser):
                 identifier=identifier
             )
         except Exception as e:
-            logger.debug(f"解析 {protocol} 节点 {node_url} 失败: {e}")
+            logger.debug(f"解析 Hysteria 节点 {node_url} 失败: {e}")
             return None
 
 def get_parsers() -> List[Type[NodeParser]]:
@@ -378,7 +408,7 @@ async def fetch_all_urls(urls: List[str], max_concurrent: int = 10) -> List[Opti
             
     async with aiohttp.ClientSession() as session:
         tasks = [sem_fetch(url, session) for url in urls]
-        for coro in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='处理订阅 URL'):
+        for coro in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='处理订阅 URL', leave=False):
             result = await coro
             results.append(result)
     return results
@@ -411,7 +441,7 @@ def main():
             for protocol, count in stats['by_protocol'].items():
                 total_stats['by_protocol'][protocol] = total_stats['by_protocol'].get(protocol, 0) + count
     
-    all_nodes = list(set(all_nodes))  # 最终字符串级别去重
+    all_nodes = list(set(all_nodes)) # 最终字符串级别去重
     total_stats['unique'] = len(all_nodes)
 
     logger.info("\n=== 节点处理统计 ===")
