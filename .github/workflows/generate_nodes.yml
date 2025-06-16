@@ -4,7 +4,7 @@ name: generate_nodes
 on:
   push:
     paths:
-      - 'sub/sub_all_clash.txt'
+      - 'sub/sub_all_url_check.txt'
       - 'generate_nodes.py'
       - 'requirementsnodes.txt'
   workflow_dispatch:
