@@ -9,14 +9,14 @@ from tqdm import tqdm
 from loguru import logger
 import json
 
-# 全局配置
+# 全局配置 (保持不变)
 RE_URL = r"https?://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]"
 CHECK_NODE_URL_STR = "https://{}/sub?target={}&url={}&insert=false&config=config%2FACL4SSR.ini"
 CHECK_URL_LIST = ['api.dler.io', 'sub.xeton.dev', 'sub.id9.cc', 'sub.maoxiongnet.com']
 MIN_GB_AVAILABLE = 5 # 最小可用流量，单位 GB
 
 # -------------------------------
-# 配置文件操作
+# 配置文件操作 (保持不变)
 # -------------------------------
 def load_yaml_config(path_yaml):
     """读取 YAML 配置文件，如文件不存在则返回默认结构"""
@@ -54,7 +54,7 @@ def get_config_channels(config_file='config.yaml'):
     return new_list
 
 # -------------------------------
-# 异步 HTTP 请求辅助函数
+# 异步 HTTP 请求辅助函数 (保持不变)
 # -------------------------------
 async def fetch_content(url, session, method='GET', headers=None, timeout=15):
     """获取指定 URL 的文本内容"""
@@ -71,7 +71,7 @@ async def fetch_content(url, session, method='GET', headers=None, timeout=15):
         return None, None
 
 # -------------------------------
-# 频道抓取及订阅检查
+# 频道抓取及订阅检查 (保持不变)
 # -------------------------------
 async def get_channel_urls(channel_url, session):
     """从 Telegram 频道页面抓取所有订阅链接，并过滤无关链接"""
@@ -133,7 +133,6 @@ async def check_single_subscription(url, session):
     # 判断 v2 订阅，通过 base64 解码检测
     try:
         # 清理内容，只保留 Base64 字符
-        # Base64 字符集：A-Z, a-z, 0-9, +, /, =
         cleaned_content = "".join(char for char in content if char.isalnum() or char in "+/=")
         
         # 限制尝试解码的字符串长度，防止过大或无效数据导致性能问题
@@ -141,33 +140,27 @@ async def check_single_subscription(url, session):
 
         # 检查是否符合 Base64 字符模式
         if sample_for_b64 and re.match(r"^[A-Za-z0-9+/=]*$", sample_for_b64):
-            # 尝试将清理后的字符串编码为 ASCII 字节，再进行 Base64 解码
-            # 如果 sample_for_b64 即使在清理后仍包含非 ASCII 字符，这里可能会抛出 UnicodeEncodeError
-            # 但这通常意味着它根本不是 Base64 字符串
             decoded_content = base64.b64decode(sample_for_b64.encode('ascii')).decode('utf-8', errors='ignore')
 
-            if any(proto in decoded_content for proto in ['ss://', 'ssr://', 'vmess://', 'trojan://']):
+            if any(proto in decoded_content for proto in ['ss://', 'ssr://', 'vmess://', 'trojan://', 'vless://', 'tuic://', 'hysteria://', 'hysteria2://']):
                 result["type"] = "v2订阅"
-                # 如果是 V2 订阅，尝试解码完整的清理内容作为其节点信息
                 try:
                     full_decoded = base64.b64decode(cleaned_content.encode('ascii')).decode('utf-8', errors='ignore')
                     result["content"] = full_decoded
                 except (base64.binascii.Error, UnicodeDecodeError, ValueError) as e:
                     logger.warning(f"V2订阅 {url} 的完整内容解码失败: {e}. 将使用部分内容。")
-                    result["content"] = decoded_content # 回退到部分解码的内容
+                    result["content"] = decoded_content
                 return result
         
     except (base64.binascii.Error, UnicodeDecodeError, ValueError) as e:
-        # 捕获 Base64 解码过程中可能出现的所有错误
         logger.debug(f"Base64 解码或初步检查失败 for {url}: {e}")
-        pass # 不是有效的 Base64 V2 订阅，忽略
+        pass
 
-    # 剩下的是未知类型，如果能获取到内容，也算有效
     result["type"] = "未知订阅"
     return result
 
 # -------------------------------
-# 节点有效性检测（根据多个检测入口）
+# 节点有效性检测（根据多个检测入口） (保持不变)
 # -------------------------------
 async def check_node_validity(url, target, session):
     """
@@ -192,49 +185,181 @@ def write_url_list(url_list, file_path):
     logger.info(f"已保存 {len(url_list)} 个链接到 {file_path}")
 
 # -------------------------------
-# 节点解码与合并
+# 节点解码与合并 (优化部分)
 # -------------------------------
 def decode_and_extract_nodes(sub_type, content):
     """
     根据订阅类型解码内容并提取节点。
-    返回一个包含代理链接或其 JSON 描述的列表。
+    返回一个包含代理链接的列表（统一格式）。
     """
     nodes = []
     if not content:
         return nodes
 
-    try:
-        if sub_type in ["机场订阅", "v2订阅", "未知订阅"]:
-            # 对于这些类型，内容通常是 Base64 编码的单行或多行代理链接
-            # content 字段在 check_single_subscription 中可能已经被解码
-            # 但这里再次尝试，以防万一或处理原始 Base64
-            
-            # 确保内容被视为字符串进行匹配
-            if isinstance(content, bytes):
-                decoded_text = content.decode('utf-8', errors='ignore')
-            else:
-                decoded_text = content
-            
-            # 匹配所有常见的代理链接格式
-            proxy_patterns = r"(ss://[^\\n]+|ssr://[^\\n]+|vmess://[^\\n]+|trojan://[^\\n]+)"
-            nodes.extend(re.findall(proxy_patterns, decoded_text))
+    # 定义所有支持的代理协议模式
+    proxy_patterns = (
+        r"(ss://[^\\n\s<\"']+|"      # ss://
+        r"ssr://[^\\n\s<\"']+|"     # ssr://
+        r"vmess://(?:[A-Za-z0-9+/=]+|\w+:\w+@[^\\n\s<\"']+)|" # vmess:// (可以是base64或直接链接)
+        r"vless://[^\\n\s<\"']+|"    # vless://
+        r"trojan://[^\\n\s<\"']+|"   # trojan://
+        r"hysteria://[^\\n\s<\"']+|" # hysteria://
+        r"hysteria2://[^\\n\s<\"']+|" # hysteria2://
+        r"tuic://[^\\n\s<\"']+"      # tuic://
+        r")"
+    )
 
-        elif sub_type == "clash订阅":
+    try:
+        if sub_type == "clash订阅":
             try:
                 clash_config = yaml.safe_load(content)
                 if clash_config and 'proxies' in clash_config:
                     for proxy in clash_config['proxies']:
-                        # 将 Clash 代理配置字典转换为 JSON 字符串，作为“节点”存储
-                        nodes.append(json.dumps(proxy, ensure_ascii=False))
+                        # 尝试将 Clash proxy 字典转换为标准链接格式
+                        node_link = convert_clash_proxy_to_url(proxy)
+                        if node_link:
+                            nodes.append(node_link)
+                        else:
+                            # 如果无法转换为标准链接，将其视为JSON字符串
+                            # logger.warning(f"无法将 Clash 代理转换为标准链接，保留 JSON 格式：{proxy.get('name', '未知节点')}")
+                            # 考虑到统一格式，这里不再保留 JSON，如果无法转换则直接丢弃
+                            pass
             except yaml.YAMLError as e:
                 logger.warning(f"无法解析 Clash 订阅内容为 YAML: {e}")
+            except Exception as e:
+                logger.warning(f"处理 Clash 代理时发生错误: {e}")
 
+        else: # 对于机场订阅, v2订阅, 未知订阅，直接从内容中提取链接
+            # 清理内容中的HTML实体和多余的字符
+            cleaned_content = content.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&quot;', '"')
+            
+            # 尝试 Base64 解码，因为很多订阅是 Base64 编码的链接列表
+            try:
+                # 再次清理，确保只有 Base64 字符
+                b64_char_cleaned_content = "".join(char for char in cleaned_content if char.isalnum() or char in "+/=\n")
+                decoded_text = base64.b64decode(b64_char_cleaned_content.encode('ascii')).decode('utf-8', errors='ignore')
+                # 尝试从解码后的文本中提取链接
+                nodes.extend(re.findall(proxy_patterns, decoded_text))
+            except (base64.binascii.Error, UnicodeDecodeError, ValueError) as e:
+                logger.debug(f"尝试 Base64 解码内容失败，直接从原始内容中提取: {e}")
+                # 如果解码失败，直接从原始清理后的内容中提取链接
+                nodes.extend(re.findall(proxy_patterns, cleaned_content))
+                
     except Exception as e:
         logger.error(f"解码和提取节点失败 ({sub_type}): {e}")
-    return nodes
+    
+    # 进一步清理提取到的节点，去除任何可能残留的 HTML 或不完整部分
+    final_nodes = []
+    for node in nodes:
+        # 移除行尾可能存在的 HTML 标签或不完整字符
+        cleaned_node = re.sub(r'[\s<"\'&].*$', '', node) 
+        # 确保链接以支持的协议开头且不包含多余内容
+        if re.match(proxy_patterns, cleaned_node):
+            final_nodes.append(cleaned_node)
+        else:
+            logger.debug(f"过滤掉无效节点格式：{node}")
+
+    return final_nodes
+
+def convert_clash_proxy_to_url(proxy_dict):
+    """
+    尝试将 Clash 代理字典转换为标准的代理链接格式。
+    目前仅支持 ss, vmess, vless, trojan。
+    Hysteria/Hysteria2/TUIC 等协议因为没有标准 URL 格式，不进行转换。
+    """
+    ptype = proxy_dict.get('type')
+    name = quote(proxy_dict.get('name', 'ClashNode'), safe='') # 对名称进行URL编码
+
+    try:
+        if ptype == 'ss':
+            cipher = proxy_dict.get('cipher')
+            password = proxy_dict.get('password')
+            server = proxy_dict.get('server')
+            port = proxy_dict.get('port')
+            if all([cipher, password, server, port]):
+                # Shadowsocks 标准链接：ss://method:password@server:port#name
+                # 注意：有些客户端需要 base64(method:password)
+                # 这里使用原始格式，如果客户端不支持，可能需要进一步编码
+                return f"ss://{base64.b64encode(f'{cipher}:{password}'.encode()).decode()}@{server}:{port}#{name}"
+        
+        elif ptype == 'vmess':
+            # Vmess 链接是 JSON base64 编码
+            vmess_config = {
+                "v": proxy_dict.get('v', '2'),
+                "ps": proxy_dict.get('name'),
+                "add": proxy_dict.get('server'),
+                "port": proxy_dict.get('port'),
+                "id": proxy_dict.get('uuid'),
+                "aid": proxy_dict.get('alterId', 0),
+                "net": proxy_dict.get('network'),
+                "type": proxy_dict.get('tls'), # 'type' in vmess schema refers to 'security'
+                "host": proxy_dict.get('ws-opts', {}).get('headers', {}).get('Host', ''),
+                "path": proxy_dict.get('ws-opts', {}).get('path', ''),
+                "tls": "tls" if proxy_dict.get('tls') else ""
+            }
+            # 移除空值
+            vmess_config = {k: v for k, v in vmess_config.items() if v not in ['', None, 0]}
+            return "vmess://" + base64.b64encode(json.dumps(vmess_config, ensure_ascii=False).encode('utf-8')).decode('utf-8')
+
+        elif ptype == 'vless':
+            uuid = proxy_dict.get('uuid')
+            server = proxy_dict.get('server')
+            port = proxy_dict.get('port')
+            params = []
+            if proxy_dict.get('tls'):
+                params.append('security=tls')
+            if proxy_dict.get('servername'):
+                params.append(f'sni={quote(proxy_dict["servername"])}')
+            if proxy_dict.get('network') == 'ws':
+                params.append('type=ws')
+                ws_path = proxy_dict.get('ws-opts', {}).get('path', '')
+                if ws_path:
+                    params.append(f'path={quote(ws_path)}')
+                ws_host = proxy_dict.get('ws-opts', {}).get('headers', {}).get('Host', '')
+                if ws_host:
+                    params.append(f'host={quote(ws_host)}')
+            # 添加XUDP, fingerprint等其他参数
+            if proxy_dict.get('xudp'):
+                params.append('xudp=true')
+            if proxy_dict.get('client-fingerprint'):
+                params.append(f'fp={proxy_dict["client-fingerprint"]}')
+            if proxy_dict.get('flow'):
+                params.append(f'flow={proxy_dict["flow"]}')
+            
+            param_str = "&".join(params)
+            
+            if all([uuid, server, port]):
+                return f"vless://{uuid}@{server}:{port}?{param_str}#{name}" if param_str else f"vless://{uuid}@{server}:{port}#{name}"
+
+        elif ptype == 'trojan':
+            password = proxy_dict.get('password')
+            server = proxy_dict.get('server')
+            port = proxy_dict.get('port')
+            params = []
+            if proxy_dict.get('tls'): # Trojan usually implies TLS, but explicitly add if present
+                params.append('security=tls') 
+            if proxy_dict.get('sni'):
+                params.append(f'sni={quote(proxy_dict["sni"])}')
+            if proxy_dict.get('network') == 'ws':
+                params.append('type=ws')
+                ws_path = proxy_dict.get('ws-opts', {}).get('path', '')
+                if ws_path:
+                    params.append(f'path={quote(ws_path)}')
+                ws_host = proxy_dict.get('ws-opts', {}).get('headers', {}).get('Host', '')
+                if ws_host:
+                    params.append(f'host={quote(ws_host)}')
+            
+            param_str = "&".join(params)
+
+            if all([password, server, port]):
+                return f"trojan://{password}@{server}:{port}?{param_str}#{name}" if param_str else f"trojan://{password}@{server}:{port}#{name}"
+
+    except Exception as e:
+        logger.warning(f"转换 Clash 代理 '{proxy_dict.get('name', '未知')}' 到 URL 失败: {e}")
+    return None
 
 # -------------------------------
-# 主函数入口
+# 主函数入口 (保持不变)
 # -------------------------------
 async def main():
     config_path = 'config.yaml'
