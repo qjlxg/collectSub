@@ -196,7 +196,7 @@ def decode_and_extract_nodes(sub_type, content):
     if not content:
         return nodes
 
-    # 定义所有支持的代理协议模式
+    # 定义所有支持的代理协议模式，添加 'hysteria://' 和 'hysteria2://'，并将 'hy://' 视为 'hysteria://' 的别名
     proxy_patterns = (
         r"(ss://[^\\n\s<\"']+|"      # ss://
         r"ssr://[^\\n\s<\"']+|"     # ssr://
@@ -205,6 +205,7 @@ def decode_and_extract_nodes(sub_type, content):
         r"trojan://[^\\n\s<\"']+|"   # trojan://
         r"hysteria://[^\\n\s<\"']+|" # hysteria://
         r"hysteria2://[^\\n\s<\"']+|" # hysteria2://
+        r"hy://[^\\n\s<\"']+|"       # hy:// (作为 hysteria:// 的别名)
         r"tuic://[^\\n\s<\"']+"      # tuic://
         r")"
     )
@@ -220,9 +221,7 @@ def decode_and_extract_nodes(sub_type, content):
                         if node_link:
                             nodes.append(node_link)
                         else:
-                            # 如果无法转换为标准链接，将其视为JSON字符串
-                            # logger.warning(f"无法将 Clash 代理转换为标准链接，保留 JSON 格式：{proxy.get('name', '未知节点')}")
-                            # 考虑到统一格式，这里不再保留 JSON，如果无法转换则直接丢弃
+                            # 如果无法转换为标准链接，丢弃该节点
                             pass
             except yaml.YAMLError as e:
                 logger.warning(f"无法解析 Clash 订阅内容为 YAML: {e}")
@@ -231,18 +230,21 @@ def decode_and_extract_nodes(sub_type, content):
 
         else: # 对于机场订阅, v2订阅, 未知订阅，直接从内容中提取链接
             # 清理内容中的HTML实体和多余的字符
-            cleaned_content = content.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&quot;', '"')
+            cleaned_content = content.replace('&', '&').replace('<', '<').replace('>', '>').replace('"', '"')
             
             # 尝试 Base64 解码，因为很多订阅是 Base64 编码的链接列表
             try:
                 # 再次清理，确保只有 Base64 字符
                 b64_char_cleaned_content = "".join(char for char in cleaned_content if char.isalnum() or char in "+/=\n")
                 decoded_text = base64.b64decode(b64_char_cleaned_content.encode('ascii')).decode('utf-8', errors='ignore')
+                # 将 hy:// 替换为 hysteria:// 以统一格式
+                decoded_text = decoded_text.replace('hy://', 'hysteria://')
                 # 尝试从解码后的文本中提取链接
                 nodes.extend(re.findall(proxy_patterns, decoded_text))
             except (base64.binascii.Error, UnicodeDecodeError, ValueError) as e:
                 logger.debug(f"尝试 Base64 解码内容失败，直接从原始内容中提取: {e}")
                 # 如果解码失败，直接从原始清理后的内容中提取链接
+                cleaned_content = cleaned_content.replace('hy://', 'hysteria://')
                 nodes.extend(re.findall(proxy_patterns, cleaned_content))
                 
     except Exception as e:
@@ -253,6 +255,8 @@ def decode_and_extract_nodes(sub_type, content):
     for node in nodes:
         # 移除行尾可能存在的 HTML 标签或不完整字符
         cleaned_node = re.sub(r'[\s<"\'&].*$', '', node) 
+        # 统一将 hy:// 替换为 hysteria://
+        cleaned_node = cleaned_node.replace('hy://', 'hysteria://')
         # 确保链接以支持的协议开头且不包含多余内容
         if re.match(proxy_patterns, cleaned_node):
             final_nodes.append(cleaned_node)
@@ -264,8 +268,7 @@ def decode_and_extract_nodes(sub_type, content):
 def convert_clash_proxy_to_url(proxy_dict):
     """
     尝试将 Clash 代理字典转换为标准的代理链接格式。
-    目前仅支持 ss, vmess, vless, trojan。
-    Hysteria/Hysteria2/TUIC 等协议因为没有标准 URL 格式，不进行转换。
+    支持 ss, vmess, vless, trojan, hysteria, hysteria2，hy（作为 hysteria 的别名）。
     """
     ptype = proxy_dict.get('type')
     name = quote(proxy_dict.get('name', 'ClashNode'), safe='') # 对名称进行URL编码
@@ -277,13 +280,9 @@ def convert_clash_proxy_to_url(proxy_dict):
             server = proxy_dict.get('server')
             port = proxy_dict.get('port')
             if all([cipher, password, server, port]):
-                # Shadowsocks 标准链接：ss://method:password@server:port#name
-                # 注意：有些客户端需要 base64(method:password)
-                # 这里使用原始格式，如果客户端不支持，可能需要进一步编码
                 return f"ss://{base64.b64encode(f'{cipher}:{password}'.encode()).decode()}@{server}:{port}#{name}"
         
         elif ptype == 'vmess':
-            # Vmess 链接是 JSON base64 编码
             vmess_config = {
                 "v": proxy_dict.get('v', '2'),
                 "ps": proxy_dict.get('name'),
@@ -292,12 +291,11 @@ def convert_clash_proxy_to_url(proxy_dict):
                 "id": proxy_dict.get('uuid'),
                 "aid": proxy_dict.get('alterId', 0),
                 "net": proxy_dict.get('network'),
-                "type": proxy_dict.get('tls'), # 'type' in vmess schema refers to 'security'
+                "type": proxy_dict.get('tls'),
                 "host": proxy_dict.get('ws-opts', {}).get('headers', {}).get('Host', ''),
                 "path": proxy_dict.get('ws-opts', {}).get('path', ''),
                 "tls": "tls" if proxy_dict.get('tls') else ""
             }
-            # 移除空值
             vmess_config = {k: v for k, v in vmess_config.items() if v not in ['', None, 0]}
             return "vmess://" + base64.b64encode(json.dumps(vmess_config, ensure_ascii=False).encode('utf-8')).decode('utf-8')
 
@@ -318,7 +316,6 @@ def convert_clash_proxy_to_url(proxy_dict):
                 ws_host = proxy_dict.get('ws-opts', {}).get('headers', {}).get('Host', '')
                 if ws_host:
                     params.append(f'host={quote(ws_host)}')
-            # 添加XUDP, fingerprint等其他参数
             if proxy_dict.get('xudp'):
                 params.append('xudp=true')
             if proxy_dict.get('client-fingerprint'):
@@ -336,8 +333,8 @@ def convert_clash_proxy_to_url(proxy_dict):
             server = proxy_dict.get('server')
             port = proxy_dict.get('port')
             params = []
-            if proxy_dict.get('tls'): # Trojan usually implies TLS, but explicitly add if present
-                params.append('security=tls') 
+            if proxy_dict.get('tls'):
+                params.append('security=tls天子
             if proxy_dict.get('sni'):
                 params.append(f'sni={quote(proxy_dict["sni"])}')
             if proxy_dict.get('network') == 'ws':
@@ -353,6 +350,32 @@ def convert_clash_proxy_to_url(proxy_dict):
 
             if all([password, server, port]):
                 return f"trojan://{password}@{server}:{port}?{param_str}#{name}" if param_str else f"trojan://{password}@{server}:{port}#{name}"
+
+        elif ptype in ['hysteria', 'hy', 'hysteria2']:
+            # 将 hy 视为 hysteria 的别名
+            protocol = 'hysteria2' if ptype == 'hysteria2' else 'hysteria'
+            server = proxy_dict.get('server')
+            port = proxy_dict.get('port')
+            params = []
+            if up_mbps := proxy_dict.get('up_mbps'):
+                params.append(f'upmbps={up_mbps}')
+            if down_mbps := proxy_dict.get('down_mbps'):
+                params.append(f'downmbps={down_mbps}')
+            if password := proxy_dict.get('password'):
+                params.append(f'password={quote(password)}')
+            if sni := proxy_dict.get('sni'):
+                params.append(f'sni={quote(sni)}')
+            if insecure := proxy_dict.get('insecure'):
+                params.append(f'insecure={insecure}')
+            if obfs := proxy_dict.get('obfs'):
+                params.append(f'obfs={quote(obfs)}')
+            if obfs_password := proxy_dict.get('obfs-password'):
+                params.append(f'obfspassword={quote(obfs_password)}')
+            
+            param_str = "&".join(params)
+            
+            if all([server, port]):
+                return f"{protocol}://{server}:{port}?{param_str}#{name}" if param_str else f"{protocol}://{server}:{port}#{name}"
 
     except Exception as e:
         logger.warning(f"转换 Clash 代理 '{proxy_dict.get('name', '未知')}' 到 URL 失败: {e}")
