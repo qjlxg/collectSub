@@ -334,7 +334,7 @@ def convert_clash_proxy_to_url(proxy_dict):
             port = proxy_dict.get('port')
             params = []
             if proxy_dict.get('tls'):
-                params.append('security=tls天子
+                params.append('security=tls')
             if proxy_dict.get('sni'):
                 params.append(f'sni={quote(proxy_dict["sni"])}')
             if proxy_dict.get('network') == 'ws':
