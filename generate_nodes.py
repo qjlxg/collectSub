@@ -18,7 +18,7 @@ def parse_args() -> argparse.Namespace:
     # 更改默认输出前缀，使其指向一个名为 'output' 的子目录
     parser.add_argument('--input', default='sub/sub_all_url_check.txt', help='订阅文件路径')
     parser.add_argument('--output_prefix', default='output/all_nodes', help='输出节点文件的前缀 (例如: output/all_nodes_001.txt, output/all_nodes_002.txt)')
-    parser.add_argument('--chunk_size', type=int, default=300, help='每个输出文件的节点数量')
+    parser.add_argument('--chunk_size', type=int, default=500, help='每个输出文件的节点数量')
     return parser.parse_args()
 
 def is_valid_url(url: str) -> bool:
