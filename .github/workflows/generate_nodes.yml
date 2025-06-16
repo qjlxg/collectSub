@@ -6,11 +6,11 @@ on:
     paths:
       - 'sub/sub_all_clash.txt'
       - 'generate_nodes.py'
-      - 'requirements.txt'
+      - 'requirementsnodes.txt'
   workflow_dispatch:
     inputs:
       strict_dedup:
-        description: 'Use strict deduplication mode (consider network and security_method)'
+        description: '使用严格去重模式（考虑 network 和 security_method）'
         required: false
         default: 'true'
   schedule:
@@ -21,91 +21,116 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: 检出仓库
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: 设置 Python 环境
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11' # 固定为 3.11 以确保兼容性
 
-      - name: Cache virtual environment
+      - name: 缓存虚拟环境
         uses: actions/cache@v4
         id: cache-venv
         with:
           path: venv
-          key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+          key: ${{ runner.os }}-venv-${{ hashFiles('requirementsnodes.txt') }}
           restore-keys: |
             ${{ runner.os }}-venv-
 
-      - name: Create virtual environment
+      - name: 验证 requirementsnodes.txt
+        run: |
+          if [ ! -f requirementsnodes.txt ]; then
+            echo "错误：未找到 requirementsnodes.txt 文件"
+            exit 1
+          fi
+          while IFS= read -r line; do
+            if [[ -n "$line" && ! "$line" =~ ^[a-zA-Z0-9_-]+(>=|==|<|<=)[0-9.] ]]; then
+              echo "错误：requirementsnodes.txt 中格式无效：$line"
+              exit 1
+            fi
+          done < requirementsnodes.txt
+          echo "requirementsnodes.txt 验证通过"
+
+      - name: 创建虚拟环境
         if: steps.cache-venv.outputs.cache-hit != 'true'
         run: |
           python -m venv venv
           source venv/bin/activate
           python -m pip install --upgrade pip
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: |
           source venv/bin/activate
           pip install -r requirementsnodes.txt
+        env:
+          PIP_NO_CACHE_DIR: 1 # 禁用 pip 缓存以确保一致性
 
-      - name: Generate Nodes
+      - name: 生成节点
         run: |
           source venv/bin/activate
           set -x
           STRICT_DEDUP=${{ github.event.inputs.strict_dedup || 'true' }}
-          python generate_nodes.py --strict_dedup=$([[ "$STRICT_DEDUP" == "true" ]] && echo "" || echo "--no-strict_dedup") || { echo "Script failed"; cat generate_nodes.log; exit 1; }
+          if [ "$STRICT_DEDUP" = "true" ]; then
+            python generate_nodes.py --strict_dedup 2>&1 | tee generate_nodes.log
+          else
+            python generate_nodes.py 2>&1 | tee generate_nodes.log
+          fi
+          if [ ${PIPESTATUS[0]} -ne 0 ]; then
+            echo "脚本执行失败"
+            cat generate_nodes.log || echo "无法读取 generate_nodes.log"
+            exit 1
+          fi
         env:
           PYTHONUNBUFFERED: 1 # 确保日志实时输出
-        continue-on-error: false
 
-      - name: Validate output files
+      - name: 验证输出文件
         run: |
-          shopt -s nullglob # 避免 glob 匹配空时出错
+          shopt -s nullglob
           OUTPUT_FILES=(output/all_nodes_*.txt)
           if [ ${#OUTPUT_FILES[@]} -eq 0 ]; then
-            echo "Error: No output files found in output/all_nodes_*.txt"
+            echo "错误：未在 output/all_nodes_*.txt 中找到输出文件"
             exit 1
           fi
           TOTAL_LINES=0
           for file in "${OUTPUT_FILES[@]}"; do
             if [ ! -s "$file" ]; then
-              echo "Error: $file is empty"
+              echo "错误：$file 文件为空"
               exit 1
             fi
-            # 简单验证文件内容（检查是否包含有效节点前缀）
             if ! grep -qE '^(ss|ssr|vmess|vless|trojan|hysteria|hy|hy2)://' "$file"; then
-              echo "Error: $file contains no valid node URLs"
+              echo "错误：$file 不包含有效的节点 URL"
               exit 1
             fi
             LINES=$(wc -l < "$file")
             TOTAL_LINES=$((TOTAL_LINES + LINES))
-            echo "Node count in $file: $LINES"
+            echo "$file 中的节点数：$LINES"
           done
-          echo "Total node count: $TOTAL_LINES"
-          # 输出统计信息（从日志提取）
-          echo "=== Node Processing Stats ==="
-          grep -A 10 "=== 节点处理统计 ===" generate_nodes.log || echo "No stats found in log"
+          echo "总节点数：$TOTAL_LINES"
+          echo "=== 节点处理统计 ==="
+          grep -A 10 "=== 节点处理统计 ===" generate_nodes.log || echo "日志中未找到统计信息"
 
-      - name: Upload artifacts
+      - name: 上传工件
         uses: actions/upload-artifact@v4
         with:
           name: nodes
-          path: output/all_nodes_*.txt
+          path: |
+            output/all_nodes_*.txt
+            generate_nodes.log
           if-no-files-found: error
 
-      - name: Commit and push changes
+      - name: 提交并推送更改
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/all_nodes_*.txt
           if git diff --quiet --staged; then
-            echo "No changes to commit"
+            echo "无更改需要提交"
             exit 0
           fi
           TOTAL_NODES=$(wc -l output/all_nodes_*.txt | tail -n 1 | awk '{print $1}')
-          git commit -m "Update Nodes List: $TOTAL_NODES nodes [skip ci]"
+          STRICT_MODE=$([[ "${{ github.event.inputs.strict_dedup || 'true' }}" == "true" ]] && echo "严格" || echo "宽松")
+          git commit -m "更新节点列表：$TOTAL_NODES 个节点（$STRICT_MODE 去重模式）[skip ci]"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
