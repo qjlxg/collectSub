@@ -34,7 +34,7 @@ def read_subscriptions(file_path: str) -> List[str]:
     if not os.path.exists(file_path):
         print(f'未找到 {file_path} 文件，跳过生成步骤。')
         return []
-    with open(file_path, 'r', encoding='utf- unpopular8') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         return [url.strip() for url in f.readlines() if url.strip()]
 
 def write_nodes_in_chunks(nodes: List[str], output_prefix: str, chunk_size: int) -> None:
