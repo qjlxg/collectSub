@@ -7,7 +7,7 @@ import base64
 from urllib.parse import quote
 from tqdm import tqdm
 from loguru import logger
-import json # 引入 json 模块用于处理 Clash YAML 结构
+import json
 
 # 全局配置
 RE_URL = r"https?://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]"
@@ -132,20 +132,37 @@ async def check_single_subscription(url, session):
 
     # 判断 v2 订阅，通过 base64 解码检测
     try:
-        sample = content[:min(len(content), 2048)] # 适当增加解码长度，以应对较长的单行编码
-        decoded_content = base64.b64decode(sample).decode('utf-8', errors='ignore')
-        if any(proto in decoded_content for proto in ['ss://', 'ssr://', 'vmess://', 'trojan://']):
-            result["type"] = "v2订阅"
-            # 对于V2订阅，将解码后的内容存入 content
-            try:
-                result["content"] = base64.b64decode(content).decode('utf-8', errors='ignore')
-            except Exception as e:
-                logger.warning(f"V2订阅 {url} 的完整内容解码失败: {e}")
-            return result
-    except (base64.binascii.Error, UnicodeDecodeError):
-        pass # 不是有效的base64编码
+        # 清理内容，只保留 Base64 字符
+        # Base64 字符集：A-Z, a-z, 0-9, +, /, =
+        cleaned_content = "".join(char for char in content if char.isalnum() or char in "+/=")
+        
+        # 限制尝试解码的字符串长度，防止过大或无效数据导致性能问题
+        sample_for_b64 = cleaned_content[:min(len(cleaned_content), 4096)]
 
-    # 剩下的是未知类型，但如果能获取到内容，也算有效
+        # 检查是否符合 Base64 字符模式
+        if sample_for_b64 and re.match(r"^[A-Za-z0-9+/=]*$", sample_for_b64):
+            # 尝试将清理后的字符串编码为 ASCII 字节，再进行 Base64 解码
+            # 如果 sample_for_b64 即使在清理后仍包含非 ASCII 字符，这里可能会抛出 UnicodeEncodeError
+            # 但这通常意味着它根本不是 Base64 字符串
+            decoded_content = base64.b64decode(sample_for_b64.encode('ascii')).decode('utf-8', errors='ignore')
+
+            if any(proto in decoded_content for proto in ['ss://', 'ssr://', 'vmess://', 'trojan://']):
+                result["type"] = "v2订阅"
+                # 如果是 V2 订阅，尝试解码完整的清理内容作为其节点信息
+                try:
+                    full_decoded = base64.b64decode(cleaned_content.encode('ascii')).decode('utf-8', errors='ignore')
+                    result["content"] = full_decoded
+                except (base64.binascii.Error, UnicodeDecodeError, ValueError) as e:
+                    logger.warning(f"V2订阅 {url} 的完整内容解码失败: {e}. 将使用部分内容。")
+                    result["content"] = decoded_content # 回退到部分解码的内容
+                return result
+        
+    except (base64.binascii.Error, UnicodeDecodeError, ValueError) as e:
+        # 捕获 Base64 解码过程中可能出现的所有错误
+        logger.debug(f"Base64 解码或初步检查失败 for {url}: {e}")
+        pass # 不是有效的 Base64 V2 订阅，忽略
+
+    # 剩下的是未知类型，如果能获取到内容，也算有效
     result["type"] = "未知订阅"
     return result
 
@@ -180,23 +197,25 @@ def write_url_list(url_list, file_path):
 def decode_and_extract_nodes(sub_type, content):
     """
     根据订阅类型解码内容并提取节点。
-    返回一个包含代理链接的列表。
+    返回一个包含代理链接或其 JSON 描述的列表。
     """
     nodes = []
     if not content:
         return nodes
 
     try:
-        if sub_type in ["机场订阅", "v2订阅", "未知订阅"]: # 这些通常是 base64 编码的 V2Ray/SSR/SS 链接
-            # 尝试直接解码，因为 check_single_subscription 已经对 V2 订阅做了初步解码
-            # 但这里要确保是完整解码，且处理非 base64 的原始链接
-            try:
-                decoded_text = base64.b64decode(content).decode('utf-8', errors='ignore')
-            except (base64.binascii.Error, UnicodeDecodeError):
-                decoded_text = content # 如果不是base64编码，就直接用原始内容
-
+        if sub_type in ["机场订阅", "v2订阅", "未知订阅"]:
+            # 对于这些类型，内容通常是 Base64 编码的单行或多行代理链接
+            # content 字段在 check_single_subscription 中可能已经被解码
+            # 但这里再次尝试，以防万一或处理原始 Base64
+            
+            # 确保内容被视为字符串进行匹配
+            if isinstance(content, bytes):
+                decoded_text = content.decode('utf-8', errors='ignore')
+            else:
+                decoded_text = content
+            
             # 匹配所有常见的代理链接格式
-            # 增加对 trojan:// 的匹配
             proxy_patterns = r"(ss://[^\\n]+|ssr://[^\\n]+|vmess://[^\\n]+|trojan://[^\\n]+)"
             nodes.extend(re.findall(proxy_patterns, decoded_text))
 
@@ -205,17 +224,7 @@ def decode_and_extract_nodes(sub_type, content):
                 clash_config = yaml.safe_load(content)
                 if clash_config and 'proxies' in clash_config:
                     for proxy in clash_config['proxies']:
-                        # Clash 代理配置通常是字典，需要根据协议类型构造链接
-                        # 这里只是一个简单的示例，实际可能需要更复杂的逻辑来构建标准代理链接
-                        # 或者直接使用 Clash config 的代理名称 (proxy['name'])
-                        # 为了简化并确保能输出可用的链接，这里假设 proxy 字典中包含足够信息构建链接
-                        # 实际可能需要根据不同的协议 (ss, vmess, trojan) 构造对应的链接格式
-                        # 简单的做法是：如果 Clash 配置中也直接包含了标准链接，则提取
-                        # 考虑到 Clash 配置通常是节点详情，而不是可直接订阅的单行链接
-                        # 我们直接提取 Clash 原始的 proxies 字典并转换为 JSON 字符串，方便查看
-                        # 或者，如果目标是生成一个大的 V2Ray/SSR/SS 订阅文件，则需要进行格式转换
-                        # 目前脚本目标是合并所有“节点”，我们将 Clash 的每个代理项作为一个“节点”
-                        # 考虑到方便后续使用，这里可以简单地将 Clash proxy item 转换为 JSON 字符串
+                        # 将 Clash 代理配置字典转换为 JSON 字符串，作为“节点”存储
                         nodes.append(json.dumps(proxy, ensure_ascii=False))
             except yaml.YAMLError as e:
                 logger.warning(f"无法解析 Clash 订阅内容为 YAML: {e}")
@@ -246,7 +255,7 @@ async def main():
         sub_results = []
         for coro in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="订阅筛选"):
             res = await coro
-            if res:
+            if res: # 只添加有效的订阅结果
                 sub_results.append(res)
         logger.info(f"完成订阅筛选，共 {len(sub_results)} 个有效结果。")
 
@@ -266,6 +275,7 @@ async def main():
                 clash.append(res["url"])
             elif res["type"] == "v2订阅":
                 v2.append(res["url"])
+            # 其他类型（如"未知订阅"）也会被处理以尝试提取节点
 
             # 尝试解码并提取节点，加入到总的节点集合中
             nodes = decode_and_extract_nodes(res["type"], res["content"])
