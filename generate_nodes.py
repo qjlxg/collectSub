@@ -15,8 +15,9 @@ logger = logging.getLogger(__name__)
 def parse_args() -> argparse.Namespace:
     """解析命令行参数。"""
     parser = argparse.ArgumentParser(description='提取订阅节点并分批输出')
+    # 更改默认输出前缀，使其指向一个名为 'output' 的子目录
     parser.add_argument('--input', default='sub/sub_all_url_check.txt', help='订阅文件路径')
-    parser.add_argument('--output_prefix', default='all_nodes', help='输出节点文件的前缀 (例如: all_nodes_001.txt, all_nodes_002.txt)')
+    parser.add_argument('--output_prefix', default='output/all_nodes', help='输出节点文件的前缀 (例如: output/all_nodes_001.txt, output/all_nodes_002.txt)')
     parser.add_argument('--chunk_size', type=int, default=300, help='每个输出文件的节点数量')
     return parser.parse_args()
 
@@ -33,7 +34,7 @@ def read_subscriptions(file_path: str) -> List[str]:
     if not os.path.exists(file_path):
         print(f'未找到 {file_path} 文件，跳过生成步骤。')
         return []
-    with open(file_path, 'r', encoding='utf-8') as f:
+    with open(file_path, 'r', encoding='utf- unpopular8') as f:
         return [url.strip() for url in f.readlines() if url.strip()]
 
 def write_nodes_in_chunks(nodes: List[str], output_prefix: str, chunk_size: int) -> None:
@@ -46,10 +47,12 @@ def write_nodes_in_chunks(nodes: List[str], output_prefix: str, chunk_size: int)
         print("没有节点可写入。")
         return
 
-    # 确保输出目录存在
+    # 提取输出文件所在的目录路径
     output_dir = os.path.dirname(output_prefix)
+    # 如果指定了目录（即 output_prefix 包含了路径信息），且该目录不存在，则创建它
     if output_dir and not os.path.exists(output_dir):
         os.makedirs(output_dir)
+        print(f"已创建输出目录: {os.path.abspath(output_dir)}") # 打印创建的目录的绝对路径
 
     total_chunks = (len(nodes) + chunk_size - 1) // chunk_size
     print(f"总共有 {len(nodes)} 个节点，将分 {total_chunks} 个文件输出 (每文件 {chunk_size} 个节点)。")
@@ -59,13 +62,18 @@ def write_nodes_in_chunks(nodes: List[str], output_prefix: str, chunk_size: int)
         end_index = min((i + 1) * chunk_size, len(nodes))
         chunk = nodes[start_index:end_index]
 
-        # 构造文件名，例如 'all_nodes_001.txt'
+        # 构造完整的文件名，包括前缀和序号
         file_name = f"{output_prefix}_{i+1:03d}.txt"
         
-        with open(file_name, 'w', encoding='utf-8') as f:
-            for node in chunk:
-                f.write(f'{node}\n')
-        print(f'节点信息已写入到：{file_name} (包含 {len(chunk)} 条节点)')
+        try:
+            with open(file_name, 'w', encoding='utf-8') as f:
+                for node in chunk:
+                    f.write(f'{node}\n')
+            print(f'节点信息已写入到：{os.path.abspath(file_name)} (包含 {len(chunk)} 条节点)')
+        except IOError as e:
+            logger.error(f"写入文件 {file_name} 失败: {e}")
+            print(f"写入文件 {file_name} 失败，请检查目录权限或路径。")
+
 
 def extract_nodes(text: str) -> List[str]:
     """
@@ -149,6 +157,10 @@ def main():
 
     # 4. 将节点分批写入文件
     write_nodes_in_chunks(all_nodes, args.output_prefix, args.chunk_size)
+
+    # 打印最终文件存储位置的提示
+    output_directory = os.path.dirname(args.output_prefix) if os.path.dirname(args.output_prefix) else "."
+    print(f"\n所有生成的节点文件已保存到目录: {os.path.abspath(output_directory)}")
 
 if __name__ == '__main__':
     main()
