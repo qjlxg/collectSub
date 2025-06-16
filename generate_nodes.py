@@ -24,12 +24,13 @@ logger = logging.getLogger(__name__)
 def parse_args() -> argparse.Namespace:
     """解析命令行参数。"""
     parser = argparse.ArgumentParser(description='提取订阅节点并分批输出')
-    parser.add_argument('--input', default='sub/sub_all_url_check.txt', help='订阅文件路径')
+    parser.add_argument('--input', default='sub/sub_all_clash.txt', help='订阅文件路径')
     parser.add_argument('--output_prefix', default='output/all_nodes', help='输出节点文件的前缀')
-    parser.add_argument('--chunk_size', type=int, default=500, help='每个输出文件的节点数量')
+    parser.add_argument('--chunk_size', type=int, default=300, help='每个输出文件的节点数量')
     parser.add_argument(
         '--strict_dedup',
         action='store_true',
+        default=True,
         help='启用严格去重模式（考虑 network 和 security_method 字段）'
     )
     return parser.parse_args()
@@ -92,10 +93,10 @@ class ParsedNodeInfo:
     protocol: str
     server: str
     port: int
+    original_url: str = dataclasses.field(compare=False, hash=False)
     identifier: Optional[str] = None
     security_method: Optional[str] = None
     network: Optional[str] = None
-    original_url: str = dataclasses.field(compare=False, hash=False)
 
 class NodeParser(ABC):
     """抽象基类，定义节点解析接口。"""
@@ -142,9 +143,9 @@ class SSNodeParser(NodeParser):
                 protocol='ss',
                 server=server,
                 port=port,
+                original_url=node_url,
                 identifier=password,
-                security_method=method,
-                original_url=node_url
+                security_method=method
             )
         except Exception as e:
             logger.debug(f"解析 SS 节点 {node_url} 失败: {e}")
@@ -174,9 +175,9 @@ class SSRNodeParser(NodeParser):
                 protocol='ssr',
                 server=server,
                 port=port,
+                original_url=node_url,
                 identifier=password,
-                security_method=method,
-                original_url=node_url
+                security_method=method
             )
         except Exception as e:
             logger.debug(f"解析 SSR 节点 {node_url} 失败: {e}")
@@ -212,10 +213,10 @@ class VMessNodeParser(NodeParser):
                 protocol='vmess',
                 server=server,
                 port=port,
+                original_url=node_url,
                 identifier=uuid,
                 security_method=security,
-                network=network,
-                original_url=node_url
+                network=network
             )
         except Exception as e:
             logger.debug(f"解析 VMess 节点 {node_url} 失败: {e}")
@@ -244,10 +245,10 @@ class VlessTrojanNodeParser(NodeParser):
                 protocol=protocol,
                 server=server,
                 port=port,
+                original_url=node_url,
                 identifier=identifier,
                 security_method=security,
-                network=network,
-                original_url=node_url
+                network=network
             )
         except Exception as e:
             logger.debug(f"解析 {protocol} 节点 {node_url} 失败: {e}")
@@ -281,8 +282,8 @@ class HysteriaNodeParser(NodeParser):
                 protocol=protocol,
                 server=server,
                 port=port,
-                identifier=identifier,
-                original_url=node_url
+                original_url=node_url,
+                identifier=identifier
             )
         except Exception as e:
             logger.debug(f"解析 {protocol} 节点 {node_url} 失败: {e}")
