@@ -6,9 +6,15 @@ on:
     paths:
       - 'sub/sub_all_clash.txt'
       - 'generate_nodes.py'
+      - 'requirements.txt'
   workflow_dispatch:
+    inputs:
+      strict_dedup:
+        description: 'Use strict deduplication mode (consider network and security_method)'
+        required: false
+        default: 'true'
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0,12 * * *' # 每天 UTC 00:00 和 12:00 运行
 
 jobs:
   generate-nodes-list:
@@ -23,51 +29,83 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Cache pip
+      - name: Cache virtual environment
         uses: actions/cache@v4
+        id: cache-venv
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('generate_nodes.py') }}
+          path: venv
+          key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
           restore-keys: |
-            ${{ runner.os }}-pip-
+            ${{ runner.os }}-venv-
 
-      - name: Install dependencies
+      - name: Create virtual environment
+        if: steps.cache-venv.outputs.cache-hit != 'true'
         run: |
           python -m venv venv
           source venv/bin/activate
           python -m pip install --upgrade pip
-          pip install aiohttp==3.9.5 tqdm==4.66.5 aiohttp-retry==2.8.3
+
+      - name: Install dependencies
+        run: |
+          source venv/bin/activate
+          pip install -r requirements.txt
 
       - name: Generate Nodes
         run: |
           source venv/bin/activate
           set -x
-          python generate_nodes.py || { echo "Script failed"; exit 1; }
+          STRICT_DEDUP=${{ github.event.inputs.strict_dedup || 'true' }}
+          python generate_nodes.py --strict_dedup=$([[ "$STRICT_DEDUP" == "true" ]] && echo "" || echo "--no-strict_dedup") || { echo "Script failed"; cat generate_nodes.log; exit 1; }
+        env:
+          PYTHONUNBUFFERED: 1 # 确保日志实时输出
+        continue-on-error: false
 
-      - name: Validate output file
+      - name: Validate output files
         run: |
-          if [ ! -s all_nodes.txt ]; then
-            echo "Error: all_nodes.txt is empty"
+          shopt -s nullglob # 避免 glob 匹配空时出错
+          OUTPUT_FILES=(output/all_nodes_*.txt)
+          if [ ${#OUTPUT_FILES[@]} -eq 0 ]; then
+            echo "Error: No output files found in output/all_nodes_*.txt"
             exit 1
           fi
-          echo "Node count: $(wc -l < all_nodes.txt)"
+          TOTAL_LINES=0
+          for file in "${OUTPUT_FILES[@]}"; do
+            if [ ! -s "$file" ]; then
+              echo "Error: $file is empty"
+              exit 1
+            fi
+            # 简单验证文件内容（检查是否包含有效节点前缀）
+            if ! grep -qE '^(ss|ssr|vmess|vless|trojan|hysteria|hy|hy2)://' "$file"; then
+              echo "Error: $file contains no valid node URLs"
+              exit 1
+            fi
+            LINES=$(wc -l < "$file")
+            TOTAL_LINES=$((TOTAL_LINES + LINES))
+            echo "Node count in $file: $LINES"
+          done
+          echo "Total node count: $TOTAL_LINES"
+          # 输出统计信息（从日志提取）
+          echo "=== Node Processing Stats ==="
+          grep -A 10 "=== 节点处理统计 ===" generate_nodes.log || echo "No stats found in log"
 
-      - name: Upload artifact
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: nodes
-          path: all_nodes.txt
+          path: output/all_nodes_*.txt
+          if-no-files-found: error
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add all_nodes.txt
+          git add output/all_nodes_*.txt
           if git diff --quiet --staged; then
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Update Nodes List [skip ci]"
+          TOTAL_NODES=$(wc -l output/all_nodes_*.txt | tail -n 1 | awk '{print $1}')
+          git commit -m "Update Nodes List: $TOTAL_NODES nodes [skip ci]"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
