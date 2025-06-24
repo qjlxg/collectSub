@@ -1,300 +1,300 @@
-vmess://eyJhZGQiOiAid3hsbC5lNW91dGxsb2subWUiLCAiYWlkIjogMCwgImhvc3QiOiAid3hsbC5lNW91dGxsb2subWUiLCAiaWQiOiAiZjA5NDkzNGItNTg2OS00MmVmLWFmMWYtMTQ3ODgzZGE5MDU2IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwLCAicHMiOiAiNEZyZWVJcmFuLTI2NDU5IiwgInNjeSI6ICJhdXRvIiwgInRscyI6ICIiLCAidiI6ICIyIn0=
-vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@[2803:f800:50::6ca2:c190]:443?security=tls&sni=edmp.aimercc.filegear-sg.me&type=ws&host=edmp.aimercc.filegear-sg.me&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#🔒 VL-WS-TLS 🏴‍☠️ NA-[2803:f800:50::6ca2:c190]:443
-vless://897a4bec-26b8-11e8-94be-00505695472c@104.16.243.253:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-104.16.243.253:443
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.217:8880?type=ws&host=sg.laoyoutiao.link&path=Telegram%40WangCai2%2F%3Fed%3D2048#4FreeIran-21783
-trojan://a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2@104.21.24.195:443?security=tls&sni=RFgTHYu7.999836.Xyz&type=ws&host=rfgthyu7.999836.xyz&path=%2FmFvK3LJyIAe8ydvnmRKWDa8&fp=chrome&alpn=http%2F1.1#🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.24.195:443
-vless://9fdc6f83-bfbd-40dd-8e4e-1678ee20351c@108.162.195.33:80?security=tls&sni=fari24.clodmolt3.com&type=ws&host=fari24.clodmolt3.com&path=/wss&fp=chrome&alpn=h3,h2,http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-108.162.195.33:80
-vless://c5293efa-28f8-4a0f-8f34-541078970cee@45.131.4.113:80?type=ws&host=gozargah.validbv7996.ir&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560#4FreeIran-18739
-vless://897a4bec-26b8-11e8-94be-00505695472c@172.64.159.52:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-172.64.159.52:443
-vless://fde86c85-6d4d-420b-bfde-47687763517e@82.196.14.5:443?security=reality&sni=journalofbigdata.springeropen.com&type=tcp&fp=firefox&pbk=3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY#4FreeIran-22648
-vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@156.225.72.254:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳#4FreeIran-10376
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@38.68.135.18:7002#🇺🇸 Dallas, TX, United States
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@185.18.250.213:8880?type=ws&host=jp.laoyoutiao.link#4FreeIran-21965
-vless://568279ce-dd78-4f33-9e5c-64b18c5505db@151.101.123.59:80?security=none&type=ws&host=foffmelo.com&path=%2Folem%2Fws%3Fed%3D2560#🔒 VL-WS-NONE 🇫🇷 FR-151.101.123.59:80
-vmess://eyJ2IjoiMiIsInBzIjoiXHU1MjY5XHU0ZjU5XHU2ZDQxXHU5MWNmXHVmZjFhNi43MiBHQiIsImFkZCI6IjQ1LjE0Ny4yMDEuMjMxIiwicG9ydCI6IjIyMDY5IiwiaWQiOiJkMTAzNzQyMS0zOTc3LTRjYWUtODQ2Mi0wYzdkMjI3NDVlODQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0=
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E@37.19.222.212:443#4FreeIran-1500
-vmess://eyJhZGQiOiAiZnJlZS1ydXNzaWFuMDEtY2RuLnhpYW9ob3V6aS5jbHViIiwgImFpZCI6IDIzMywgImhvc3QiOiAiZnJlZS1ydXNzaWFuMDEtY2RuLnhpYW9ob3V6aS5jbHViIiwgImlkIjogIjNkMzE3MjhlLTA2NGQtNDJiOC1iOTQ1LWY3OWMwMDhmNzNmYyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIjRGcmVlSXJhbi0yNjE3NCIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpubFZxSVZ5S3dXb0RzRDdkVllUOVkw@81.19.140.31:65305#CA%F0%9F%87%A8%F0%9F%87%A6+%7C+81.19.140.31-65305+%7C+23.41ms
-vless://60c9baa3-0241-45e3-9faa-d91f50e4b142@128.140.118.108:5050?security=reality&flow=xtls-rprx-vision&sni=refersion.com&type=tcp&fp=chrome&pbk=SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604#🔒 VL-TCP-RLT 🇩🇪 DE-128.140.118.108:5050
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyN2RlNmZlMi02MDZkLTQ2ODMtYWEyMi1jMWE1MGEzOTQ5Y2I@lt.ktmwan.top:10707#4FreeIran-214
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@172.67.199.19:443?security=tls&sni=a.xn--i-sx6a60i.us.kg&type=ws&host=a.xn--i-sx6a60i.us.kg#4FreeIran-19494
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLNTA2b25aYXk4RVZKcHFSVjRXS1FW@91.217.10.60:1090#4FreeIran-613
-vless://d643b9ca-57b7-4cd5-84b8-a77f26b6346e@[2400:cb00:2049:1::a29f:121]:443?security=tls&sni=rayan-fg-1.narges.filegear-sg.me&type=ws&host=rayan-fg-1.narges.filegear-sg.me&path=/?ed%3D2560&fp=chrome&allowInsecure=1#4FreeIran-19835
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@45.142.255.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#4FreeIran-22197
-vmess://ewogICAgImFkZCI6ICJVUzctMDEuODkwNjI0Llh5WiIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogInVzNy0wMS44OTA2MjQueHl6IiwKICAgICJpZCI6ICI0ZDA0YjMwYy1lZjdiLTRhMDctOGY5ZS1mNTgxZWMxNzFmOGEiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvYnVhMmhNY2JBOHdNemJHRnRWIiwKICAgICJwb3J0IjogNDQzLAogICAgInBzIjogIvCfj4FSRUxBWS0xMDQuMjEuOTYuMS0xNzcyIiwKICAgICJ0bHMiOiAidGxzIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0=
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.244.196:8880?sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#4FreeIran-12596
-vless://89722a6c-e074-4651-d0a7-6ad6c29ce87b@20.96.165.134:80?security=reality&sni=microsoft.com&type=grpc&serviceName=Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER&fp=firefox&pbk=EyQUEBzlUrhZxnNL5uODPYYMu50SCsZo4abimP9aWlI&sid=c811882c07#🔒 VL-GRPC-RLT 🇺🇸 US-20.96.165.134:80
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@38.121.43.71:8009#4FreeIran-2376
-vless://401374e6-df77-41fb-f638-dad8184f175b@92.60.74.149:443?security=tls&sni=pqh36v4.hiddendom.shop&type=grpc&host=pqh36v4.hiddendom.shop&alpn=h2#🔒 VL-GRPC-TLS 🇸🇮 SI-92.60.74.149:443
-vless://6034088f-b713-40dd-93be-eaea802eafe1@45.131.211.114:80?encryption=none&security=none&sni=5435.nhopzuei.workers.Dev&type=ws&host=5435.nhopzuei.workers.Dev&path=Telegram%40WangCai2%2F%3Fed%3D2048#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-97
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.85.118.20:8880?security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2F%3Fed%3D2560#4FreeIran-12441
-vmess://eyJhZGQiOiAiMTk1LjE1NC43Ny4xOTAiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjM2ZmE0NWRiLTJkNGEtNDI5NS1hMWZlLTIyMzgzNjk4OTg3OCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvcGluZWFwcGxlIiwgInBvcnQiOiAyMDgyLCAicHMiOiAiNEZyZWVJcmFuLTI0NzM3IiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIn0=
-vless://42f36835-730c-4ecc-9daf-20121ae7ba47@167.82.99.180:80?security=none&type=ws&sni=edge.validbv3528.ir&host=edge.validbv3528.ir&encryption=none&type=ws&path=%2Fvless-ws&headerType=none#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-31
-vless://b99590df-eda0-4e34-e1a9-3d1118faed83@164.38.155.122:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=%2F#🔒 VL-HTTPUPGRADE-NONE 🇬🇧 GB-164.38.155.122:8880
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5Yzk4ZWM1OS0yMzFjLTQwOTEtYmEwNS1hMGM4ODEwMjEzMzU@p1.bxy-fun3.xyz:23100#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%2003
-vless://1c4520d8-b91d-4a6d-b21e-fbe98da8f363@185.165.117.51:2053?security=tls&sni=cconfigv2rayser.tasehe4055.WoRkers.deV&type=ws&host=cconfigv2rayser.tasehe4055.WoRkers.deV&path=vless-ws%2F%3Fed%3D2048&fp=chrome&alpn=h2,http/1.1#4FreeIran-9288
-vless://b99590df-eda0-4e34-e1a9-3d1118faed83@45.85.119.82:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#🔒 VL-HTTPUPGRADE-NONE 🇷🇴 RO-45.85.119.82:8880
-vless://897a4bec-26b8-11e8-94be-00505695472c@[2606:4700::4f:e69e:beb9:27ea]:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-[2606:4700::4f:e69e:beb9:27ea]:443
-vless://8334979f-2f04-4f49-8ead-bbceed373ecb@45.131.210.189:80?security=none&type=ws&sni=esetsecuritylicense.roobdi.workers.dev&host=esetsecuritylicense.roobdi.workers.dev&encryption=none&type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2048&headerType=none#%E8%8D%B7%E5%85%B0_juzi8186_85
-vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@185.59.218.254:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳#4FreeIran-10466
-vless://b795fcf2-454c-43d4-80ab-7eebc99338a6@62.60.177.146:2052?security=reality&flow=xtls-rprx-vision&sni=jetbrains.com&type=tcp&fp=firefox&pbk=ciPKFr9TEbF41ECucqPFlAaHkG54CoZ0CFfHcX3i3iI&sid=fb8bb9e825f65563#4FreeIran-17791
-vless://897a4bec-26b8-11e8-94be-00505695472c@104.16.1.180:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-14923
-trojan://juzi@162.159.153.222:2096?sni=juzi8186-sr1.pages.dev#🔒 TR-TCP-NA 🏴‍☠️ NA-162.159.153.222:2096
-trojan://c97cf46e-1554-36cb-8b36-c3556b883dc4@2024-us2a.88888806.xyz:443?sni=2024-us2a.88888806.xyz&allowInsecure=1&type=ws&path=%2F92024db4-eadf-4cd1-b7e5-87d047d353f0#%F0%9F%8C%80%E5%85%B6%E4%BB%966-%E6%9C%AA%E8%AF%86%E5%88%AB%20%7C%20%E2%AC%87%EF%B8%8F%2013.6MB%2Fs%7COpenai
-vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNkXHVkZDEyIFZNLVRDUC1OQSBcdWQ4M2NcdWRkZThcdWQ4M2NcdWRkZjMgQ04tMTgzLjIzNi41MS4zODo1OTU1NCIsICJhZGQiOiAiMTgzLjIzNi41MS4zOCIsICJwb3J0IjogIjU5NTU0IiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAiaG9zdCI6ICIiLCAidGxzIjogIiJ9
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@38.75.137.9:8080#4FreeIran-2001
-trojan://576c81b6-4976-4fe3-b1a9-05a9c302e98e@192.3.130.103:443?security=tls&sni=us10-01zl.huangshang.filegear-sg.me&type=grpc&serviceName=i8oL7PsxV002zYFTmiIeg&fp=chrome&alpn=h2#🔒 TR-GRPC-TLS 🇺🇸 US-192.3.130.103:443
-vless://c23462c4-986a-402e-80f8-dce5e1e893c0@164.38.155.156:443?security=tls&sni=cdn.maviks.eu&type=httpupgrade&host=cdn.maviks.eu&path=%2FMaGLM25tSikPTFr75Q0Yri&fp=chrome#🔒 VL-HTTPUPGRADE-TLS 🇬🇧 GB-164.38.155.156:443
-vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@45.131.211.202:8443?security=tls&sni=NuWoLcZn28.qUiCkOrA.OrG&type=ws&host=NuWoLcZn28.qUiCkOrA.OrG&path=%2F&fp=chrome&alpn=h2%2Chttp%2F1.1#4FreeIran-16649
-vless://730f02b4-a187-4498-b3fa-9e9f1dccf47c@176.124.223.208:8880?type=httpupgrade&host=dl1.mcinet.xyz.&path=%2F#🔒 VL-HTTPUPGRADE-NA 🇷🇺 RU-176.124.223.208:8880
-vless://4cbb71d8-4262-43af-8b4f-e126b794ff8d@188.114.97.173:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960010.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960010.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#🔒 VL-WS-TLS 🏴‍☠️ NA-188.114.97.173:443
-vless://588e0c52-44bc-4d24-9833-8bd2af532c58@172.64.34.232:443?security=tls&sni=news3.testsnew.com&type=ws&host=news3.testsnew.com&path=%2Fwss&alpn=http%2F1.1#4FreeIran-13203
-vless://b027f4de-ea43-4062-bd82-4d9e1a0ed815@45.159.148.180:8443?security=none&type=tcp&host=speedtest.net&path=%2F&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-45.159.148.180:8443
-vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU1ZTdmXHU0ZTFjXHU3NzAxXHU0ZTJkXHU1YzcxXHU1ZTAyIFx1NzlmYlx1NTJhOCIsICJhZGQiOiAiMTgzLjIzOC45MC44IiwgInBvcnQiOiAiNDY5MjAiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAiaG9zdCI6ICIiLCAidGxzIjogIiJ9
-vless://7f93e196-1b2f-4a42-8051-5815554c05db@3.98.141.7:443?security=reality&type=tcp&sni=zula.ir&fp=chrome&flow=xtls-rprx-vision&sid=7a2b&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg#%F0%9F%87%A8%F0%9F%87%A6%E5%8A%A0%E6%8B%BF%E5%A4%A75%20%7C%20%E2%AC%87%EF%B8%8F%202.2MB%2Fs
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.139:8880?sni=yd.laoyoutiao.link&type=ws&host=yd.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#🔒 VL-WS-NA 🇯🇵 JP-156.238.18.139:8880
-trojan://vip@www.visa.com.tw:443?security=tls&type=ws&host=heihu880.pages.dev&path=%2F%3Fed%3D2560#%E7%9A%86%E5%8F%AF%E9%BB%91%E7%A7%91%E6%8A%80
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@135.84.74.29:8880?security=none&type=ws&host=hk.laoyoutiao.link&path=%2FTelegramU0001F1E8U0001F1F3#🔒 VL-WS-NONE 🇺🇸 US-135.84.74.29:8880
-vless://e8d8328d-4c66-4b96-9a4e-e005f4397c75@104.21.28.188:443?security=tls&sni=cloud.kiava.fun&type=ws&host=cloud.kiava.fun&path=/&fp=firefox&alpn=h2#4FreeIran-20569
-vmess://eyJhZGQiOiAiU2hvcGlmeS5jb20iLCAiYWlkIjogMCwgImhvc3QiOiAiRnIuY2xvdWRmbGFyZS5xdWVzdCIsICJpZCI6ICIyNTBmNDMzMS04YzNlLTRiODctYTg2Yi01YzVmYmY5ZGRiYTgiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL2FyaWVzIiwgInBvcnQiOiAyMDg2LCAicHMiOiAiNEZyZWVJcmFuLTI1OTMyIiwgInNjeSI6ICJhdXRvIiwgInRscyI6ICIiLCAidiI6ICIyIn0=
-vless://31348b17-4ab2-40c0-b79e-c81032331d30@104.16.140.135:2086?sni=b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev&type=ws&host=b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev#🔒 VL-WS-NA 🏴‍☠️ NA-104.16.140.135:2086
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyMTc3YzQ5NC1jYzUwLTQzNzgtOGRmOS1mZDZhMjI2MDBkMGY@iost.prprcheng.top:33689#%F0%9F%87%B8%F0%9F%87%AC%E6%96%B0%E5%8A%A0%E5%9D%A1B
-ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ@185.135.86.173:9037#4FreeIran-1204
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@java.ct.arvancode.eu.org:443#4FreeIran-679
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@172.67.139.111:2087?security=tls&sni=baipiao1.curly-train.pages.dev&type=ws&host=baipiao1.curly-train.pages.dev#🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.139.111:2087
-vless://32b1630f-7964-4d58-847c-1cea931e60ed@172.67.169.192:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960001.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960001.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#4FreeIran-10208
-vmess://eyJhZGQiOiAiMTA0LjE5LjI0MC4xODkiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICJTYW5kLkJsYW5rdS5NZSIsICJpZCI6ICJjOGFiZjY2YS0xOTAzLTQ2MzgtYTQ0OC05Yzg2NzMzZTQyNTQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3dzczEzNDgwIiwgInBvcnQiOiAiNDQzIiwgInBzIjogIjRGcmVlSXJhbi0yMjc5NiIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiU2FuZC5CbGFua3UuTWUiLCAidGxzIjogInRscyIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@45.131.5.226:443?security=tls&sni=cvarad3.taban-rason.space&type=ws&path=%2F&fp=chrome&alpn=h2%2Chttp%2F1.1#🔒 VL-WS-TLS 🇳🇱 NL-45.131.5.226:443
-vless://4088e698-69fd-4d15-98bc-f1fe4c071642@173.245.59.109:2082?security=none&type=ws&host=digitalscientificresearchgroup.ir#4FreeIran-11181
-vless://897a4bec-26b8-11e8-94be-00505695472c@104.19.60.28:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-104.19.60.28:443
-ss://YWVzLTI1Ni1nY206V0N1ejd5cmZaU0NRUVhTTnJ0R1B6MkhU@81.19.208.107:50168#4FreeIran-2251
-vless://4d91916f-a7fd-419b-8b90-640bb8d4b3f2@194.36.55.111:443?security=tls&sni=mypHOtoGRAPICpIctUre.iR&type=ws&host=myphotograpicpicture.ir&path=/fJBvsL0uR2MtzRig&alpn=http/1.1#4FreeIran-11660
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.12.31.63:80?security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2FChannel%2Bid%3A%2B%40ShadowProxy66%2F%3Fed%3D2560#4FreeIran-12236
-vless://ea286109-d20f-415e-849e-4af20ab04b65@135.148.182.1:443?security=tls&sni=147135001195.sec22org.com&type=tcp&alpn=h2%2Chttp%2F1.1&allowInsecure=1#🔒 VL-TCP-TLS 🇺🇸 US-135.148.182.1:443
-vless://4d6ab109-c8b3-4d93-9515-eb2c8c438129@43.165.191.25:16837?security=tls&type=ws&path=%2F%3Fed%3D2560&host=mot.gike.dpdns.org&sni=mot.gike.dpdns.org&fp=random#%F0%9F%87%AF%F0%9F%87%B5%20%E4%B8%80%E5%85%83%E6%9C%BA%E5%9C%BA%3Assrsub.de%20%E6%97%A5%E6%9C%AC%2004
-vless://568279ce-dd78-4f33-9e5c-64b18c5505db@151.101.123.91:80?security=none&type=ws&host=foffmelo.com&path=%2Folem%2Fws%3Fed%3D2560#🔒 VL-WS-NONE 🇫🇷 FR-151.101.123.91:80
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@47.236.10.182:2087?encryption=none&security=tls&type=ws&sni=bj.ylks01.eu.org&host=bj.ylks01.eu.org&path=%2ffreecodes#TG%3A%40JUZIBAIPIAO%2B%2B%E7%BE%8E%E5%9B%BD_46
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.244.248:8880?sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#🔒 VL-WS-NA 🇳🇱 NL-5.10.244.248:8880
-vless://c1601a96-febd-4baa-8fe3-17ca8f4121bd@104.17.183.58:443?security=tls&sni=frieren.albedo.ddns-ip.net&type=ws&host=frieren.albedo.ddns-ip.net&path=%2Fproxyip%3Dayaka.shorekeeper.ir&fp=randomized&alpn=http%2F1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-104.17.183.58:443
-vless://f184c89c-80a4-4a3a-bc67-97db43266c11@79.137.248.124:8443?encryption=none&security=tls&sni=vdd.wxgqlfx.cn&type=ws&host=vdd.wxgqlfx.cn&path=%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560#FI%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa+(13)
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@45.149.12.213:8880?type=ws&host=jp.laoyoutiao.link#🔒 VL-WS-NA 🇳🇱 NL-45.149.12.213:8880
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@103.133.1.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#🔒 VL-WS-NA 🇺🇸 US-103.133.1.29:8880
-trojan://vip@104.18.0.117:443?security=tls&sni=heihu880.pages.dev&type=ws&host=heihu880.pages.dev#🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.0.117:443
-vless://1a79d43f-b41c-496b-a241-dcbeefa81f0e@185.159.247.251:8880?type=ws&host=0926.qiang2000.link&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560fp%3Dchrome#🔒 VL-WS-NA 🇪🇪 EE-185.159.247.251:8880
-vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@[2803:f800:50::6ca2:c3c0]:443?security=tls&sni=zn.ylka.dpdns.org&type=ws&host=zn.ylka.dpdns.org&path=%2F%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-[2803:f800:50::6ca2:c3c0]:443
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNDVhOTg5Ny00MTE1LTQ4NTItOWRjOS1jOTQwNjkzYjZlN2Q=@52.83.203.156:53693#🔒 SS-TCP-NA 🇨🇳 CN-52.83.203.156:53693
-vless://897a4bec-26b8-11e8-94be-00505695472c@104.18.45.202:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-104.18.45.202:443
-vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@206.238.236.134:443?security=tls&sni=ngedc.ambercc.filegear-sg.me&type=ws&path=%2F%3Fed&fp=chrome#4FreeIran-19185
-vless://401374e6-df77-41fb-f638-dad8184f175b@184.174.80.250:443?security=tls&sni=pqh23v4.hiddendom.shop&type=grpc&host=pqh23v4.hiddendom.shop&alpn=h2#🔒 VL-GRPC-TLS 🇺🇸 US-184.174.80.250:443
-trojan://vpn@46.29.234.154:2025?security=none&type=ws&host=dns.google.com&path=/#🔒 TR-WS-NONE 🇱🇹 LT-46.29.234.154:2025
-trojan://b44da489-fc70-4fd0-8997-a83b51f59267@13.114.30.150:20230?security=tls&sni=jp007.421421.xyz&allowInsecure=1#4FreeIran-6431
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@141.193.213.245:80?sni=cs.laoyoutiao.link&type=ws&host=cs.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#4FreeIran-21631
-vless://90bf198f-9810-40c8-cb6f-8d7908b576d3@164.38.155.126:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER#🔒 VL-HTTPUPGRADE-NONE 🇬🇧 GB-164.38.155.126:8880
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@92.243.74.213:8880?type=ws&host=jp.laoyoutiao.link#🔒 VL-WS-NA 🇸🇬 SG-92.243.74.213:8880
-vless://9110aadc-2059-4923-a76f-fe248d029a7a@91.193.59.119:2053?security=tls&sni=ss.sudolog.ir&type=grpc&serviceName=--%40sharkpublic--&fp=chrome#4FreeIran-16368
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@102.177.176.213:8880?security=none&type=ws&host=jp.laoyoutiao.link#4FreeIran-21472
-trojan://telegram-id-privatevpns@18.195.228.194:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http/1.1#4FreeIran-7323
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.129:8880?sni=sk.laoyoutiao.link&type=ws&host=sk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#4FreeIran-22391
-vless://5459f68e-d914-4b31-93a3-ecdf638b7a5b@172.66.132.44:80?security=none&sni=abcd.taraneh.dpdns.org&type=ws&host=abcd.taraneh.dpdns.org&path=%2F%3Fed%3D2560&fp=random#🔒 VL-WS-NONE 🏴‍☠️ NA-172.66.132.44:80
-trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21017?allowInsecure=1&sni=120.233.44.201#12%2C13%7C%E9%9F%A9%E5%9B%BD2%7C%40ripaojiedian
-vless://c09e7267-0061-4345-9953-4b95ed5357ac@83.147.18.200:2052?security=none&type=grpc&serviceName=vless-grpc#🔒 VL-GRPC-NONE 🇪🇸 ES-83.147.18.200:2052
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.110.1.46:8091#US%F0%9F%87%BA%F0%9F%87%B8+%7C+38.110.1.46-8091+%7C+26.67ms
-vless://897a4bec-26b8-11e8-94be-00505695472c@104.19.146.108:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-15372
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@172.67.139.111:8443?security=tls&sni=baipiao1.curly-train.pages.dev&type=ws&host=baipiao1.curly-train.pages.dev&path=%2F%3Fed%3D2048#4FreeIran-19482
-vmess://eyJwcyI6Iue+juWbvV9qdXppODE4Nl8yMTciLCJhZGQiOiJpcC5zYiIsImFpZCI6MCwiaWQiOiIxOGQ5NjE5MC1jMTBmLTQ0OGYtYTgyYS0yZDM2ZGY1YzNjZGUiLCJuZXQiOiJ3cyIsInNjeSI6ImF1dG8iLCJwb3J0IjoyMDk1LCJ0bHMiOiIiLCJwYXRoIjoiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLCJob3N0IjoiaXA4LjYwMTY3MjUueHl6Iiwic25pIjoiaXA4LjYwMTY3MjUueHl6In0=
-trojan://Aimer@104.21.231.11:443?sni=epccx.ambercc.filegear-sg.me#4FreeIran-5149
-trojan://6884d714-d3c4-4b49-aa20-767ea92837d6@104.16.223.254:443?security=tls&sni=icecream.955850.xyz&type=ws&host=icecream.955850.xyz#4FreeIran-4248
-trojan://64de1de7-e3bb-3dc4-ab04-d1e601e18ac5@hn.xiaohouzi.club:19362?security=tls&sni=aws-hk03.xiaohouzi.club#4FreeIran-4202
-vless://d60fc3c5-9f07-4cdb-b81f-70af27936bdc@160.153.138.247:8880?sni=ex.sue.x10.mx&type=ws&host=ex.sue.x10.mx&path=/Telegram🇨🇳&allowInsecure=0#4FreeIran-19680
-vless://59860b15-b2d9-47f9-9b92-81bd1639fcc5@135.84.74.75:8880?sni=23-lsjfjwiposkfls.hc2021.cfd&type=ws&host=23-lsjfjwiposkfls.hc2021.cfd&allowInsecure=0#4FreeIran-13249
-vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@190.93.245.254:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome#14%7CCR_speednode_0041
-vless://897a4bec-26b8-11e8-94be-00505695472c@104.17.247.67:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-104.17.247.67:443
-ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk@145.239.1.100:9102#4FreeIran-2774
-trojan://your_password@188.114.99.0:443?security=tls&sni=aws-ge-frankfurt-1.f1cflinea.com&allowInsecure=1&type=ws&path=/f1rocket&host=aws-ge-frankfurt-1.f1cflinea.com#4FreeIran-7730
-vless://c8a4ced0-b100-4700-8857-d06ca3b251af@162.159.192.189:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960004.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960004.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#4FreeIran-18937
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYjc5YzRmYS1iYWY5LTQ1NmMtOTE2My02N2Q5ZDNjZjZhYjU@hk1.yidongzf.one:47760#%F0%9F%87%A8%F0%9F%87%B3%20%E9%A6%99%E6%B8%AF%2004
-vless://897a4bec-26b8-11e8-94be-00505695472c@172.64.229.105:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-172.64.229.105:443
-trojan://Aimer@104.16.41.210:443?sni=epccu.ambercc.filegear-sg.me#4FreeIran-4874
-trojan://a124e41a-0fb8-4543-a0ab-a127c7b515a9@34.220.156.201:20230?security=tls&sni=421421.xyz#🔒 TR-TCP-TLS 🇺🇸 US-34.220.156.201:20230
-vless://55520747-311e-4015-83ce-be46e2060ce3@23.94.208.154:53485?sni=cl.bgm2024.dpdns.org&type=ws&host=cl.bgm2024.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🇺🇸 US-23.94.208.154:53485
-vless://2104aafe-2b01-4ee6-a4e3-47edfc170bc6@172.66.44.246:2087?security=tls&sni=JOINMAhDIserVer-5S7.pAGeS.Dev&type=ws&host=joinmahdiserver-5s7.pages.dev&path=%2FLxA7m3Z4dH7XARPH%3Fed%3D2560&fp=randomized&alpn=h2%2Chttp%2F1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.66.44.246:2087
-vless://897a4bec-26b8-11e8-94be-00505695472c@104.17.246.99:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-104.17.246.99:443
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?security=tls&type=ws&sni=redw.pooriam.ir&host=redw.pooriam.ir&encryption=none&type=ws&path=%2F&sni=redw.pooriam.ir&headerType=none#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-7%0D
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlVT576O5Zu944CMVEfvvJpAY2NiYW9oZeOAl+WFjei0ueacuuWcuuWIhuS6qyAxOSIsDQogICJhZGQiOiAib25lY2F0LXVzLjAzZXpoZzBxc2EuZG93bmxvYWQiLA0KICAicG9ydCI6ICIyNTAyNCIsDQogICJpZCI6ICIxNDg5YjA3MC1iNDRjLTNkMjctODI4Mi0zZWUyZjc3OGM5NjUiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogInRjcCIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJvbmVjYXQtdXMuMDNlemhnMHFzYS5kb3dubG9hZCIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIg0KfQ==
-vless://d2a71fa0-ed0b-428c-9bb6-8eccb3e24793@78.157.59.173:2082?security=none&type=tcp&encryption=none&headerType=none#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E6%9C%AA%E7%9F%A5-3
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@160.79.105.66:443?encryption=none&security=tls&type=ws&sni=ah.ylks.xyz&host=ah.ylks.xyz&path=%2ffreecodes#TG%3A%40JUZIBAIPIAO%2B%2B%E7%BE%8E%E5%9B%BD_30
-trojan://Aimer@104.16.36.84:443?sni=epccv.ambercc.filegear-sg.me#4FreeIran-4861
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@45.131.210.63:8880?sni=sg.laoyoutiao.link&type=ws&host=sg.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇳🇱 NL-45.131.210.63:8880
-vless://53fb6390-59e9-4cec-920f-ad708cbe5f82@69.84.182.13:443?type=ws&encryption=none&host=fr-1-fr-1.aiopen.sbs&path=%2Fkbjc%2Ffr1&headerType=none&quicSecurity=none&serviceName=&mode=gun&security=tls&fp=chrome&sni=&pbk=&sid=#%F0%9F%87%AB%F0%9F%87%B7%E6%B3%95%E5%9B%BD%20%7C%200.1%E5%80%8D
-vless://0b32d187-fbea-476d-a8f8-ae2a024631eb@104.26.15.176:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960010.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960010.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#4FreeIran-8667
-trojan://telegram-id-privatevpns@18.135.34.118:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&allowInsecure=1#🔒 TR-TCP-TLS 🇬🇧 GB-18.135.34.118:22222
-vless://c1d22711-2adf-4ffa-a5d8-439e665bb951@45.131.211.153:80?encryption=none&security=none&sni=656654647567245851483768538765962936476541237567854816545176587.11feea65a1d70a.workers.dev&type=ws&host=656654647567245851483768538765962936476541237567854816545176587.11feea65a1d70a.workers.dev&path=Telegram%40WangCai2%2F%3Fed%3D2048#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-180
-trojan://2db71c8f-b7d3-4272-b868-2f7c92b395d1@IEPL02.tube-cat.com:20067?allowInsecure=1&peer=sg.catxstar.com&sni=sg.catxstar.com#%F0%9F%87%B8%F0%9F%87%AC%7C%E6%96%B0%E5%8A%A0%E5%9D%A1-IEPL%2001
-vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@108.162.198.254:8880?sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🏴‍☠️ NA-108.162.198.254:8880
-vmess://eyJhZGQiOiAidXMyLmU1b3V0bGxvay5tZSIsICJhaWQiOiAwLCAiaG9zdCI6ICJ1czIuZTVvdXRsbG9rLm1lIiwgImlkIjogIjcwZDg4YTkwLTI1NTAtNDkyZC04ZjExLTA2ZjI2MjZhYzE0NCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIjRGcmVlSXJhbi0yNjUwNSIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAiIiwgInYiOiAiMiJ9
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@194.36.55.48:8880?security=none&sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2F#4FreeIran-12165
-vless://c1659206-d827-41f6-9f73-f18ca30102d3@104.16.53.48:80?type=ws&host=still-forest-e3e8-ppal03.mekah93880.workers.dev&path=%2F#4FreeIran-18607
-vless://f184c89c-80a4-4a3a-bc67-97db43266c11@210.103.86.17:21770?encryption=none&security=tls&sni=vdd.wxgqlfx.cn&type=ws&host=vdd.wxgqlfx.cn&path=%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560#KR%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa+(15)
-vless://4c9541c7-5fa1-403c-84af-175e3b25a27f@www.ipget.net:8080?security=none&type=ws&sni=201.58vtg99l.workers.dev&host=201.58vtg99l.workers.dev&encryption=none&type=ws&path=%2FProxyIP%3DProxyIP.US.fxxk.dedyn.io&headerType=none#%E7%BE%8E%E5%9B%BD_juzi8186_158
-vless://5abe79f6-57c2-4999-b6a0-bb87a9496a37@104.25.12.65:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960006.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960006.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#🔒 VL-WS-TLS 🏴‍☠️ NA-104.25.12.65:443
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NTRmMTYwYTMzNmI=@137.220.142.140:443#🔒 SS-TCP-NA 🇯🇵 JP-137.220.142.140:443
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.62.164:443#%F0%9F%87%A8%F0%9F%87%ADCH-156.146.62.164-0369
-vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@27.50.49.136:443?security=tls&sni=edccj.ambercc.filegear-sg.me&type=ws&host=edccj.ambercc.filegear-sg.me&alpn=h3#4FreeIran-21023
-vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@45.131.6.79:8443?security=tls&sni=QtRkJtLt27.pRiMeXaD.OrG&type=ws&host=QtRkJtLt27.pRiMeXaD.OrG&path=/&fp=chrome&alpn=h3,h2#🔒 VL-WS-TLS 🇳🇱 NL-45.131.6.79:8443
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@108.162.198.63:8880?sni=sg.laoyoutiao.link&type=ws&host=sg.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=0#4FreeIran-21519
-vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@[2a06:98c1:50::ac40:23cb]:443?security=tls&sni=yz.ylka.dpdns.org&type=ws&host=yz.ylka.dpdns.org&path=%2F%3Fed%3D2560#4FreeIran-8538
-vless://a99fb47f-6808-462c-8a40-31ed57a8f1d3@185.181.182.149:33696?security=none&type=tcp&host=telewebion.com&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-185.181.182.149:33696
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFWndpZ0I@j9i1k1d2n6-fb-hk09.6pzfwf.com:56009#%5bSS%5d+Hong+Kong-09
-ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk@38.68.135.19:9102#4FreeIran-2819
-vless://0afc7a72-a718-49c0-9cc2-ce473c46d6dc@188.114.98.224:2095?security=none&type=ws&host=V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com.&path=%2FV2rayCUSTOMIZE%3Fed%3D1024#🔒 VL-WS-NONE 🏴‍☠️ NA-188.114.98.224:2095
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@104.21.88.224:443?security=tls&type=ws&sni=102.DJr999998.eU.ORg&host=102.DJr999998.eU.ORg&encryption=none&type=ws&path=%2FProxyIP%3DProxyIP.US.fxxk.dedyn.io&headerType=none#%E7%BE%8E%E5%9B%BD_juzi8186_142
-trojan://Aimer@104.16.253.83:443?sni=epmo.ambercc.filegear-sg.me&allowInsecure=0#4FreeIran-4852
-vless://e20ebe01-1815-4c09-8e77-fb2f168263ce@15.204.145.23:443?security=tls&sni=147135001178.sec22org.com&type=tcp&fp=chrome#🔒 VL-TCP-TLS 🇺🇸 US-15.204.145.23:443
-vmess://eyJhZGQiOiAiMTA0LjIxLjIyNS41OSIsICJhaWQiOiAwLCAiaG9zdCI6ICJhLnByYXB0NS5pciIsICJpZCI6ICI3MDIyOTgyZi1kYTRjLTQ4YzktYzY2MC1iMjMxNWFiZGNmN2UiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODAsICJwcyI6ICI0RnJlZUlyYW4tMjMwNjkiLCAic2N5IjogImF1dG8iLCAidGxzIjogIiIsICJ2IjogIjIifQ==
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@217.197.161.166:800#4FreeIran-492
-vless://5ce807ba-54f1-4799-b7b6-c67a5fdf9e0e@172.66.168.208:443?security=tls&sni=maxnETVipAp.nEtKh3.sitE&type=ws&host=maxnETVipAp.nEtKh3.sitE&path=%2Flinkws%3Fed%3D2560#4FreeIran-13392
-trojan://Aimer@20.243.85.49:10443?sni=epccs.ambercc.filegear-sg.me&allowInsecure=0#🔒 TR-TCP-NA 🇯🇵 JP-20.243.85.49:10443
-vless://8334979f-2f04-4f49-8ead-bbceed373ecb@45.131.5.149:80?security=none&type=ws&sni=esetsecuritylicense.roobdi.workers.dev&host=esetsecuritylicense.roobdi.workers.dev&encryption=none&type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2048&headerType=none#%E8%8D%B7%E5%85%B0_juzi8186_90
-vless://33428626-237f-44ce-93c3-efe007db8a7f@108.162.192.181:443?security=tls&sni=qsc0wrja.yandixpartners.com&type=ws&host=qsc0wrja.yandixpartners.com&path=%2Fwss#4FreeIran-10225
-vless://99727208-0086-43f9-f0ad-9e30f546b822@5.10.245.219:8880?security=none&type=httpupgrade&host=hamidjon.ddigicyber.click.&path=%2F%252Ftelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER%252Ctelegram-NUFiLTER#4FreeIran-16880
-vless://c5293efa-28f8-4a0f-8f34-541078970cee@45.131.6.32:80?security=none&type=ws&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&host=gozargah.validbv7996.ir&sni=gozargah.validbv7996.ir#%F0%9F%87%A9%F0%9F%87%AA%E5%BE%B7%E5%9B%BD14%20%7C%20%E2%AC%87%EF%B8%8F%201.7MB%2Fs%20%7C52%25%7CNetflix%7CDisney%7COpenai
-trojan://xHiFGGTy@36.151.251.62:38632?allowInsecure=1#%f0%9f%87%a8%f0%9f%87%b3%7cCN%7c%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%7c67
-vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@102.177.189.254:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome#14%7CZA_speednode_0268
-trojan://aP%26%7B%29UBD%40qDGS9b%3B@172.66.44.109:2053?security=tls&sni=JoinmAhDiSERver-7Hd.paGes.Dev&type=ws&host=joinmahdiserver-7hd.pages.dev#🔒 TR-WS-TLS 🏴‍☠️ NA-172.66.44.109:2053
-vmess://eyJhZGQiOiAid3d3Lmdjby5nb3YucWEiLCAiYWlkIjogMCwgImhvc3QiOiAibHVvZGkuNTQ2ODkzNi54eXoiLCAiaWQiOiAiYmU5Y2YxNTItN2NmMS00NmY5LTg4ZWQtYTU1YjM0M2M5MjdiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwLCAicHMiOiAiNEZyZWVJcmFuLTI2NDQ0IiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIn0=
-trojan://ttfang@59.26.30.111:36840?sni=ttfang.fange.me&type=ws&host=ttfang.fange.me&path=/#4FreeIran-7602
-vless://0b32d187-fbea-476d-a8f8-ae2a024631eb@162.159.192.230:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960002.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960002.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#4FreeIran-8669
-trojan://Aimer@104.16.158.89:443?sni=epccu.ambercc.filegear-sg.me#🔒 TR-TCP-NA 🏴‍☠️ NA-104.16.158.89:443
-vless://3f789164-ca20-4041-89c0-bc553819970c@185.193.158.9:8443?security=reality&flow=xtls-rprx-vision&sni=maviks.eu&type=tcp&fp=chrome&pbk=fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ&sid=21181028b56c8702#4FreeIran-10998
-vless://31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9@185.162.231.186:2087?security=tls&sni=Tp3993VbRi.ScOrPiOnBiGpLaY.oRg&type=ws&host=Tp3993VbRi.ScOrPiOnBiGpLaY.oRg&path=/&fp=chrome&alpn=h2,http/1.1#🔒 VL-WS-TLS 🇦🇲 AM-185.162.231.186:2087
-vless://897a4bec-26b8-11e8-94be-00505695472c@104.16.43.172:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-15062
-vless://c5293efa-28f8-4a0f-8f34-541078970cee@45.131.4.236:80?type=ws&host=gozargah.validbv7996.ir&path=%2FTelegram%40WangCai2#🔒 VL-WS-NA 🇳🇱 NL-45.131.4.236:80
-trojan://Aimer@103.116.7.230:443?security=tls&sni=ngepy.ambercc.filegear-sg.me&type=tcp#4FreeIran-4786
-vmess://eyJhZGQiOiAiMTA0LjE5LjQ3LjIxNCIsICJhaWQiOiAwLCAiaG9zdCI6ICJvaWljdHcueXlkc2lpLmNvbSIsICJpZCI6ICJiNTUxYWEyMi0yMmFmLTExZWUtYjhkOC1mMjNjOTMyZWI2OGQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLz9lZD0yMDQ4JlRlbGVncmFtXHVkODNjXHVkZGU4XHVkODNjXHVkZGYzIEBXYW5nQ2FpMiIsICJwb3J0IjogODA4MCwgInBzIjogIjRGcmVlSXJhbi0yMjg4OCIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byJ9
-vless://146edc71-e452-4553-ec30-8c7a5b5c8d9b@172.64.68.75:443?security=tls&type=ws&sni=abc.vpneee.top&path=/vpneee&encryption=none&headerType=none#4FreeIran-8965
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@31.43.179.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#4FreeIran-22170
-vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@206.237.31.47:443?security=tls&type=ws&path=%2F%3Fed%3D2560&host=edccw.aimercc.filegear-sg.me&allowInsecure=1&sni=edccw.aimercc.filegear-sg.me#%F0%9F%87%B9%F0%9F%87%BC%E5%8F%B0%E6%B9%BE42%20%7C%20%E2%AC%87%EF%B8%8F%201.4MB%2Fs%20%7C0%25%7CNetflix%7CDisney%7CYoutube%7COpenai
-vless://55520747-311e-4015-83ce-be46e2060ce3@185.133.35.204:443?sni=cl.bgm2024.dpdns.org&type=ws&host=cl.bgm2024.dpdns.org&allowInsecure=1#4FreeIran-12860
-vless://99727208-0086-43f9-f0ad-9e30f546b822@86.38.214.67:8880?security=none&type=httpupgrade&host=hamidjon.ddigicyber.click.&path=//telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER#🔒 VL-HTTPUPGRADE-NONE 🇱🇹 LT-86.38.214.67:8880
-trojan://133deff6-1e73-40c0-82a4-fbb8ad9e18e0@vn.mjt000.com:443?allowInsecure=1&sni=vn.mjt000.com#%f0%9f%87%ba%f0%9f%87%b8_%e7%be%8e%e5%9b%bd_tg%e7%be%a4%3a%e3%80%90TG%ef%bc%9a%40ccbaohe%e3%80%91%e5%ae%9a%e6%97%b6%e6%9b%b4%e6%96%b0%e8%8a%82%e7%82%b9%e8%ae%a2%e9%98%85_5
-vless://ef61e76c-1f6b-411a-9610-f4111f8ace90@62.60.221.215:12048?security=none&type=tcp&host=speedtest.net&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-62.60.221.215:12048
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MzVkZWQzYi00MGViLTQzZDEtODc4Ni0xM2MxNDEwMzZkZGQ=@outline-tr-2.connectix-d1.info:1935#IR%F0%9F%87%AE%F0%9F%87%B7+%7C+outline-tr-2.connectix-d1.info-1935+%7C+360.28ms
-vless://083a70ea-07c5-4542-9f53-fbdc7f31cc52@49.13.126.159:443?security=tls&sni=phone-ship.phoneonline.com.tr&type=grpc&serviceName=xzy#4FreeIran-8582
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.12.30.136:80?security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2FChannel%20id%3A%20%40ShadowProxy66%2F%3Fed%3D2560#🔒 VL-WS-NONE 🇷🇴 RO-45.12.30.136:80
-vless://b99590df-eda0-4e34-e1a9-3d1118faed83@141.193.213.143:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#4FreeIran-17925
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@38.114.114.69:8009#4FreeIran-2373
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.64.138.145:3389#4FreeIran-2566
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyMWRhMWU2YS1jNGZiLTRiNmMtODdmOS00MDNjNTI3NjA1NDQ@120.232.218.106:36171#4FreeIran-205
-ss://bm9uZTphY2NiYmFhLWFhYmMtY2FiYS1jZGFiLWJhYWJhYWNjY2JiYw@127.0.0.1:3080#4FreeIran-3352
-vless://9a8327a3-e725-4a7f-bb77-55b0ceb63c30@37.32.41.189:443?security=none&type=tcp&host=bmw.com&headerType=http#4FreeIran-16928
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.244.16:8880?sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#🔒 VL-WS-NA 🇳🇱 NL-5.10.244.16:8880
-ss://YWVzLTI1Ni1nY206WkRHQzBRMkUxMTJVQUpPNg==@156.245.190.23:15014#🔒 SS-TCP-NA 🇭🇰 HK-156.245.190.23:15014
-vmess://eyJwcyI6Iue+juWbvV9qdXppODE4Nl84IiwiYWRkIjoiNC4xNDUuMjYuMTEyIiwiYWlkIjowLCJpZCI6ImI4MzEzODFkLTYzMjQtNGQ1My1hZDRmLThjZGE0OGIzMDgxMiIsIm5ldCI6InRjcCIsInNjeSI6ImF1dG8iLCJwb3J0Ijo4MCwidGxzIjoiIn0=
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3QVJUNzRQYW5UclFXQ3Vaa3I5M2g1TktzUXJkdnlDUXc4Q0JxdUNLRUdOdFhhNHppaVFXaGNwcGdHQmUzM2dVWmU4S05YbVRaaWFMUTV5UWNMQUp0cW9Xdm5nYkJrVHE@mx2.drawnrisha.one:55988#🇬🇧 United Kingdom
-trojan://51c30b64-e07b-3999-b2f0-296812b3ab9e@k8zq2nld9wfx3vyu7tmb-hk.6pzftj.com:56209?allowInsecure=1#Hong+Kong-09
-vless://568279ce-dd78-4f33-9e5c-64b18c5505db@151.101.123.49:80?security=none&type=ws&host=foffmelo.com&path=%2Folem%2Fws%3Fed%3D2560#🔒 VL-WS-NONE 🇫🇷 FR-151.101.123.49:80
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@102.djr999998.eu.org:8443?security=tls&type=ws&sni=102.djr999998.eu.orG&host=102.djr999998.eu.orG&encryption=none&type=ws&path=%2FProxyIP%3DProxyIP.US.fxxk.dedyn.io&headerType=none#%E7%BE%8E%E5%9B%BD_juzi8186_171
-vless://0e973d4f-fb2d-4d68-8b86-cd53dc6e7525@91.99.150.156:4926?security=none&type=tcp&host=varzesh3.com&path=%2F&headerType=http#🔒 VL-TCP-NONE 🇩🇪 DE-91.99.150.156:4926
-vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@185.133.35.254:8880?sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇧🇷 BR-185.133.35.254:8880
-trojan://Aimer@162.159.153.125:443?sni=epcca.ambercc.filegear-sg.me#🔒 TR-TCP-NA 🏴‍☠️ NA-162.159.153.125:443
-vless://b99590df-eda0-4e34-e1a9-3d1118faed83@108.165.216.119:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#4FreeIran-17902
-vless://0fbf4f81-2598-4b6a-a623-0ead4cb9efa8@104.22.26.193:443?security=tls&sni=privasi.najah.biz.id&type=ws&host=privasi.najah.biz.id&path=%2FFree-CF-Proxy-EUROP185.159.131.233-443#🔒 VL-WS-TLS 🏴‍☠️ NA-104.22.26.193:443
-trojan://Aimer@147.79.20.239:443?sni=epccd.ambercc.filegear-sg.me#🔒 TR-TCP-NA 🇯🇵 JP-147.79.20.239:443
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@141.193.213.145:80?sni=cs.laoyoutiao.link&type=ws&host=cs.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=1#4FreeIran-21585
-vless://3b9bc773-05eb-4d5f-8c1f-57342c0c4f40@147.135.125.116:443?security=tls&sni=147135010103.sec19org.com&type=tcp&allowInsecure=1#4FreeIran-10895
-vless://d2965257-0536-4811-a0d5-cdce54e90326@165.154.17.186:8080?encryption=none&security=tls&sni=fei.634676.xyz&alpn=h3&fp=random&type=ws&host=fei.634676.xyz&path=%2F%3Fed%3D2560#TG%40ZDYZ2%20TW1
-trojan://6X1Ca9dbWv%40%5E@172.67.202.155:8443?security=tls&sni=soft.onetwothree123.ir&type=httpupgrade&host=soft.onetwothree123.ir&path=/L9sBUTui#4FreeIran-4345
-trojan://Aimer@108.165.152.93:2083?security=tls&sni=epmo.ambercc.filegear-sg.me#4FreeIran-5316
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@195.13.55.213:8880?type=ws&host=jp.laoyoutiao.link#🔒 VL-WS-NA 🇺🇸 US-195.13.55.213:8880
-vmess://eyJhZGQiOiAiMTYyLjE1OS4xMjguNyIsICJhaWQiOiAiMCIsICJob3N0IjogInNnLWxiLnZoYXgubmV0IiwgImlkIjogIjZmZWExNjQ5LTQyNWItNDA5Mi1iZjUzLTI5NzkyMTUyYzkyNSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvc3Noa2l0L0VydHVzZzg2LzYzNTAxNDYzOGMyNjQvIiwgInBvcnQiOiAiNDQzIiwgInBzIjogIjRGcmVlSXJhbi0yNDA1NiIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
-trojan://telegram-id-directvpn@13.51.248.166:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http/1.1#🔒 TR-TCP-TLS 🇸🇪 SE-13.51.248.166:22222
-vless://897a4bec-26b8-11e8-94be-00505695472c@[2606:4700:0:bc:921f:2050:c19d:1fab]:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-[2606:4700:0:bc:921f:2050:c19d:1fab]:443
-vless://60c9baa3-0241-45e3-9faa-d91f50e4b142@128.140.118.108:5050?security=reality&flow=xtls-rprx-vision&sni=refersion.com&type=tcp&fp=chrome&pbk=SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604#4FreeIran-13470
-trojan://slch2024@104.18.2.150:443?security=tls&sni=ocost-dy.wmlefl.cc&type=ws&host=ocost-dy.wmlefl.cc&path=%2F#🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.2.150:443
-trojan://4863e1b2-ec2f-4c71-b862-ce533028e57e@69.162.95.6:443?security=tls&sni=trus.moonfree.top&allowInsecure=1#🔒 TR-TCP-TLS 🇺🇸 US-69.162.95.6:443
-vless://b99590df-eda0-4e34-e1a9-3d1118faed83@185.18.250.172:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#4FreeIran-18083
-vmess://eyJhZGQiOiAiMTcyLjY0LjEwOC42NiIsICJhaWQiOiAwLCAiaG9zdCI6ICJieGEuNzY4OTgxMDIueHl6IiwgImlkIjogIjZlMTNmZjBiLTU1YTYtMzc2Ny04YjkyLTMwOThmZGE0MDkyNyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvYnhxbWlhbyIsICJwb3J0IjogMjA1MiwgInBzIjogIjRGcmVlSXJhbi0yNDIyMSIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAiIiwgInYiOiAiMiJ9
-vless://25636ecf-9958-48a3-9b0d-63c25a9db541@104.24.94.106:2087?sni=w-am1.pages.dev&type=ws&host=w-am1.pages.dev&allowInsecure=0#🔒 VL-WS-NA 🏴‍☠️ NA-104.24.94.106:2087
-vless://897a4bec-26b8-11e8-94be-00505695472c@104.17.220.122:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-104.17.220.122:443
-trojan://biwe49r2Tv@amini2.ddns.net:2096?security=tls&sni=Qoakq.mookomeilz.homes&alpn=http/1.1&type=ws&path=/mskqq&host=pANeL159.moOkoMEilz.homes#4FreeIran-6473
-vless://dcf74299-42c2-4a5c-900e-2c92b16e0f8e@104.20.212.228:443?encryption=none&security=tls&sni=noFiLepanEL.PaGEs.DeV&type=ws&host=noFiLepanEL.PaGEs.DeV&path=%2Fpfhfpgoct4um9olq%3Fed#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-40
-trojan://blue2024@172.67.160.28:443?security=tls&sni=ta.promote.icu&type=ws&host=ta.promote.icu#🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.160.28:443
-vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@[2606:4700:20::681a:224]:443?security=tls&sni=zn.ylka.dpdns.org&type=ws&host=zn.ylka.dpdns.org&path=%2F%3Fed%3D2560#4FreeIran-8444
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ODYxN2IxZC1jNzcwLTRiNzAtYmVhMC1mMjU2YzViYjliMjk=@120.232.218.106:31115#🔒 SS-TCP-NA 🇨🇳 CN-120.232.218.106:31115
-vless://f775978b-6e22-41a8-ae5e-5f9779e6745f@14.52.249.135:10082?encryption=none&security=tls&sni=juzibaipiao.5112233.xyz&type=ws&host=juzibaipiao.5112233.xyz&path=%2f%3fed%3d2048#4FreeIran-21338
-vless://b5e0289d-1bb7-4c5b-f850-016298066cf8@185.215.228.100:8080?security=none&type=tcp&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-185.215.228.100:8080
-vless://897a4bec-26b8-11e8-94be-00505695472c@172.64.156.124:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-172.64.156.124:443
-vless://ddcdd97d-7854-498d-8a37-f8bc03e7b72c@212.98.224.229:8443?security=none&type=tcp&encryption=none&headerType=none#%E5%9C%9F%E8%80%B3%E5%85%B6_juzi8186_204
-vless://c1d22711-2adf-4ffa-a5d8-439e665bb951@45.131.7.226:80?security=none&type=ws&sni=656654647567245851483768538765962936476541237567854816545176587.11feea65a1d70a.workers.dev&host=656654647567245851483768538765962936476541237567854816545176587.11feea65a1d70a.workers.dev&encryption=none&type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2048&headerType=none#%E8%8D%B7%E5%85%B0_juzi8186_130
-vless://b1c801ec-1c5e-4d12-8b53-8da11c64a21b@195.200.29.57:443?security=reality&flow=xtls-rprx-vision&sni=video.intfreed.ru&type=tcp&fp=chrome&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&sid=7755e972daf8eec8#4FreeIran-17591
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@213.219.247.63:8880?sni=jp.laoyoutiao.link&type=ws&host=jp.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=0#4FreeIran-22139
-vless://2daf6ae3-5578-4edc-90a0-b6d0543b688a@85.133.199.174:444?security=none&type=tcp&host=myket.ir,cafebazaar.ir&path=/&headerType=http#4FreeIran-10010
-trojan://Aimer@115.22.253.113:50000?sni=epma.ambercc.filegear-sg.me#4FreeIran-5322
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.133:38388#🔒 SS-TCP-NA 🇻🇳 VN-103.186.155.133:38388
-vless://293dbd19-eaec-43f0-dcde-2944af021dd4@104.239.72.199:8880?security=none&type=httpupgrade&host=S130.DdigicYber.clicK.&path=%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024#🔒 VL-HTTPUPGRADE-NONE 🇬🇧 GB-104.239.72.199:8880
-vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@172.64.159.251:443?security=tls&sni=edmi.aimercc.filegear-sg.me&type=ws&host=edmi.aimercc.filegear-sg.me&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#4FreeIran-20961
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.167.59:8880?security=none&type=grpc#🔒 VL-GRPC-NONE 🇬🇧 GB-45.140.167.59:8880
-trojan://Aimer@104.26.15.79:443?sni=epcch.ambercc.filegear-sg.me#🔒 TR-TCP-NA 🏴‍☠️ NA-104.26.15.79:443
-vless://0132166f-e702-48ed-a9e7-b07af768faf8@188.42.145.251:8880?type=ws&host=cf.d3z.net&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560#4FreeIran-7851
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@104.239.72.63:8880?sni=jp.laoyoutiao.link&type=ws&host=jp.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇬🇧 GB-104.239.72.63:8880
-vmess://eyJ2IjoiMiIsInBzIjoiXHU1Yjk4XHU3ZjUxXHVmZjFhdnZzLmU1NC5zaXRlIiwiYWRkIjoiYmVzdGNmLm1md2wuYXJ0IiwicG9ydCI6IjQ0MyIsImlkIjoiMTAzMTA0YzUtYTNmNS00YzQ4LThkOGYtYTcyYTU2OTU5Nzk5IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoieGpwbW8ueGlhb3FpNTU1Lnh5eiIsInBhdGgiOiJcLyIsInRscyI6InRscyIsInNuaSI6InhqcG1vLnhpYW9xaTU1NS54eXoifQ==
-vless://1c11f976-28cd-46a7-bc59-f0f6e44fdef0@172.236.220.243:505?security=reality&sni=journalofbigdata.springeropen.com&type=grpc&serviceName=xyz&fp=firefox&pbk=ymZddpZVGUI8QEbqbMDg9JAPaqyR94-5IXPhE8RHEAM#4FreeIran-9280
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ3D3A==@69.50.92.55:8000#US%F0%9F%87%BA%F0%9F%87%B8+%7C+69.50.92.55-8000+%7C+52.75ms
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@217.163.76.73:443?encryption=none&security=tls&type=ws&sni=bj.ylks01.eu.org&host=bj.ylks01.eu.org&path=%2ffreecodes#TG%3A%40JUZIBAIPIAO%2B%2B%E8%8B%B1%E5%9B%BD_8
-vless://b100bc08-4991-4f19-88a4-7c8dbfc176a2@185.143.234.143:443?security=tls&sni=panel.faloweram.ir&type=ws&host=panel.faloweram.ir&path=%2F&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1#🔒 VL-WS-TLS 🇮🇷 IR-185.143.234.143:443
-vless://65aba5d9-bf3d-4ee3-cdbc-d3854d580263@99.199.73.53:23877?type=tcp&host=www.speedtest.net&headerType=http#🔒 VL-TCP-NA 🇨🇦 CA-99.199.73.53:23877
-vless://721a6c8e-809f-404d-91d6-582860af9cc3@142.251.46.238:443?security=tls&sni=google.com&type=ws&host=gtest-638114869974.europe-west4.run.app&path=%2FrWUMkmNJBTurxq6Hlt8D6ftJ8qP7&fp=chrome&alpn=http/1.1#4FreeIran-14003
-ss://YWVzLTI1Ni1jZmI6R0E5S3plRWd2ZnhOcmdtTQ@217.30.10.68:9019#4FreeIran-1149
-vless://94b7bd2b-f373-4c5b-9892-5e16fde812bf@157.180.41.190:2172?security=reality&sni=www.chess.com&type=grpc&serviceName=chessgame&fp=chrome&pbk=hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I#🔒 VL-GRPC-RLT 🇫🇮 FI-157.180.41.190:2172
-trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@jp07a.roc-taiwan.org.ua:65017?security=tls#4FreeIran-4727
-ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@38.86.135.27:8009#4FreeIran-2393
-vless://b3ec1385-e08f-422e-b32a-9d032f80ea01@172.66.44.197:443?security=tls&sni=MahDISERveR-xnr.pAgES.dev&type=ws&host=mahdiserver-xnr.pages.dev&path=%2Ftelegram%40v2ray_alpha%3Fed%3D2560&fp=randomized&alpn=h2%2Chttp%2F1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.66.44.197:443
-vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@135.84.75.254:8880?sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇺🇸 US-135.84.75.254:8880
-vless://f184c89c-80a4-4a3a-bc67-97db43266c11@45.95.232.203:8443?security=tls&sni=vdd.wxgqlfx.cn&type=ws&host=vdd.wxgqlfx.cn&path=%2FTG%40wxgqlfx%3Fed%3D2560&fp=random&alpn=http%2F1.1#🔒 VL-WS-TLS 🇨🇭 CH-45.95.232.203:8443
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@45.131.6.63:8880?sni=sg.laoyoutiao.link&type=ws&host=sg.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇳🇱 NL-45.131.6.63:8880
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5TVg5V0dQZ1VFY1JabWxhYTBZSEhD@103.106.1.92:23492#🔒 SS-TCP-NA 🇳🇱 NL-103.106.1.92:23492
-vless://f43617b5-1a02-4776-bffe-85c30a27458a@2.189.117.84:8080?security=none&type=tcp&headerType=http#4FreeIran-21265
-vless://175a253e-cb3a-4e74-ba70-a7d661acd98d@188.212.96.35:6588?security=none&type=tcp&headerType=http#4FreeIran-9050
-vless://92976645-6532-4a0c-aead-15af4e51878c@[2606:4700:3010:de3f:ee65:7d7f:1413:3e1d]:443?security=tls&sni=waphk.xiaosiyue.dpdns.org&type=ws&host=waphk.xiaosiyue.dpdns.org&path=/#🔒 VL-WS-TLS 🏴‍☠️ NA-[2606:4700:3010:de3f:ee65:7d7f:1413:3e1d]:443
-trojan://a124e41a-0fb8-4543-a0ab-a127c7b515a9@13.229.119.183:20230?security=tls&sni=sg005.421421.xyz&allowInsecure=1#🔒 TR-TCP-TLS 🇸🇬 SG-13.229.119.183:20230
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@38.114.114.69:8000#4FreeIran-1966
-vless://ac058631-9f5d-4717-9558-3409d22271e9@104.18.37.146:8443?security=tls&sni=BiA-DAILY-coNfIGs.pAgES.DEV&type=ws&host=bia-daily-configs.pages.dev&fp=randomized&alpn=h2,http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-104.18.37.146:8443
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMcWxQSTE5b3FudW5HTlNMTXZkWHlC@147.45.60.33:16356#%F0%9F%87%AA%F0%9F%87%AAEE-147.45.60.33-6256
-trojan://Aimer@108.165.152.241:2053?sni=epmw.ambercc.filegear-sg.me#🔒 TR-TCP-NA 🇺🇸 US-108.165.152.241:2053
-vless://432e1e8b-18ce-488f-8203-2ba54b2fb61f@172.67.196.8:443?security=tls&sni=us.cishanjichang.me&type=ws&host=us.cishanjichang.me&path=%2Fswordnewnewnew&fp=chrome#🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.196.8:443
-vless://7d2dfb7a-2ecc-4448-bcbe-245a2092fe85@151.101.62.102:443?security=tls&sni=default.ssl.fastly.net&type=ws&host=9x.ru#🔒 VL-WS-TLS 🇬🇧 GB-151.101.62.102:443
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@zula.ir:80?encryption=none&security=none&sni=a.xn--i-sx6a60i.us.kg.&type=ws&host=a.xn--i-sx6a60i.us.kg.&path=%2F%3Fed%3DMTMVPN-MTMVPN-MTMVPN-MTMVPN%2F%3Fed%3D2560#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-167
-trojan://7d9c7804-1f7d-43f7-b19a-fa7c2fff4569@us003.421421.xyz:20230?type=tcp&sni=421421.xyz&allowInsecure=1#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E6%9C%AA%E7%9F%A5-40
-vless://368cd8ee-1101-4207-9081-83c1d238523b@[2602:f6f6:2:9cc1:0000:0000:0000:0001]:25538?mode=multi&security=reality&encryption=none&type=tcp&flow=xtls-rprx-vision&pbk=-T49iNxTCFqqMvpjLb0xXd8GXYpy8zbF1nBz4KNpOBI&sid=5177f0&sni=apps.apple.com&servername=apps.apple.com&spx=%2F&fp=firefox#%F0%9F%87%BA%F0%9F%87%B8%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6+%E4%BB%85ipv6+TG%E7%BE%A4+https%3A%2F%2Ft.me%2FAMEICLOUD
-vless://897a4bec-26b8-11e8-94be-00505695472c@172.66.47.24:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-172.66.47.24:443
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@192.200.160.201:443?encryption=none&security=tls&type=ws&sni=bv.ylks.xyz&host=bv.ylks.xyz&path=%2f#TG%3A%40JUZIBAIPIAO%2B%2B%E7%BE%8E%E5%9B%BD_15
-vless://588f094b-431b-422c-b80b-007945037072@45.142.214.188:443?sni=md01.abvpn.ru&type=ws&host=md01.abvpn.ru&allowInsecure=1#🔒 VL-WS-NA 🇲🇩 MD-45.142.214.188:443
-vless://24a4aa9b-b341-4717-9d4a-00d74c2b84e0@162.159.153.2:2053?security=tls&sni=1F9o0U7j2D.rAmAzAn2.InFo&type=grpc&alpn=h2#4FreeIran-9508
-vless://f184c89c-80a4-4a3a-bc67-97db43266c11@94.228.168.70:8443?encryption=none&security=tls&sni=vdd.wxgqlfx.cn&type=ws&host=vdd.wxgqlfx.cn&path=%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560#DE%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa+(8)
-vless://f184c89c-80a4-4a3a-bc67-97db43266c11@202.49.176.124:8443?security=tls&sni=vdd.wxgqlfx.cn&type=ws&host=vdd.wxgqlfx.cn&path=%2FTG%40wxgqlfx%3Fed%3D2560&fp=random&alpn=http%2F1.1#4FreeIran-21149
-vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@154.211.8.227:2087?security=tls&sni=edcch.ambercc.filegear-sg.me&type=ws&host=edcch.ambercc.filegear-sg.me&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#🔒 VL-WS-TLS 🇺🇸 US-154.211.8.227:2087
-trojan://ttfang@198.41.220.255:443?security=tls&sni=ttfang.fange.me&type=ws&host=ttfang.fange.me&path=%2F&allowInsecure=1#🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.255:443
-vless://c8898cfd-9927-4f36-b7bc-40de76076b80@45.150.174.85:443?security=reality&flow=xtls-rprx-vision&sni=maviks.eu&type=tcp&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#4FreeIran-18910
-vless://c5293efa-28f8-4a0f-8f34-541078970cee@45.131.5.179:80?type=ws&host=gozargah.validbv7996.ir&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2#🔒 VL-WS-NA 🇳🇱 NL-45.131.5.179:80
-vless://897a4bec-26b8-11e8-94be-00505695472c@172.64.145.91:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-15673
-vmess://eyJhZGQiOiAiMTg1LjE2Mi4yMjguMjI5IiwgImFpZCI6ICIwIiwgImhvc3QiOiAib3BsZzEuemh1amljbjIuY29tIiwgImlkIjogIjU2YTIxODhiLTJhYjctNDAyYy1iOWI4LTM0ODQ3ZmRmMDk1OCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvNVFOUk9TUlYiLCAicG9ydCI6ICI0NDMiLCAicHMiOiAiNEZyZWVJcmFuLTI0NTkwIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogInRscyIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
-vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@47.242.145.136:8001?security=tls&sni=edccy.ambercc.filegear-sg.me&type=ws&host=edccy.ambercc.filegear-sg.me&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#4FreeIran-21044
-vless://721a6c8e-809f-404d-91d6-582860af9cc3@142.251.163.100:443?security=tls&sni=google.com&type=ws&host=gtest-638114869974.europe-west4.run.app&path=%2FrWUMkmNJBTurxq6Hlt8D6ftJ8qP7&fp=chrome&alpn=http/1.1#🔒 VL-WS-TLS 🇺🇸 US-142.251.163.100:443
-vless://c6919990-40ee-448c-a716-1cfbd4f0165e@172.66.47.74:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960007.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960007.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#🔒 VL-WS-TLS 🏴‍☠️ NA-172.66.47.74:443
-trojan://Aimer@13.230.34.30:443?sni=epccu.ambercc.filegear-sg.me&allowInsecure=0#4FreeIran-5342
-vless://27c18dc0-5da3-4109-aa00-2eb31d7ba8c1@162.159.195.221:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960005.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960005.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#4FreeIran-9628
-vmess://eyJhZGQiOiAiMTIwLjI1My4yNDIuMTk0IiwgImFpZCI6ICIwIiwgImFsbG93aW5zZWN1cmUiOiAxLCAiaG9zdCI6ICJ3ZWIueGNqcy5pbmZvIiwgImlkIjogIjQ2YTUzOWQyLWQzYmEtNGE2ZS1hZWRiLWI3MjdkMmZjNjBmOCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvaG9tZSIsICJwb3J0IjogIjM1MjE0IiwgInBzIjogIjRGcmVlSXJhbi0yMzU0NSIsICJzbmkiOiAianA0LmcyLm1vb25iYXNlLmxpZmUiLCAidGxzIjogInRscyIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
-vless://797fb47e-ec76-42c3-a124-88ffb144d1a0@172.66.44.205:8443?security=tls&sni=mAHDiSeRVeR-GAj.pAGes.dEV&type=ws&host=mahdiserver-gaj.pages.dev&fp=chrome&alpn=h2,http/1.1#4FreeIran-14312
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.12.31.156:80?security=none&type=ws&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&path=Telegram%3A%40ShadowProxy66%2F%3Fed%3D2560#4FreeIran-16097
-trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.2:10823?security=tls#4FreeIran-4512
-vless://b99590df-eda0-4e34-e1a9-3d1118faed83@45.85.118.241:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=%2F#🔒 VL-HTTPUPGRADE-NONE 🇷🇴 RO-45.85.118.241:8880
-trojan://Aimer@199.34.228.191:2096?sni=agepj.ambercc.filegear-sg.me&allowInsecure=0#4FreeIran-5883
-vless://b99590df-eda0-4e34-e1a9-3d1118faed83@156.238.19.179:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=%2F#4FreeIran-17999
-vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@130.250.137.254:8880?sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇺🇸 US-130.250.137.254:8880
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.59.163:443#🔒 SS-TCP-NA 🇫🇷 FR-162.19.59.163:443
-vless://cbe63b7d-1afe-4cec-aace-86dd4125480e@5.75.141.67:443?security=reality&sni=yahoo.com&type=xhttp&path=/&fp=chrome&pbk=QtjCio8gmuOZ1jCohKKPEibuk4evo76ZM4F45SbU8nA&sid=0b#🔒 VL-XHTTP-RLT 🇩🇪 DE-5.75.141.67:443
-vless://de6f1d99-acc6-4c6b-9820-f3a8922cc736@185.59.218.69:80?type=ws&host=hk1-tg-fxnodes.sfacg.uk&path=%2Ftg%40fxnodes#4FreeIran-20122
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4MzVhYjVkMi1kZjJlLTRiZTUtOGVmNS1mZWZkOTMyYzJjNDY@154.83.90.11:52103#4FreeIran-105
-vless://2737560d-1867-47fa-aa80-351c36d771c7@172.67.155.146:2086?encryption=none&security=none&sni=0118.kznyoum2.workers.dev&type=ws&host=0118.kznyoum2.workers.dev&path=%2F%3Fed%3D2560#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-54
-vless://9a8327a3-e725-4a7f-bb77-55b0ceb63c30@37.32.41.189:443?security=none&type=tcp&host=bmw.com&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-37.32.41.189:443
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@185.18.184.66:80?sni=hello.96xckkzx.workers.dev&type=ws&host=hello.96xckkzx.workers.dev&allowInsecure=1#4FreeIran-19500
+ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY3@23.157.40.113:5498#US%F0%9F%87%BA%F0%9F%87%B8+%7C+23.157.40.113-5498+%7C+77.28ms
+ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@172.99.188.71:8000#4FreeIran-2014
+trojan://blue2024@190.93.244.198:443?sni=td.promote.icu#4FreeIran-6882
+vless://ec7a6b6d-94b6-45df-9d62-491f53a508be@www.speedtest.net:2083?security=tls&sni=fREEDOM.pAnOtOsu.SToRE&alpn=http/2&fp=randomized&type=ws&path=/sVmIDWvjebBnvJ3c/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ%3D?ed%3D2560&host=freedom.panotosu.store&encryption=none#%D9%85%D8%B1%DA%AF%20%D8%A8%D8%B1%20%DA%A9%D9%84%20%D9%86%D8%B8%D8%A7%D9%85
+vmess://eyJhZGQiOiAiMTA0LjIxLjIyNS4yIiwgImFpZCI6IDAsICJob3N0IjogImEucHJhcHQ1LmlyIiwgImlkIjogIjcwMjI5ODJmLWRhNGMtNDhjOS1jNjYwLWIyMzE1YWJkY2Y3ZSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIjRGcmVlSXJhbi0yNDE3MyIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAiIiwgInYiOiAiMiJ9
+vless://0a44145f-59dc-4e5b-a233-677b97f5114c@135.148.97.102:443?security=tls&sni=147135011033.sec21org.com&type=tcp#🔒 VL-TCP-TLS 🇺🇸 US-135.148.97.102:443
+vless://670d931b-9d26-5c5b-9ee2-780be46e1cf0@5.180.52.15:2052?security=none&type=ws&host=mihanwebhost.iri&path=/vless#4FreeIran-14361
+ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==@138.199.42.68:8080#%F0%9F%87%BA%F0%9F%87%B8US-138.199.42.68-0378
+ss://YWVzLTEyOC1nY206OTA0ZDRjODEtYWViZi00ODgyLWJiMmEtYjRkY2I4Y2I1ZDA1@bit-kr.03ezhg0qsa.download:12076#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%2004%20%E6%A0%87%E5%87%86%E7%BA%BF%E8%B7%AF
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.243:443#%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.243-0963
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOTA2OGU1MC1iODM3LTRkMmQtYTYwOC03YTY1ODk1YWFkZTA@jg647hf446ghvw.fcbjw.com:41283#%F0%9F%87%BA%F0%9F%87%B8%20US-1
+trojan://Aimer@104.26.15.110:443?sni=epcch.ambercc.filegear-sg.me#4FreeIran-5446
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@ns3849026.ip-217-182-198.eu:8882#DE%F0%9F%87%A9%F0%9F%87%AA+%7C+ns3849026.ip-217-182-198.eu-8882+%7C+192.1ms
+vless://6f995056-7802-4a1d-bff7-61678e626c3f@52.187.36.104:443?security=tls&type=ws&sni=werrr.azurewebsites.net&host=werrr.azurewebsites.net&encryption=none&type=ws&path=%2F&headerType=none#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-2
+vless://a5f3cdb6-cd7c-4289-9551-ec6f91a51e68@162.159.195.21:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960011.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960011.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#4FreeIran-18094
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@38.244.136.19:2222#🔒 SS-TCP-NA 🇫🇮 FI-38.244.136.19:2222
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMDM2ZTQ4Ny05MTAyLTRlMDktODFmZC0wMWIwZjgzMmI5NzI@camy3aydjwpettcn.psuddd789.com:51132#4FreeIran-181
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@45.131.4.211:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#🔒 VL-HTTPUPGRADE-NONE 🇳🇱 NL-45.131.4.211:8880
+vless://e4cbe8b8-37db-4aaa-8469-b84f34c51ebc@104.21.22.133:443?security=tls&sni=00999.20220420.pP.uA&type=ws&host=00999.20220420.pp.ua&path=%2F6OWLjRc26b0nHYr5hYXD&fp=chrome&alpn=http%2F1.1#4FreeIran-21461
+vless://a79142fa-47f0-4f5d-a5de-2257a955e10e@speedtest.net:80?encryption=none&security=none&sni=Digikala.iranian.net&type=ws&host=Digikala.iranian.net&path=%2Ftelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%3Fed%3D8080#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-10
+vless://897a4bec-26b8-11e8-94be-00505695472c@[2606:4700:0:c0:6a5c:3f9b:3b3b:430f]:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-16729
+trojan://6884d714-d3c4-4b49-aa20-767ea92837d6@162.159.153.216:443?sni=icecream.955850.xyz&type=ws&host=icecream.955850.xyz#4FreeIran-4520
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@154.197.64.159:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=%2F#4FreeIran-18865
+trojan://da91214e-b022-4f61-a724-01c538170e62@hinet.mjt000.com:443?allowInsecure=0&peer=hinet.mjt000.com&sni=hinet.mjt000.com#%E5%8F%B0%E6%B9%BEWAP-T-GPT
+vless://00ba3116-5e59-49ce-aa4b-fc9f4405ceda@151.101.130.219:80?encryption=none&security=none&sni=Digikala.iranian.net&type=ws&host=Digikala.iranian.net&path=%2Ftelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%2Ctelegram-EXPRESSVPN_420%3Fed%3D8080#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-97
+trojan://5231f59f-c196-4094-aea5-4ecaa069ddc5@crg6qcb8dptd8wlxckiecjjbtipee3zh.08.03.sg.6l6.site:24220?allowInsecure=1&peer=s8127k3.sg.sub-vip.site&sni=s8127k3.sg.sub-vip.site#%E6%96%B0%E5%8A%A0%E5%9D%A1%7CSG03%7CT
+trojan://telegram-id-directvpn@35.157.112.83:22223?security=tls&sni=trojan.burgerip.co.uk&type=tcp#4FreeIran-7555
+vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@162.159.44.148:443?security=tls&sni=yz.ylka.dpdns.org&type=ws&host=yz.ylka.dpdns.org&path=%2F%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.44.148:443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYMVJ5dElXazdIbUV3Qlhid285MzJQ@147.45.114.160:60879#NL%F0%9F%87%B3%F0%9F%87%B1+%7C+147.45.114.160-60879+%7C+88.44ms
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@185.133.35.63:8880?sni=jp.laoyoutiao.link&type=ws&host=jp.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇧🇷 BR-185.133.35.63:8880
+vless://3f789164-ca20-4041-89c0-bc553819970c@45.150.174.84:8443?security=tls&flow=xtls-rprx-vision-udp443&sni=maviks.eu&fp=chrome#🔒 VL-TCP-TLS 🇩🇪 DE-45.150.174.84:8443
+ss://YWVzLTI1Ni1nY206ekFkaERTYWJlaA@211.99.115.19:11853#4FreeIran-3344
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@34.227.100.180:443?allowInsecure=0&sni=zula.ir&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#4FreeIran-15260
+vless://897a4bec-26b8-11e8-94be-00505695472c@104.18.46.114:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-16107
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYjc5YzRmYS1iYWY5LTQ1NmMtOTE2My02N2Q5ZDNjZjZhYjU@jp1.dianxinzf.one:37833#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%2003
+vless://216b3705-14c4-4fd7-a412-3b60834defa0@104.21.7.193:2086?type=ws&host=0531.bysset3.workers.dev&path=%2F%3Fed%3D2560#4FreeIran-9892
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.2:8880?type=ws&host=sg.laoyoutiao.link&path=Telegram%40WangCai2%2F%3Fed%3D2048#🔒 VL-WS-NA 🇯🇵 JP-156.238.18.2:8880
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@89.116.180.129:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=%2F#🔒 VL-HTTPUPGRADE-NONE 🇱🇹 LT-89.116.180.129:8880
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@141.98.101.179:443#%F0%9F%87%AC%F0%9F%87%A7GB-141.98.101.179-0456
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.23:8880?security=none&sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2FTelegramU0001F1E8U0001F1F3#🔒 VL-WS-NONE 🇩🇪 DE-5.10.214.23:8880
+vless://a739ad80-0aab-40b2-9b0e-8192c74287ef@[2606:4700:3033::ac43:acb1]:443?security=tls&sni=faruzan.changli.ddns-ip.net&type=ws&host=faruzan.changli.ddns-ip.net&path=%2Fproxyip%3Dnavia.shorekeeper.ir&fp=randomized&alpn=http%2F1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-[2606:4700:3033::ac43:acb1]:443
+vless://f775978b-6e22-41a8-ae5e-5f9779e6745f@149.104.35.222:5010?encryption=none&security=tls&sni=juzibaipiao.5112233.xyz&type=ws&host=juzibaipiao.5112233.xyz&path=%2f%3fed%3d2048#4FreeIran-22365
+vmess://eyJhZGQiOiAicmxocnd0cXVzZC5zaXRlIiwgImFpZCI6ICIwIiwgImhvc3QiOiAicmxocnd0cXVzZC5zaXRlIiwgImlkIjogIjRmYTM1ZWE0LTY2OGUtNGQ3Yi05YmJjLWI4MzY4MTA2MDYxNyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIva3dobXZ3cyIsICJwb3J0IjogIjQ0MyIsICJwcyI6ICI0RnJlZUlyYW4tMjc1NDQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJ2IjogIjIifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnZHpXdWhlbUpWVnNwSHd6Q3NaZWpm@83.217.9.39:7317#🔒 SS-TCP-NA 🇹🇷 TR-83.217.9.39:7317
+vmess://eyJhZGQiOiAiNS4xMzUuNDMuMTE5IiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICJkMTU5YzViZS04MjkxLTQ1YzQtYmQyMS01MWQwMjQ2NThhNmQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogNTg3MzIsICJwcyI6ICI0RnJlZUlyYW4tMjY2OTQiLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8ifQ==
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@167.68.42.20:8880?sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2F#4FreeIran-12721
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.129.167.20:8880?type=ws&host=reedfree8mahsang2.redorg.ir&path=%2F%3Fed%3D2560#4FreeIran-12594
+trojan://Aimer@104.21.25.253:443?sni=epccj.ambercc.filegear-sg.me#4FreeIran-5392
+vless://a9fcd6e8-25e9-4a85-9311-533646e0a5fc@5.160.35.73:6687?security=none&type=tcp&headerType=http#4FreeIran-18289
+trojan://Aimer@172.64.144.173:443?sni=epcch.ambercc.filegear-sg.me#🔒 TR-TCP-NA 🏴‍☠️ NA-172.64.144.173:443
+trojan://Aimer@135.84.74.27:8443?sni=epccw.ambercc.filegear-sg.me&allowInsecure=0#4FreeIran-5614
+trojan://Aimer@121.149.228.125:12315?sni=epcca.ambercc.filegear-sg.me&allowInsecure=0#4FreeIran-5592
+vless://897a4bec-26b8-11e8-94be-00505695472c@104.26.14.53:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-16323
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@185.251.81.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#🔒 VL-WS-NA 🇪🇸 ES-185.251.81.29:8880
+vless://08052317-7036-4906-b7da-19934f8fe6e6@5.75.222.203:2323?security=reality&flow=xtls-rprx-vision&sni=journalofbigdata.springeropen.com&type=tcp&fp=chrome&pbk=YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E#🔒 VL-TCP-RLT 🇩🇪 DE-5.75.222.203:2323
+vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@104.17.162.86:443?security=tls&sni=edcch.ambercc.filegear-sg.me&type=ws&host=edcch.ambercc.filegear-sg.me&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#🔒 VL-WS-TLS 🏴‍☠️ NA-104.17.162.86:443
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIvCfh6zwn4enfEdCfOOAkGNjYmFvaGUuY29t44CR5YWN6LS56LWE5rqQ5a+86IiqfDIyNiIsDQogICJhZGQiOiAiMTAyLjE3Ny4xODkuMjkiLA0KICAicG9ydCI6ICI4MCIsDQogICJpZCI6ICJhNzQwYTlhZS1iZjdkLTQ1MDUtODZkNC03YTdlOGNlZDNhNmUiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInE3LjE5S0FsYS5jbyIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIg0KfQ==
+vless://8161b03d-ab2f-45ce-8f15-9b0061044f70@185.16.110.185:8443?security=tls&sni=iran.dr-ping.ir&type=ws&host=iran.dr-ping.ir&path=/DoctorPing_Bot&fp=chrome&alpn=h2#🔒 VL-WS-TLS 🇫🇷 FR-185.16.110.185:8443
+vmess://eyJhZGQiOiAiNTQuMjM4LjE0My44MSIsICJhaWQiOiAwLCAiYWxsb3dpbnNlY3VyZSI6IDEsICJob3N0IjogIjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNzEuY2dyb3VwLW5vZGUtZm9yLWJpZ2FpcnBvcnQuc2JzIiwgImlkIjogIjM1MTlkZmMwLWZhMjctNDFjYy04YzE5LTk4MTgxOGY5ZjZkNSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAyMjM1NiwgInBzIjogIjRGcmVlSXJhbi0yNjc3OCIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNzEuY2dyb3VwLW5vZGUtZm9yLWJpZ2FpcnBvcnQuc2JzIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIn0=
+trojan://9FC33glcaEeYYTnOqOS9DOZgBZ5CDazy33SCS2j4Cz36A7AIN88uaKRx5xDyR8pxu3x4D@154.17.31.220:28332?security=tls&sni=closet.homeofbrave.net#4FreeIran-4983
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.6.176:8880?security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2FChannel%20id%3A%20%40ShadowProxy66%3Fed%3D2560#4FreeIran-13021
+trojan://Gj4xjoNduQ@104.16.83.176:8443?security=tls&sni=MIKasA.drAgoNAllEy.iR.&type=ws&host=MIKasA.drAgoNAllEy.iR.&path=/#🔒 TR-WS-TLS 🏴‍☠️ NA-104.16.83.176:8443
+vless://c8898cfd-9927-4f36-b7bc-40de76076b80@91.238.82.242:443?security=reality&flow=xtls-rprx-vision&sni=maviks.eu&type=tcp&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#4FreeIran-19838
+vless://92fc3c1b-c409-4610-b1a6-9a8ef4287891@51.83.249.166:1370?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw&sid=e1afb93bfe75a34b#4FreeIran-17253
+vless://d60fc3c5-9f07-4cdb-b81f-70af27936bdc@185.16.110.247:8880?sni=ex.sue.x10.mx&type=ws&host=ex.sue.x10.mx&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇫🇷 FR-185.16.110.247:8880
+vless://54694a33-a8dc-47dd-bc38-acd3971e0055@15.204.165.226:443?security=tls&sni=147135004002.sec20org.com&type=tcp&allowInsecure=1#🔒 VL-TCP-TLS 🇺🇸 US-15.204.165.226:443
+vless://5abfab2f-1181-4d37-86fd-21a7296b6358@1.1.1.1:443?security=none&type=tcp#🔒 VL-TCP-NONE 🏴‍☠️ NA-1.1.1.1:443
+vless://6a7741cf-3104-46d4-80ba-96b8233efe7c@hajlab.ucdavis.edu:443?security=tls&type=ws&sni=hajlab.ucdavis.edu&host=joinshhproxybedeeeee.ir&encryption=none&type=ws&path=%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy%3Fed%3D2048&headerType=none#US_%40juzibaipiao%20%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A_66
+vless://be40e282-0efd-489b-9350-a1dd266c9961@162.159.134.234:2096?security=tls&sni=ads.zed-zoon.tech&type=grpc&serviceName=Channel---Telegram---ZED_VPN---ZED_VPN---Telegram---ZED_VPN---ZED_VPN---Telegram---ZED_VPN---ZED_VPN&fp=chrome&alpn=h2#🔒 VL-GRPC-TLS 🏴‍☠️ NA-162.159.134.234:2096
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@102.177.189.107:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#🔒 VL-HTTPUPGRADE-NONE 🇬🇧 GB-102.177.189.107:8880
+trojan://Aimer@108.165.152.98:2087?allowInsecure=0&sni=epmf.ambercc.filegear-sg.me#4FreeIran-5573
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.91.102.30:5001#4FreeIran-2696
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.53.193:443#4FreeIran-1162
+vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@[2a06:98c1:50::ac40:23cd]:443?security=tls&sni=zn.ylka.dpdns.org&type=ws&host=zn.ylka.dpdns.org&path=%2F%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-[2a06:98c1:50::ac40:23cd]:443
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkJSIE9SQUNMRSAwMyIsDQogICJhZGQiOiAic2QyLmppZWh1YWEueHl6IiwNCiAgInBvcnQiOiAiMTYzODkiLA0KICAiaWQiOiAiODNlNzI4M2QtMmE1MC00Yjg0LTgxNGEtNGI0ODlkZWU0N2RhIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJ0bXMuZGluZ3RhbGsuY29tIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiDQp9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@195.181.160.6:990#🇨🇿 Prague, 10, Czechia
+trojan://Sp3eDVp@51.77.71.131:443?security=tls#4FreeIran-6619
+vless://f28e3e08-a7b3-4eaa-b336-517c46a77e12@5.202.8.148:50687?type=tcp#🔒 VL-TCP-NA 🇮🇷 IR-5.202.8.148:50687
+trojan://bcf96c9b-30bf-4ab0-bc28-6076218f2a14@103.224.182.249:443?security=tls&sni=z9.gozargah.one#🔒 TR-TCP-TLS 🇺🇸 US-103.224.182.249:443
+vless://730f02b4-a187-4498-b3fa-9e9f1dccf47c@176.124.223.42:8880?security=none&type=httpupgrade&host=dl1.mcinet.xyz.&path=%2F#4FreeIran-14825
+vless://263ab08f-09d3-4e88-989c-e1e84d00c353@151.101.61.197:80?security=none&type=xhttp&host=tamash360.com&path=%2F%40vistav2ray....%40vistav2ray....%40vistav2ray....%40vistav2ray....%2F%40vistav2ray....%40vistav2ray....%40vistav2ray....%40vistav2ray%3Fed%3D2480#🔒 VL-XHTTP-NONE 🇬🇧 GB-151.101.61.197:80
+trojan://63779501-4c22-4a03-83d3-9f611b227e7b@103.11.214.214:443?security=tls&sni=c1mc.cdncisco4.co&allowInsecure=1&type=tcp#4FreeIran-4420
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDLzZNTnZnNDN6RWRubWo2eks1TUFyQUxUZnpoRVRSRDNOekxOVCtJTDk4PQ@157.180.127.73:17592#4FreeIran-382
+vmess://eyJhZGQiOiAiMTcyLjY3LjE0OS44MSIsICJhaWQiOiAwLCAiaG9zdCI6ICJzZHlnYXJtLmU1b3V0bGxvay5tZSIsICJpZCI6ICJmMzFjMGIzNC05NzdiLTRjMmItYWNmYS1iZWNmZGZjMWYyNjciLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODAsICJwcyI6ICI0RnJlZUlyYW4tMjUzNzEiLCAic2N5IjogImF1dG8iLCAidGxzIjogIiIsICJ2IjogIjIifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5TVg5V0dQZ1VFY1JabWxhYTBZSEhD@103.106.1.92:23492#%F0%9F%87%B3%F0%9F%87%B1NL-103.106.1.92-0334
+trojan://Aimer@188.164.159.234:2083?sni=epccn.ambercc.filegear-sg.me#🔒 TR-TCP-NA 🇦🇲 AM-188.164.159.234:2083
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.247.182:8880?sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#4FreeIran-13331
+trojan://01596265-168b-46a7-bcb7-25662c7a9546@188.114.98.0:443?security=tls&sni=hdfy7c1.foriran2.eu.org&allowInsecure=1&type=grpc&serviceName=fYn1ncaQMA1foaK1hpquM#4FreeIran-3611
+vless://7f037831-591d-4067-9c8c-39f07d12858a@45.131.5.75:80?sni=yuming.kkllllkkkk95.workers.dev&type=ws&path=Telegram%40WangCai2%2F%3Fed#4FreeIran-15219
+vmess://eyJhZGQiOiAiczIuNTIwZ3VnZS5jb20iLCAiYWlkIjogMCwgImhvc3QiOiAiczIuNTIwZ3VnZS5jb20iLCAiaWQiOiAiY2YxODE5YzgtZTUzMC00NjI2LWFlYzAtODdhYzA0MjAwMzg1IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIjRGcmVlSXJhbi0yNzU2NCIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byJ9
+vless://a7b27c87-28cb-4eee-8d1b-a4001e70f652@172.67.204.120:2053?security=tls&sni=mass3f.890601.xyz&type=ws&host=mass3f.890601.xyz#🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.204.120:2053
+vmess://eyJhZGQiOiAidWljZG4uY2YiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICJzZzMtdjJyYXkuc3Noa2l0Lm9yZyIsICJpZCI6ICJjNjc0N2RhNC1mYjJlLTRhMmEtYmRiNy04NjE0YmRkNmIwYjMiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3NzaGtpdC8xNzM2OTYwMTExLzYzODU5YmMxNzdhMzMvIiwgInBvcnQiOiAiODAiLCAicHMiOiAiNEZyZWVJcmFuLTI3NjMyIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
+vless://0132166f-e702-48ed-a9e7-b07af768faf8@141.101.122.251:8880?type=ws&host=cf.d3z.net&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560#4FreeIran-8167
+vless://f1c66385-dcb3-4e03-aa31-6adf6708b146@uaev4-vip.digitalldns.com:9314?encryption=none&security=none&type=tcp&headerType=none#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E6%9C%AA%E7%9F%A5-15
+vless://2a943112-138b-432d-a3a5-277ea2fd8a2e@185.146.173.37:443?security=tls&sni=Tp844Ez7Th.SrVdOm-CoNf-DeL4.iNfO&type=grpc&fp=firefox#🔒 VL-GRPC-TLS 🇸🇪 SE-185.146.173.37:443
+vless://c5b791b2-473e-4139-85d5-30e590c54e05@85.133.194.252:2040?security=none&type=tcp&host=aparat.com&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-85.133.194.252:2040
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.208.130:80?type=ws&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&path=Telegram%3A%40V2ray_Alpha%2F%3Fed%3D2560#🔒 VL-WS-NA 🇳🇱 NL-45.131.208.130:80
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@217.197.161.166:804#4FreeIran-516
+trojan://mainssh-ddoejfv14@95.179.254.136:443?security=tls&sni=frtgrpc.mainssh.xyz&type=grpc#4FreeIran-7405
+vless://161fa2ac-9618-4a3c-bc9b-5420ecc1826e@104.21.47.6:443?security=tls&sni=v2ray-vmess-free.irnoen.workers.dev&type=ws&host=v2ray-vmess-free.irnoen.workers.dev&path=%2F%3F@vpn_room------@vpn_room#4FreeIran-9467
+vless://3054a28e-177a-412f-9b03-9855d79aa728@104.21.1.11:8880?encryption=none&security=none&type=ws&host=0609.sunnyfish.dpdns.org&path=%2F#4FreeIran-10548
+vless://897a4bec-26b8-11e8-94be-00505695472c@172.64.144.73:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-172.64.144.73:443
+vless://8a1b71ff-a775-4412-95fa-e182386b167c@162.159.195.227:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.195.227:443
+vmess://eyJ2IjoiMiIsInBzIjoiSEsuXHU5OTk5XHU2ZTJmLkMgfCBcdTlhZDhcdTkwMWYuMnhcdTUwMGRcdTczODciLCJhZGQiOiJ4Y3RyYW5zZmVyMXN0LmNva2VjbG91ZC50b3AiLCJwb3J0IjoiMzg2MzAiLCJpZCI6ImUwNjViYmYwLTdlN2YtNDY3YS05YWU1LTA0MzVlZTcwOWRiYiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0=
+vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@63.141.128.136:443?sni=sl.ylka.dpdns.org&type=ws&allowInsecure=1#4FreeIran-8821
+vless://3c4ba95f-dae4-4fa5-b875-44cc7a59f5c5@172.66.47.42:2083?security=tls&sni=mAhdIserVer-9Tq.pAgES.Dev&type=ws&host=mahdiserver-9tq.pages.dev&fp=chrome&alpn=h2,http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.66.47.42:2083
+vless://55520747-311e-4015-83ce-be46e2060ce3@160.79.104.181:443?security=tls&sni=re.vs2024.us.kg&type=ws&path=%2F%3Fed#🔒 VL-WS-TLS 🇺🇸 US-160.79.104.181:443
+vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@[2803:f800:50::6ca2:c387]:443?security=tls&sni=zn.ylka.dpdns.org&type=ws&host=zn.ylka.dpdns.org&path=%2F%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-[2803:f800:50::6ca2:c387]:443
+vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@35.240.184.147:8092?encryption=none&security=tls&sni=cfed.tgzdyz2.top&fp=random&type=ws&host=cfed.tgzdyz2.top&path=TG%40ZDYZ2#4FreeIran-10429
+vless://401374e6-df77-41fb-f638-dad8184f175b@141.11.202.193:443?security=tls&sni=pqh36v4.hiddendom.shop&type=grpc&alpn=h2#🔒 VL-GRPC-TLS 🇫🇷 FR-141.11.202.193:443
+vless://f184c89c-80a4-4a3a-bc67-97db43266c11@80.66.84.113:443?security=tls&sni=vdd.wxgqlfx.cn&type=ws&host=vdd.wxgqlfx.cn&path=%2FTG%40wxgqlfx%3Fed%3D2560&fp=random&alpn=http%2F1.1#🔒 VL-WS-TLS 🇷🇺 RU-80.66.84.113:443
+vless://439dbc9e-5519-40ae-9856-47070807d87a@162.159.135.234:2087?security=tls&sni=blog159.v2box.lol&type=grpc&fp=chrome&alpn=h2,http/1.1#4FreeIran-11944
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@141.193.213.233:80?sni=cs.laoyoutiao.link&type=ws&host=cs.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#🔒 VL-WS-NA 🇺🇸 US-141.193.213.233:80
+vless://4e4fe94d-d9f2-4679-879a-b06fbb28ddf1@172.67.110.107:8080?type=ws&host=831tg.na15iwpb.workers.dev&path=%2F%3Fed%3D2560&fp=chrome#4FreeIran-12354
+vless://d2b0e347-554f-47af-9ff9-fac57c050c8d@www.speedtest.net:8443?path=%2Frandom%3Fed%3D2310&security=tls&encryption=none&alpn=h2&host=adderall.adaspolo.co&fp=chrome&type=ws&sni=adderall.adaspolo.co#%40%F0%9D%97%A6%F0%9D%97%B6%F0%9D%97%A1%F0%9D%97%94%F0%9D%97%A9%F0%9D%97%A0%F0%9F%91%88%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%DB%8C
+vmess://eyJhZGQiOiAiMTEyLjE4LjEyMC4xODMiLCAiYWlkIjogIjIiLCAiaG9zdCI6ICIxMi5tYW1hbWFqZC5zaXRlIiwgImlkIjogIjc2MzQ3OTFhLTcyN2EtM2NjZC1hYjA4LTcxZGY4NThmNzU2ZSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiMjM2MTIiLCAicHMiOiAiNEZyZWVJcmFuLTI0NTgwIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+vless://838f5273-5d2d-4630-a0f5-9cc8e4aef4d6@45.131.6.77:2096?security=tls&sni=ScGiYaSk.rOcKsToNeY.InFo&type=ws&host=ScGiYaSk.rOcKsToNeY.InFo&path=%2F&fp=chrome&alpn=h2%2Chttp%2F1.1#🔒 VL-WS-TLS 🇳🇱 NL-45.131.6.77:2096
+vmess://eyJhZGQiOiAiMjE4LjI1NS4xNDkuNDUiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogIjRhNzVjM2JhLWYyZTktMTFlZC1iZjFiLWYyM2M5MTM2OWYyZCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogIjRGcmVlSXJhbi0yNjE5NCIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byJ9
+vless://bce0c7cb-08d1-46a7-b77b-7bff8b46252f@172.67.220.140:443?encryption=none&security=tls&sni=FfFfffFFFf.000890604.Xyz&type=ws&host=FfFfffFFFf.000890604.Xyz&path=%2fRyxyg63Pk7cFSnZBROjL3Q5vTymr#%f0%9f%87%ba%f0%9f%87%b8+%e4%b8%80%e5%85%83%e6%9c%ba%e5%9c%ba%3assrsub.de+%e7%be%8e%e5%9b%bd+38
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@beesyar.org:8080#🇳🇱 The Netherlands
+vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@209.94.90.254:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome#13%7CUS_speednode_0255
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@54.36.174.181:3306#4FreeIran-2714
+vmess://eyJ2IjoiMiIsInBzIjoiXHU2NzAwXHU2NWIwXHU1NzMwXHU1NzQwXHVmZjFhZ3k4ODgueHl6IiwiYWRkIjoiMi5leGFtcGxlLmNvbSIsInBvcnQiOiI0NDMiLCJpZCI6ImRhNTQ3ZTdkLWMwNjgtNDNiNi04N2JiLWNmZDJjZmNhZWU3NSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInR5cGUiOiJ3cyIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoidGxzIn0=
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@admin.c3.webramz.co:443#%F0%9F%87%AC%F0%9F%87%A7GB-131.145.94.49-0374
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeThIdFpJTE1IRnd4SDE2TFlGcWtT@62.133.63.21:65262#🔒 SS-TCP-NA 🇹🇷 TR-62.133.63.21:65262
+vmess://eyJhZGQiOiAiMTA0LjIxLjY0LjEiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICJkZTAxLnNoLWNsb3VkZmxhcmUuc2JzIiwgImlkIjogImIzOTI4ZjhkLWVhODEtNGQ3NS1iY2VjLTQwMTZhMDcyYWRmZiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiMjA5NiIsICJwcyI6ICI0RnJlZUlyYW4tMjQyOTYiLCAidGxzIjogInRscyIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
+vless://5abe79f6-57c2-4999-b6a0-bb87a9496a37@104.27.55.211:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960003.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960003.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#4FreeIran-14000
+vless://401374e6-df77-41fb-f638-dad8184f175b@164.38.155.97:443?security=tls&sni=pqh24v3.hiddendom.shop&type=grpc&alpn=h2#🔒 VL-GRPC-TLS 🇬🇧 GB-164.38.155.97:443
+trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21017?allowInsecure=1&sni=120.233.44.201#4FreeIran-4039
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@45.81.58.63:8880?sni=jp.laoyoutiao.link&type=ws&host=jp.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=0#4FreeIran-23292
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@194.76.18.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#🔒 VL-WS-NA 🇰🇿 KZ-194.76.18.29:8880
+vless://e7f6e06e-9426-478c-9d1e-3619f0d1f241@104.17.234.114:8443?security=tls&sni=Join.VPNCUSTOMIZE.speedtest.net.Naziitness.com&type=ws&host=Join.VPNCUSTOMIZE.speedtest.net.Naziitness.com&path=/Telegram,VPNCUSTOMIZE?ed%3D8080&fp=chrome&alpn=h3,h2,http/1.1#4FreeIran-21531
+vmess://eyJhZGQiOiAiMTQxLjk1LjU1LjcwIiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICIyNDk2ZjcxMS1mNmM1LTQwZWUtYjlhMy05NzIyNDFmYjA5ZDQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODAsICJwcyI6ICI0RnJlZUlyYW4tMjQ4ODgiLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8ifQ==
+vless://4520f395-2cb3-4ba0-8d22-23b96479a2cb@2.188.212.4:23717?security=none&type=tcp&host=cafeariel.ir&headerType=http#4FreeIran-11972
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@94.250.246.200:8080?encryption=none&security=tls&sni=a.mifeng.us.kg&type=ws&host=a.mifeng.us.kg&path=%2F#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E6%9C%AA%E7%9F%A5-34
+vmess://eyJhZGQiOiAiNTcuMTI5LjI0LjE0MSIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9saW5rdndzIiwgInBvcnQiOiA0NDMsICJwcyI6ICI0RnJlZUlyYW4tMjY3ODciLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8ifQ==
+trojan://Aimer@104.21.10.106:2083?sni=epmo.ambercc.filegear-sg.me&allowInsecure=0#4FreeIran-5371
+vless://8334979f-2f04-4f49-8ead-bbceed373ecb@45.131.4.235:80?security=none&type=ws&sni=esetsecuritylicense.roobdi.workers.dev&host=esetsecuritylicense.roobdi.workers.dev&encryption=none&type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2048&headerType=none#%E8%8D%B7%E5%85%B0_juzi8186_180
+vless://0132166f-e702-48ed-a9e7-b07af768faf8@188.42.145.251:8880?type=ws&host=cf.d3z.net&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560#🔒 VL-WS-NA 🇱🇺 LU-188.42.145.251:8880
+vless://bf73e6e5-0336-40d5-995c-283de50646d2@104.24.158.124:80?security=none&type=ws&host=divine-limit-e9df-ppal03.jorekon645.workers.dev&path=%2F%3Fed%3D2560#4FreeIran-19477
+ss://YWVzLTEyOC1nY206NTkzYzNkNjMtMDRjNy00YmJiLWEwM2YtMTE0ZWJhMDg2MzZj@lh2.cac.cab:50013#%E5%8F%B0%E6%B9%BE1
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@160.153.0.45:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#4FreeIran-18921
+vless://0e973d4f-fb2d-4d68-8b86-cd53dc6e7525@88.223.92.197:4926?security=none&type=tcp&host=varzesh3.com&path=%2F&headerType=http#4FreeIran-9187
+vless://d643b9ca-57b7-4cd5-84b8-a77f26b6346e@[2400:cb00:2049:1::a29f:121]:443?security=tls&sni=rayan-fg-1.narges.filegear-sg.me&type=ws&host=rayan-fg-1.narges.filegear-sg.me&path=/?ed%3D2560&fp=chrome&allowInsecure=1#🔒 VL-WS-TLS 🏴‍☠️ NA-[2400:cb00:2049:1::a29f:121]:443
+trojan://2e3562a819634de686ade78e434c0963@104.17.147.5:443?security=tls&sni=jobscareertoday.com&type=ws&host=jobscareertoday.com&path=/6b777a91#4FreeIran-4076
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@103.169.142.99:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#4FreeIran-18780
+ss://YWVzLTI1Ni1jZmI6VWtYUnNYdlI2YnVETUcyWQ@217.30.10.63:9001#4FreeIran-1289
+vless://d93eed7f-64ae-4321-bbd2-dbc8fa45ce07@104.21.16.1:2083?security=tls&sni=bia-to-selinc--selinc--selinc--selinc.zdhejhkp.workers.dev&type=ws&host=bia-to-selinc--selinc--selinc--selinc.zdhejhkp.workers.dev&fp=chrome&alpn=http/1.1#4FreeIran-20962
+trojan://6884d714-d3c4-4b49-aa20-767ea92837d6@172.67.68.240:443?security=tls&sni=icecream.955850.xyz&type=ws&host=icecream.955850.xyz#4FreeIran-4537
+trojan://2db71c8f-b7d3-4272-b868-2f7c92b395d1@R1.tube-cat.com:8210?allowInsecure=1&peer=us.catxstar.com&sni=us.catxstar.com#%F0%9F%87%BA%F0%9F%87%B8%7C%E7%BE%8E%E5%9B%BD-%E9%9A%A7%E9%81%93%2001
+vless://73c732f2-d435-4197-9f33-0d7c1f47d3a9@35.95.94.132:8443?security=reality&sni=zula.ir&type=tcp&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#4FreeIran-14872
+vless://8b54a6c7-2544-4a07-9520-b4e5252ba2b7@89.187.28.126:8443?encryption=none&security=tls&sni=ul-japan1.09vpn.com&type=ws&path=%2Fvless%2F#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E4%B9%8C%E5%85%8B%E5%85%B0UA-1
+vless://897a4bec-26b8-11e8-94be-00505695472c@104.16.253.232:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-15805
+vless://0b32d187-fbea-476d-a8f8-ae2a024631eb@199.212.90.49:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960010.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960010.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#4FreeIran-9097
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.188:8080#🇳🇱 The Netherlands
+vless://953d71f0-9241-4903-95b4-cce61e90015e@91.99.148.251:5969?security=none&type=tcp&host=speedtest.net&headerType=http#🔒 VL-TCP-NONE 🇩🇪 DE-91.99.148.251:5969
+trojan://Aimer@172.64.147.54:443?sni=epmf.ambercc.filegear-sg.me&allowInsecure=0#4FreeIran-5952
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@23.154.136.51:8888#🔒 SS-TCP-NA 🇺🇸 US-23.154.136.51:8888
+vless://53bea386-912e-4fe3-9eff-59c2285a176c@[2606:4700:3030::6815:7001]:2053?security=tls&sni=9.neshaan.org&type=ws&host=9.neshaan.org&fp=chrome&alpn=http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-[2606:4700:3030::6815:7001]:2053
+vless://1a1eff5f-97b8-4a4e-910d-6415441b371a@172.66.46.224:8443?security=tls&sni=trojanyu.pages.dev&type=ws&host=trojanyu.pages.dev&fp=randomized&alpn=http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.66.46.224:8443
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.62.164:443#🇨🇭 Zurich, ZH, Switzerland
+trojan://07e55e4a-ef94-4e81-addc-b62532cb503a@b9dd0c6dfbdd067f1c72bfa14d18a85d.lh.gtm.cac.cab:41600?allowInsecure=1&peer=tctw1.bilibili.com&sni=tctw1.bilibili.com#Trojan-%E5%8F%B0%E6%B9%BE2%20%7C%20%E4%BD%8E%E5%80%8D%E7%8E%87
+vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@45.12.31.24:8443?security=tls&sni=QtRkJtLt27.pRiMeXaD.OrG&type=ws&host=QtRkJtLt27.pRiMeXaD.OrG&path=%2F&fp=chrome&alpn=h3%2Ch2#🔒 VL-WS-TLS 🇷🇴 RO-45.12.31.24:8443
+vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@104.18.187.94:443?security=tls&sni=edccj.ambercc.filegear-sg.me&type=ws&host=edccj.ambercc.filegear-sg.me#🔒 VL-WS-TLS 🏴‍☠️ NA-104.18.187.94:443
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImlpaWlpaWlpaWk5Ljk5OTg2NC54eXogaHR0cCBXUyBDRE4gdm1lc3MiLA0KICAiYWRkIjogImlpaUlpaUlJSUk5Ljk5OTg2NC54WXoiLA0KICAicG9ydCI6ICI4MCIsDQogICJpZCI6ICI2OTY3OGY1My1mZTQ4LTRkNmYtOGRhMS02MWY5MGE2YTFlZDciLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImlpaWlpaWlpaWk5Ljk5OTg2NC54eXoiLA0KICAicGF0aCI6ICIveVo2b3Uwc1VxUFI2TXpuUyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICJpSUlJaWlJaUlJOS45OTk4NjQuWFl6Ig0KfQ==
+ss://YWVzLTI1Ni1nY206M2VlOTBhYTktODgzMS00ZWEzLTk0MjUtYzM2MTA5MGE5Mzhk@36.151.194.51:20251#4FreeIran-1774
+trojan://wpLP2iWsEQWw@15.237.176.178:16975?sni=appsvs.shop#4FreeIran-8053
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@67.220.95.102:7307#4FreeIran-1966
+trojan://ttfang@172.64.156.107:443?sni=ttfang.fange.me&allowInsecure=0#🔒 TR-TCP-NA 🏴‍☠️ NA-172.64.156.107:443
+vless://58d04d0d-e4b1-40d2-81df-d175f030424c@ars2.pingreducer.top:443?security=tls&type=ws&sni=ars2.pingreducer.top&path=/pingreducer&encryption=none&headerType=none#4FreeIran-13886
+vless://721a6c8e-809f-404d-91d6-582860af9cc3@142.250.114.101:443?security=tls&sni=google.com&type=ws&host=gtest-638114869974.europe-west4.run.app&path=%2FrWUMkmNJBTurxq6Hlt8D6ftJ8qP7&fp=chrome&alpn=http/1.1#🔒 VL-WS-TLS 🇺🇸 US-142.250.114.101:443
+vless://4d877e02-e49f-47d3-a542-42b568ceee02@162.159.195.206:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960008.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#4FreeIran-12254
+vless://716e8c06-40e6-41ae-82ca-db79b41112c2@162.159.195.83:443?security=tls&sni=xxx.66500-280b-471c-b2b8-d68b7f9960004.workers.dev&type=ws&host=xxx.66500-280b-471c-b2b8-d68b7f9960004.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.195.83:443
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@193.9.49.213:8880?type=ws&host=jp.laoyoutiao.link#🔒 VL-WS-NA 🇷🇺 RU-193.9.49.213:8880
+trojan://e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c@183.240.210.75:38015?sni=pl001.xiaoniuyun.cc&allowInsecure=0#🔒 TR-TCP-NA 🇨🇳 CN-183.240.210.75:38015
+vless://8334979f-2f04-4f49-8ead-bbceed373ecb@45.131.7.25:80?security=none&type=ws&sni=esetsecuritylicense.roobdi.workers.dev&host=esetsecuritylicense.roobdi.workers.dev&encryption=none&type=ws&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2048&headerType=none#%E8%8D%B7%E5%85%B0_juzi8186_67
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@38.89.70.208:8090#🇺🇸 Seattle, WA, United States
+trojan://telegram-id-privatevpns@3.73.176.102:22222?security=tls&sni=trojan.burgerip.co.uk&allowInsecure=1&type=tcp&headerType=none#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E6%9C%AA%E7%9F%A5-19
+ss://bm9uZTpjYWJhYmFjLWFjYmEtY2FiYS1jZGFiLWJiYWNiYmFjY2FjYQ@127.0.0.1:8080#4FreeIran-3452
+vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@162.159.44.110:443?security=tls&sni=zn.ylka.dpdns.org&type=ws&host=zn.ylka.dpdns.org&path=%2F%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-162.159.44.110:443
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.12.31.63:80?security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2FChannel%2Bid%3A%2B%40ShadowProxy66%2F%3Fed%3D2560#🔒 VL-WS-NONE 🇷🇴 RO-45.12.31.63:80
+vless://838f5273-5d2d-4630-a0f5-9cc8e4aef4d6@45.131.208.15:2096?security=tls&sni=ScGiYaSk.rOcKsToNeY.InFo&type=ws&host=ScGiYaSk.rOcKsToNeY.InFo&path=%2F&fp=chrome&alpn=h2%2Chttp%2F1.1#4FreeIran-15516
+ss://YWVzLTEyOC1nY206MGEwZmI4ZGJmYjhjYzJmMjVmMDI@console.02.aliyun.aq.kunlunaqs.com:45924/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%F0%9F%87%BA%F0%9F%87%B8%20USA%20040
+vless://62449ebc-a377-49d8-af1a-c1f56ae5be1f@104.18.13.229:8880?security=none&type=ws&host=azadnet.azadnet01.workers.dev&path=%2F%3Fed%3D2560#4FreeIran-14204
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.31:38388#%F0%9F%87%BB%F0%9F%87%B3VN-103.186.154.31-0401
+vmess://ewogICAgImFkZCI6ICI1Ny4xMjkuMjQuMTI1IiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAid3JtZWxtd3hsZi5na3RldmxycXpud3Fxb3p5LmZhYnBmczY2Z2l6bW5vamhjdnF4d2wua3l0cmNmenFsYTg3Z3ZndnM2Yzdram5ydWJ1aC5jYyIsCiAgICAiaWQiOiAiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwKICAgICJuZXQiOiAid3MiLAogICAgInBhdGgiOiAiL2xpbmt2d3MiLAogICAgInBvcnQiOiA0NDMsCiAgICAicHMiOiAi8J+HqfCfh6pERS01Ny4xMjkuMjQuMTI1LTY1MDYiLAogICAgInRscyI6ICJ0bHMiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ==
+trojan://ttfang@198.41.221.136:443?security=tls&sni=ttfang.fange.me&type=ws&host=ttfang.fange.me&path=%2F&allowInsecure=1#🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.221.136:443
+vless://b0e6a2c9-e667-4e42-9cb3-77d7db3e736b@104.21.43.221:443?security=tls&sni=bypassfilter.test-fad.workers.dev&type=ws&host=bypassfilter.test-fad.workers.dev#4FreeIran-18457
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.219:8880?type=ws&host=sg.laoyoutiao.link&path=Telegram%40WangCai2%2F%3Fed%3D2048#🔒 VL-WS-NA 🇯🇵 JP-156.238.18.219:8880
+trojan://665c944d-047d-4659-80d5-3eaac70241a9@139.162.158.172:443?security=tls&sni=de2-full.privateip.net#🔒 TR-TCP-TLS 🇩🇪 DE-139.162.158.172:443
+vless://cd2e9541-3fce-4d95-9bec-919d884f911e@168.138.212.80:443?encryption=none&security=tls&sni=piqie.justin-lifeistooshort.info&type=ws&host=piqie.justin-lifeistooshort.info&path=%2ftiger#%f0%9f%87%af%f0%9f%87%b5%7cJP%7c%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%7c117
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.10:8080#🇳🇱 The Netherlands
+vless://39d65c38-ec68-4808-bec4-53d61289a2dd@109.122.255.200:2050?security=reality&sni=www.cloudflare.com&type=grpc&serviceName=vless&fp=chrome&pbk=067cvQC8DmfUC3-Ry5Ur8Bo5iocIuE94nvnzgVFHUE0&sid=5760bd51d1f80cbf#🔒 VL-GRPC-RLT 🇮🇷 IR-109.122.255.200:2050
+vless://00fa602f-58cd-4f57-888d-5bbf234ca79c@128.140.105.111:8443?security=reality&sni=speedtest.net&type=xhttp&path=/LianPingBot&fp=chrome&pbk=wlPxU9P1fUny_aPX8BTv-ujgUlfw4hQ1l1KsK0Pv2kw&sid=db5a#🔒 VL-XHTTP-RLT 🇩🇪 DE-128.140.105.111:8443
+vless://a640effc-15f1-406d-ab8c-e328739525c5@78.157.44.88:19242?type=tcp&host=sfgfg.fast.com&headerType=http#4FreeIran-18123
+trojan://04f8b43b-70b7-4b26-94b5-2486e86d9eb0@157.230.89.187:46356?security=tls&sni=www.python.org&type=tcp&allowInsecure=1#🔒 TR-TCP-TLS 🇺🇸 US-157.230.89.187:46356
+vless://c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0@47.236.202.91:2087?encryption=none&security=tls&type=ws&sni=av.ylkszy.eu.org&host=av.ylkszy.eu.org&path=%2f#TG%3A%40JUZIBAIPIAO%2B%2B%E7%BE%8E%E5%9B%BD_59
+trojan://CjqK8GFZ%29%2CD%3F@104.21.11.178:443?security=tls&sni=7xVB-b9Ws5Zjp6cYjvW89zRKU9GMuPW6.maryAFArhUnI.WORkers.dEv&type=ws&host=7xvb-b9ws5zjp6cyjvw89zrku9gmupw6.maryafarhuni.workers.dev#4FreeIran-6491
+vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@154.83.2.235:2096?security=tls&sni=HiDyVnDe14.bInTeRmA.OrG&type=ws&host=HiDyVnDe14.bInTeRmA.OrG&path=%2F&fp=chrome&alpn=h3%2Ch2#🔒 VL-WS-TLS 🇵🇭 PH-154.83.2.235:2096
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@89.116.180.63:8880?sni=jp.laoyoutiao.link&type=ws&host=jp.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇱🇹 LT-89.116.180.63:8880
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#4FreeIran-235
+vless://721a6c8e-809f-404d-91d6-582860af9cc3@142.250.188.14:443?security=tls&sni=google.com&type=ws&host=gtest-638114869974.europe-west4.run.app&path=%2FrWUMkmNJBTurxq6Hlt8D6ftJ8qP7&fp=chrome&alpn=http/1.1#4FreeIran-14712
+vless://897a4bec-26b8-11e8-94be-00505695472c@104.17.169.162:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-15948
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@142.202.48.34:3389#4FreeIran-2493
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@154.197.108.25:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#4FreeIran-18854
+vless://897a4bec-26b8-11e8-94be-00505695472c@172.64.144.246:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-16421
+trojan://06e4425e-a8cb-4b63-929f-2105604ab0a9@104.26.13.23:443?sni=tt.vs2024.dpdns.org&allowInsecure=0#4FreeIran-3674
+vmess://eyJhZGQiOiAiMTYyLjE1OS4xMjguNyIsICJhaWQiOiAiMCIsICJob3N0IjogIm9wbGcxLnpodWppY24yLmNvbSIsICJpZCI6ICI1NmEyMTg4Yi0yYWI3LTQwMmMtYjliOC0zNDg0N2ZkZjA5NTgiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLzVRTlJPU1JWIiwgInBvcnQiOiAiNDQzIiwgInBzIjogIjRGcmVlSXJhbi0yNTE0MiIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@13.114.31.41:2377#🔒 SS-TCP-NA 🇯🇵 JP-13.114.31.41:2377
+vmess://eyJhZGQiOiAiMy4xMTMuOS4xMDAiLCAiYWlkIjogMCwgImhvc3QiOiAidGxzLjA0Lm5vZGUtZm9yLWJpZ2FpcnBvcnQud2luIiwgImlkIjogIjM1MTlkZmMwLWZhMjctNDFjYy04YzE5LTk4MTgxOGY5ZjZkNSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAyMzQ0MywgInBzIjogIlx1ZDgzZFx1ZGQxMiBWTS1XUy1UTFMgXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1IEpQLTMuMTEzLjkuMTAwOjIzNDQzIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAidGxzLjA0Lm5vZGUtZm9yLWJpZ2FpcnBvcnQud2luIiwgImFsbG93aW5zZWN1cmUiOiAxfQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@167.88.61.2:810#4FreeIran-449
+vless://80764883-7f6b-4c46-8ecd-887cdf541c07@172.66.44.174:2053?security=tls&sni=edC32e3B.bpb-PaNel-EN-87s.PAGes.dEv&type=ws&host=edc32e3b.bpb-panel-en-87s.pages.dev&path=%2FoqLIXWAi6lzpnumQ&fp=randomized&alpn=http%2F1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.66.44.174:2053
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk@167.88.62.68:9102#4FreeIran-2867
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@81.90.189.18:805#4FreeIran-601
+ss://YWVzLTI1Ni1nY206SDZRVTRMSjkxWlE2NkJUTQ==@23.185.248.26:17016#%F0%9F%87%BA%F0%9F%87%B8%20US-16
+vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@5.182.34.254:8880?sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇩🇪 DE-5.182.34.254:8880
+vless://7628a4ef-5f89-4353-dd65-2aaf23e6d527@198.71.188.119:8080?security=none&type=ws&host=lpp.serviceprivate.ip-ddns.com&path=%2FChannel----SPDNet----SPDNet----SPDNet---SPDNet---SPDNet---SPDNet%3Fed%3D2048#4FreeIran-14921
+vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@160.153.0.254:8880?allowInsecure=0&sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome#13%7CUS_speednode_0223
+vless://0cda5f94-4698-4a0d-a743-1370df72f95f@c8217-b2a.h3.49d2.5e11.613.b297.djjsvip.cfd:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=djdownloadhk2.xn--4gq62f52gopi49k.com&type=tcp&headerType=none#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E6%9C%AA%E7%9F%A5-23
+vless://9900e8bb-d01b-42a6-ba16-17f958fa0b6c@199.34.228.161:2096?security=tls&sni=bEAt.MIRaclETaxbiTS.Top.&type=ws&path=/2096/@VRayyNGvpn#🔒 VL-WS-TLS 🇺🇸 US-199.34.228.161:2096
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.244.227:8880?sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#4FreeIran-13270
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@167.68.11.117:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#4FreeIran-18931
+vless://e14b4a6b-0c62-4551-a952-b3eff4b973de@194.156.103.86:2096?security=reality&sni=dash.cloudflare.com&type=grpc&fp=chrome&pbk=2aoxX2Wjq25LmOUq9CuhJ6KJTA8z1i3Aspe-7RhTR1s&sid=28f58957#4FreeIran-21249
+vless://d60fc3c5-9f07-4cdb-b81f-70af27936bdc@108.165.216.247:8880?sni=ex.sue.x10.mx&type=ws&host=ex.sue.x10.mx&path=/Telegram🇨🇳&allowInsecure=0#🔒 VL-WS-NA 🇺🇸 US-108.165.216.247:8880
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@94.247.142.38:80?sni=ipsycho.suex12.ir&type=ws&host=ipsycho.suex12.ir&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#🔒 VL-WS-NA 🇬🇧 GB-94.247.142.38:80
+vless://de6f1d99-acc6-4c6b-9820-f3a8922cc736@185.59.218.32:80?type=ws&host=hk1-tg-fxnodes.sfacg.uk&path=%2Ftg%40fxnodes#4FreeIran-21088
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NmE1OFx1NWI1MFx1NTE2Y1x1NzZjYVx1MDAyZFx1N2Y4ZVx1NTZmZFx1MDA1NVx1MDA1M1x1MDAyZDQwIiwNCiAgImFkZCI6ICIxODMuMjM2LjUxLjM4IiwNCiAgInBvcnQiOiAiNTE3NTQiLA0KICAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiINCn0=
+vless://897a4bec-26b8-11e8-94be-00505695472c@104.18.185.244:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-104.18.185.244:443
+vless://80d6c73f-678f-4e0e-9b01-b3f36c7e2127@join.vpncustomize.fastly80-3.hosting-ip.com:80?security=none&type=ws&host=Join-VPNCUSTOMIZE-VPNCUSTOMIZE.ir&encryption=none&type=ws&path=%2FChennel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE%3Fed%3D2048&sni=Join-VPNCUSTOMIZE-VPNCUSTOMIZE.ir&headerType=none#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-113
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.215.55:8880?security=none&sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#🔒 VL-WS-NONE 🇩🇪 DE-5.10.215.55:8880
+vless://90bf198f-9810-40c8-cb6f-8d7908b576d3@5.10.246.197:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER#4FreeIran-17169
+vless://380c77d5-6172-43e0-93cf-fa2f69f4736a@78.39.9.149:9060?type=tcp&host=skype.com&headerType=http#4FreeIran-11367
+vmess://eyJhZGQiOiAiMTA0LjIxLjcuMjM3IiwgImFpZCI6ICIwIiwgImhvc3QiOiAiS2Fuc2FzLmJvYmJ5a290aWNrLnJpcCIsICJpZCI6ICIyRjA5NDg0NS1FMkJELUVCRjctREVCNy05OTU5OTI0MzZGQUYiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3NwZWVkdGVzdCIsICJwb3J0IjogIjQ0MyIsICJwcyI6ICI0RnJlZUlyYW4tMjQzMTYiLCAic2N5IjogImF1dG8iLCAic25pIjogIkthbnNhcy5ib2JieWtvdGljay5yaXAiLCAidGxzIjogInRscyIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
+vmess://eyJhZGQiOiAiMTU5LjIyMy45NC4xNTYiLCAiYWlkIjogIjY0IiwgImhvc3QiOiAiIiwgImlkIjogIjUzMzcyNGFkLTU4ZWYtNDE0Ny04OGRjLTlkYTUyM2MxNWZjNCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvYW50aTEzLnppbmdmYXN0LnZuIiwgInBvcnQiOiAiODAiLCAicHMiOiAiNEZyZWVJcmFuLTI1MDQxIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+vless://0b32d187-fbea-476d-a8f8-ae2a024631eb@199.212.90.8:443?security=tls&sni=sweet-sound-523a.66500-280b-471c-b2b8-d68b7f9960014.workers.dev&type=ws&host=sweet-sound-523a.66500-280b-471c-b2b8-d68b7f9960014.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#🔒 VL-WS-TLS 🇳🇱 NL-199.212.90.8:443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNDYzMjBiYS0zOTVlLTQ4ZjYtODdiNS0yMzkzOWQ0MzU2YmQ@yy11.vyunyunnode.top:23402#%F0%9F%87%AE%F0%9F%87%A9%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A01
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@e001.panda003.net:2003#4FreeIran-1746
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@104.21.84.35:443?security=tls&sni=PPAL03.NaVIYi2139.WOrKErs.dEV&type=ws&host=pPaL03.nAvIYI2139.wOrkERS.dev&path=%2F#4FreeIran-16846
+ss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ@213.183.59.211:9060#4FreeIran-1760
+vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@172.67.164.209:443?security=tls&sni=edcci.aimercc.filegear-sg.me&type=ws&host=edcci.aimercc.filegear-sg.me&path=%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw#🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.164.209:443
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.8.211.225:80?security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=Telegram%3A%40vpnAndroid2%2F%3Fed%3D2560#🔒 VL-WS-NONE 🇷🇺 RU-45.8.211.225:80
+vless://730f02b4-a187-4498-b3fa-9e9f1dccf47c@176.124.223.232:8880?type=httpupgrade&host=dl1.mcinet.xyz.&path=%2F#4FreeIran-14823
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@135.84.67.29:8880?sni=hk.laoyoutiao.link&type=ws&host=hk.laoyoutiao.link&path=/TelegramU0001F1E8U0001F1F3&allowInsecure=0#4FreeIran-22569
+trojan://e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c@104.21.16.1:443?security=tls&sni=ttYUi.7777198.xYZ&type=ws&host=ttyui.7777198.xyz&path=%2Fs1XRkMWuneQkqtp5KKSues&fp=chrome&alpn=http%2F1.1#4FreeIran-7234
+vless://a2f6fc00-0839-59c4-86bd-789c9c6b5d4f@104.16.104.208:443?security=tls&sni=CDN8575975893479.erfantop.ir&type=ws&host=CDN8575975893479.erfantop.ir&path=%2Fvless&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-104.16.104.208:443
+vless://fbddfd18-72a2-f649-1101-1bb8e8e9a649@178.239.157.16:58160?security=none&type=tcp&host=myket.ir&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-178.239.157.16:58160
+vless://85323542-f2b1-44d0-8b0c-1c4196bc38f2@91.99.133.135:1598?security=reality&sni=tgju.org&type=tcp&fp=chrome&pbk=GGsieU5yiXWsMeO0StA4mTO2s8OLLvt0hUivZJkJG2k&sid=0b886008af8942c3#🔒 VL-TCP-RLT 🇩🇪 DE-91.99.133.135:1598
+trojan://d76294c5-a31f-408d-ba0b-89880107cab5@5.75.152.12:443?security=tls&allowInsecure=1&type=tcp#4FreeIran-7142
+vless://88e79468-dc96-93e0-199b-945538d116c0@91.107.152.47:1105?security=reality&sni=Amir1.codephpplus13.ir&type=grpc&serviceName=login&fp=chrome&pbk=1AT0Gw0AnIzvS3QyubrDGMLifsI4_48vOp31hJjQam8&sid=d1bc7ca1729f3361#4FreeIran-15671
+vless://f184c89c-80a4-4a3a-bc67-97db43266c11@89.208.105.126:443?encryption=none&security=tls&sni=vdd.wxgqlfx.cn&type=ws&host=vdd.wxgqlfx.cn&path=%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560#NL%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa+(23)
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.172:8880?type=ws&host=sg.laoyoutiao.link&path=Telegram%40WangCai2%2F%3Fed%3D2048#🔒 VL-WS-NA 🇯🇵 JP-156.238.18.172:8880
+vless://371bba8c-1e17-4a67-aec8-80f594cb565e@94.130.90.87:443?security=reality&flow=xtls-rprx-vision&sni=website.com&type=tcp&fp=chrome&pbk=0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo#4FreeIran-11320
+vless://897a4bec-26b8-11e8-94be-00505695472c@104.16.247.119:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#4FreeIran-15801
+vmess://eyJhZGQiOiAiMjE2LjI0LjU3LjY4IiwgImFpZCI6IDAsICJob3N0IjogImUxMzA5MTdjLTFiNTgtNDEzNi1iMmQ5LTc2ZGM5MjBlMGFkZC5hZGQ5N2VlOC0wZjE0LTQ4YTMtYjJjZC05NzljNTY3NDJlNjQubG9zZXlvdXJpcC5jb20iLCAiaWQiOiAiMDU2NDFjZjUtNThkMi00YmE0LWE5ZjEtYjNjZGEwYjFmYjFkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ0MywgInBzIjogIjRGcmVlSXJhbi0yNjE3MyIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byJ9
+vless://897a4bec-26b8-11e8-94be-00505695472c@104.16.8.54:443?sni=xv6.jpmj.dpdns.org&type=ws&host=xv6.jpmj.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-104.16.8.54:443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.158.171.151:8080#🇳🇱 The Netherlands
+trojan://Aimer@162.159.141.130:443?sni=epcca.ambercc.filegear-sg.me&type=ws#4FreeIran-5839
+trojan://7d223bae-e183-4bf6-89c3-e327b15df490@183.236.51.5:10826?security=tls#4FreeIran-4749
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@85.208.108.60:5000#4FreeIran-2738
+trojan://blue2024@162.159.9.72:443?type=ws&sni=ta.promote.icu&path=/?ed=2560&host=ta.promote.icu#%E7%BE%8E%E5%9B%BD_juzi8186_226
+vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@172.64.35.236:443?security=tls&sni=edccq.aimercc.filegear-sg.me&type=ws&host=edccq.aimercc.filegear-sg.me&path=%2F%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.35.236:443
+vless://08ef1330-8ffb-4001-a15e-96befc065c06@104.25.97.27:443?security=tls&sni=hq3.newretr432as.info&type=grpc#🔒 VL-GRPC-TLS 🏴‍☠️ NA-104.25.97.27:443
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.88:8880?type=ws&host=sg.laoyoutiao.link&path=Telegram%40WangCai2%2F%3Fed%3D2048#🔒 VL-WS-NA 🇯🇵 JP-156.238.18.88:8880
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0anU4NzNldnBqZWFBaThacTEyWW9SSFdwNjNvNWV4ZG5aNzFhVWcxWUVDaGlQVGMySGthc1loVUJ4Uno3VUdpNEs2Y0xyc0dhVTZiNDRINFFhNmY0Y0puM3pCcDJjblg=@185.5.38.111:55988#🔒 SS-TCP-NA 🇬🇧 GB-185.5.38.111:55988
+trojan://Aimer@154.83.2.88:2083?sni=epccu.ambercc.filegear-sg.me&allowInsecure=0#🔒 TR-TCP-NA 🇵🇭 PH-154.83.2.88:2083
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@92.53.189.178:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#4FreeIran-19245
+vmess://eyJhZGQiOiAiYnV5dm0uaW1rY3AuZXUub3JnIiwgImFpZCI6IDAsICJob3N0IjogImJ1eXZtLmlta2NwLmV1Lm9yZyIsICJpZCI6ICI2ZmI5YTc1MC01NWI4LTRlNmUtODU3Yi0yNDJiNzk1Mzk5ZGMiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL2lta2NweXlkcyIsICJwb3J0IjogNDQzLCAicHMiOiAiNEZyZWVJcmFuLTI3MjAyIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIn0=
+vmess://eyJhZGQiOiAiNjIuNjAuMjIwLjEwNyIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiZTFhNjAzNzQtZDkyZi00MWM2LWI4Y2QtYzAxNDViY2UwYjUyIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiOTAwNyIsICJwcyI6ICI0RnJlZUlyYW4tMjY4MjAiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiaHR0cCIsICJ2IjogIjIifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxVTUzQVVmODV3OVp5ckNiMDVTc0tx@188.166.245.158:12677#🇸🇬 Singapore, Singapore
+vless://1a79d43f-b41c-496b-a241-dcbeefa81f0e@213.241.198.251:8880?security=none&type=ws&host=0926.qiang2000.link&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560fp%3Dchrome#🔒 VL-WS-NONE 🇷🇺 RU-213.241.198.251:8880
+trojan://Gj4xjoNduQ@104.16.83.8:8443?security=tls&sni=MIKasA.drAgoNAllEy.iR.&type=ws&host=MIKasA.drAgoNAllEy.iR.&path=/#4FreeIran-6512
+vless://ed447de4-ebd3-4f1c-8339-c084e06ec588@213.176.65.1:443?security=tls&sni=ez.ez0535.com&type=grpc&fp=chrome&alpn=h2%2Chttp%2F1.1#4FreeIran-21732
+vless://398e26d1-9461-43e3-af6e-5b98b659c3eb@85.133.237.75:443?security=none&type=tcp&host=alibaba.ir&path=/&headerType=http#🔒 VL-TCP-NONE 🇮🇷 IR-85.133.237.75:443
+trojan://06e4425e-a8cb-4b63-929f-2105604ab0a9@kyree.ns.cloudflare.com:443?allowInsecure=0&sni=tt1.vs2024.dpdns.org#4FreeIran-3752
+trojan://Aimer@188.164.159.69:2083?sni=epccv.ambercc.filegear-sg.me#🔒 TR-TCP-NA 🇦🇲 AM-188.164.159.69:2083
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.7.103:80?sni=reedfree8mahsang2.redorg.ir&type=ws&host=reedfree8mahsang2.redorg.ir&path=/Channel&allowInsecure=0#4FreeIran-13026
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.110.1.146:8118#🇺🇸 Miami, FL, United States
+vmess://eyJhZGQiOiAiMTQxLjExLjE4Ny4zMCIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiNzExNmM4MTMtZjYzNS00OWZmLThkMmYtZGUyMjAwODA0ZmZkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQ1ODM3LCAicHMiOiAiNEZyZWVJcmFuLTI0ODgyIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IGZhbHNlLCAic25pIjogIjE0MS4xMS4xODcuMzAiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8ifQ==
+trojan://06e4425e-a8cb-4b63-929f-2105604ab0a9@162.159.44.110:443?sni=kc.vs2024.dpdns.org&allowInsecure=0#🔒 TR-TCP-NA 🏴‍☠️ NA-162.159.44.110:443
+trojan://075b9690-f1cc-4d0c-aa1e-f80f07f09815@104.21.69.50:443?sni=4o.191292.xyz&allowInsecure=0#4FreeIran-3770
+vmess://eyJhZGQiOiAiMTQxLjEwMS4xMTUuMiIsICJhaWQiOiAwLCAiaG9zdCI6ICJsZzEuemh1amljbjIuY29tIiwgImlkIjogImE1YmE4YjJiLThmYzUtNDUyMS1hMzVlLTkyODFiZTYxYzFjMyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvZG9uZ3RhaXdhbmcuY29tIiwgInBvcnQiOiA0NDMsICJwcyI6ICI0RnJlZUlyYW4tMjQ4NjYiLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8ifQ==
+trojan://ttfang@103.106.230.186:81?security=tls&sni=ttfang.fange.me&type=ws&host=ttfang.fange.me&path=%2F&allowInsecure=1#🔒 TR-WS-TLS 🇹🇼 TW-103.106.230.186:81
+trojan://ba6b9e44-3ea3-405d-a9eb-d5fcda84fdda@104.21.71.205:443?sni=XC.890603.pP.uA&allowInsecure=0#🔒 TR-TCP-NA 🏴‍☠️ NA-104.21.71.205:443
+vless://b99590df-eda0-4e34-e1a9-3d1118faed83@155.46.213.155:8880?security=none&type=httpupgrade&host=nufillter.jtip.sbs.&path=/#4FreeIran-18896
+vless://797fb47e-ec76-42c3-a124-88ffb144d1a0@172.66.44.205:8443?security=tls&sni=mAHDiSeRVeR-GAj.pAGes.dEV&type=ws&host=mahdiserver-gaj.pages.dev&fp=chrome&alpn=h2,http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.66.44.205:8443
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TWpkbFptWTRZV0l5WkRVME9HTmtOdz09Ok5EWXlNVGcwT1RjdE9XUTFNaTAwTUE9PQ@apiyhyzsj.gweuc.cn:26613#%F0%9F%87%AD%F0%9F%87%B0Hong%20Kong%20IEPL%2001
+vless://2dc696d0-2c4d-437e-9187-5a78584f0abb@172.83.159.4:27398?encryption=none&security=tls&sni=vkk.wxgqlfx.cn&type=ws&host=vkk.wxgqlfx.cn&path=%2fTG%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa%3fed%3d2560#US%e3%80%90ccbaohe.com%e3%80%91%e5%85%8d%e8%b4%b9%e8%b5%84%e6%ba%90%e5%af%bc%e8%88%aa+(3)
+trojan://459d23f4-dcfd-4fef-9ba3-ef0ad10fc336@20.2.200.17:443?security=tls&sni=jp.mjt001.com#4FreeIran-4197
+vless://542094fe-c01c-4b7c-9688-d012d3fc7544@172.67.214.197:2096?security=tls&sni=team.infinitespd.com&type=ws&path=/&fp=chrome&alpn=h3,h2,http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.214.197:2096
+vmess://eyJhZGQiOiAiMzguMTczLjE5OC4yNDQiLCAiYWlkIjogNjQsICJob3N0IjogInd3dy42MzAwMDk3MS54eXoiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDM2MDAyLCAicHMiOiAiNEZyZWVJcmFuLTI2NDA0IiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIn0=
+trojan://Aimer@104.22.49.188:443?sni=epccf.ambercc.filegear-sg.me#🔒 TR-TCP-NA 🏴‍☠️ NA-104.22.49.188:443
+trojan://juzi@172.66.45.35:443?security=tls&sni=juzi8186-sr1.pages.dev&type=ws&host=juzi8186-sr1.pages.dev#4FreeIran-7383
+vless://37923a01-14f0-40c2-a5dd-d0349ca27210@[2606:4700:3037::ac43:d175]:8080?security=none&type=ws&host=vIhYpErClOuD.aCaDeMiGrOuP.iR.#4FreeIran-11355
+ss://YWVzLTI1Ni1nY206M2VlOTBhYTktODgzMS00ZWEzLTk0MjUtYzM2MTA5MGE5Mzhk@36.151.194.51:31452#🔒 SS-TCP-NA 🇨🇳 CN-36.151.194.51:31452
+vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@162.120.94.213:8880?sni=jp.laoyoutiao.link&type=ws&host=jp.laoyoutiao.link&allowInsecure=0#4FreeIran-22915
+vless://39a4fc52-885d-4eaf-adba-61472c28f47e@172.67.161.210:2095?encryption=none&security=none&type=ws&host=jmxoz0htqbvapnx9ruop77vjl6m-k1ze.peige1985.workers.dev&path=%2fi9DEOzI0jGvGu7mf%3fed%3d2560#%f0%9f%92%a6+52+-+VLESS+-+IPv4+%3a+2095
+vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@167.68.11.100:443?encryption=none&security=tls&type=ws&sni=cfed.tgzdyz2.top&host=cfed.tgzdyz2.top&path=tg%40zdyz2#%E7%BE%8E%E5%9B%BDTG%3A%40JUZIBAIPIAO_23
+vless://293dbd19-eaec-43f0-dcde-2944af021dd4@185.59.218.52:8880?security=none&type=httpupgrade&host=S130.DdigicYber.clicK.&path=%2Ftelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%2Ctelegram-NUFiLTER%3Fed%3D1024#4FreeIran-10234
+trojan://Aimer@162.159.38.105:2083?security=tls&sni=ngepz.ambercc.filegear-sg.me&type=tcp#🔒 TR-TCP-TLS 🏴‍☠️ NA-162.159.38.105:2083
+vless://c58905af-2040-413e-adbc-0e81cc8eb35f@45.131.211.58:80?encryption=none&security=none&sni=vless.behradmirzaei1388.workers.dev&type=ws&host=vless.behradmirzaei1388.workers.dev&path=Telegram%40WangCai2%2F%3Fed%3D2048#%E6%A9%98%E5%AD%90%E5%85%AC%E7%9B%8A-%E7%BE%8E%E5%9B%BDUS-47
