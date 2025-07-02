@@ -28,7 +28,6 @@ hysteria://108.181.24.77:11512?sni=apple.com#%E7%BE%8E%E5%9B%BD%20-%20%E6%B4%9B%
 hysteria://195.154.200.178:46938?sni=apple.com#%E6%B3%95%E5%9B%BD%20-%20%E5%B7%B4%E9%BB%8E%20-%20Online%20S.A.S.%20-%206
 hysteria://195.154.200.40:15010?sni=apple.com#%E6%B3%95%E5%9B%BD%20-%20%E5%B7%B4%E9%BB%8E%20-%20Online%20S.A.S.%20-%202
 hysteria://51.159.226.1:14241?sni=apple.com#%E6%B3%95%E5%9B%BD%20-%20%E5%B7%B4%E9%BB%8E%20-%20Online%20S.A.S.%20-%203
-ss://,ssd://,http(s)://
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206MTJ4R1JtY0V5M1RWRVR6RTQ3TXJlQT09@183.240.187.198:34664#%E4%B8%AD%E5%9B%BD%20-%20%E5%8F%B0%E6%B9%BE%20-%20Chunghwa%20Telecom%20Co.%2C%20Ltd.%20-%207
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TlRreFpEUmpOalExWVROak9HVTNaUT09Ok5qWTJNbVZoWldFdE9XWTJaaTAwTUE9PQ==@zz.xn--mes91t7ofgnw.com:8084#%E7%BE%8E%E5%9B%BD%20-%20%E6%B4%9B%E6%9D%89%E7%9F%B6%20-%20Latitude.sh%20-%2041
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TmprM01EWTBNekl3TlRFMFpHUXpNQT09Ok1HTTJPRFkyWXprdFpqaG1OQzAwWWc9PQ==@zz.xn--2vxn29amga.com:8095#%E7%BE%8E%E5%9B%BD%20-%20%E7%B4%90%E7%B4%84%20-%20Zenlayer%20Inc%20-%2023
@@ -195,6 +194,7 @@ ss://YWVzLTI1Ni1nY206NzgxYmI1NGMtZjA4OS00OGRmLTgxMDItMDEyODhhODFlYjEw@jsyd.piaom
 ss://YWVzLTI1Ni1nY206TTE1VVNYN0pTTjNNVENJUg==@ti3hyra4.slashdevslashnetslashtun.net:15015#%E4%B8%AD%E5%9B%BD%20-%20%E9%A6%99%E6%B8%AF%20-%20Velo%20Link%2C%20Inc.%20-%2011
 ss://YWVzLTI1Ni1nY206TTREQlZOQVlWMTVRQkFWRw==@ti3hyra4.slashdevslashnetslashtun.net:17006#%E7%BE%8E%E5%9B%BD%20-%20%E5%8C%B9%E5%85%B9%E5%A0%A1%20-%20Velo%20Link%2C%20Inc.%20-%2033
 ss://YWVzLTI1Ni1nY206TTk4OFpFNEQ0QkdSOE40VQ==@ti3hyra4.slashdevslashnetslashtun.net:17005#%E7%BE%8E%E5%9B%BD%20-%20%E5%8C%B9%E5%85%B9%E5%A0%A1%20-%20Velo%20Link%2C%20Inc.%20-%2025
+ss://、troja
 trojan://042b0562-678a-3f83-ac35-96b40d20eb3f@adly.20210420.xyz:25558?sni=adly-ssl.20210420.xyz#%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%20-%20%E6%82%89%E5%B0%BC%20-%20Onidel%20Pty%20Ltd%20-%201
 trojan://042b0562-678a-3f83-ac35-96b40d20eb3f@usa04.20210420.xyz:20705?sni=usa04-ssl.20210420.xyz#%E7%BE%8E%E5%9B%BD%20-%20%E6%B4%9B%E6%9D%89%E7%9F%B6%20-%20Alice%20Networks%20LTD%20-%2018
 trojan://288124da-0d68-42f4-9f48-70dc4dcc55a6@172.67.205.157:443?sni=SsXCDfR5.986986.shoP
@@ -771,8 +771,10 @@ vless://583ceab3-4022-4553-9158-9bedc625ad4e@92.53.191.177:8880?sni=Telegram-cha
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@92.60.74.177:8880?sni=Telegram-channel-WangCai2
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@94.140.0.177:8880?sni=Telegram-channel-WangCai2
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@94.247.142.177:8880?sni=Telegram-channel-WangCai2
+vless://74b7...)
 vless://76ad8213-4617-47eb-92cc-5392b39b45ce@tgju.org:80?sni=eLOQuENt-caSE.ZUlaIR.orG.
 vless://9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0@188.42.89.13:8880?sni=Telegram-channel-WangCai2
+vless://UUID@server.com:443?allowI
 vless://c5cd9845-55c5-4c0d-8709-d62211d61536@143.14.220.111:25888?security=tls
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.108:8080?type=ws
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.224:8080?type=ws
@@ -1440,6 +1442,7 @@ vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@92.60.74.233:8880?type=ws
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@94.140.0.233:8880?type=ws
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@94.247.142.233:8880?type=ws
 vless://uuid@example.com:443?security=xtls
+vless://、tuic://...)
 vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IC0g57SQ57SEIC0gTWFzc2l2ZWdyaWQgTFREIC0gMyIsICJhZGQiOiAiMTA0LjIxLjYuMTc5IiwgInBvcnQiOiA4MCwgImlkIjogIjY3NTdiN2Q2LWZhMzItNDcwOC1iNWQxLTMwZTNjZjkyOGI1MSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvV3NVaWtyOHdYclhyRmwycDhCaU1oUDQybCJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IC0g5YyX5Lyv5qC5IC0gRGlnaXRhbE9jZWFuLCBMTEMgLSAxMCIsICJhZGQiOiAidjQuaGVkdWlhbi5saW5rIiwgInBvcnQiOiAzMDgwNCwgImlkIjogImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsICJhaWQiOiAyLCAibmV0IjogIndzIiwgImhvc3QiOiAidjQuaGVkdWlhbi5saW5rIiwgInBhdGgiOiAiL29vb28ifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IC0g5ouJ5pav57u05Yqg5pavIC0gRnJhblRlY2ggU29sdXRpb25zIC0gMjgiLCAiYWRkIjogIjQ1LjE0Ny4yMDEuMjMxIiwgInBvcnQiOiAyMzExMSwgImlkIjogIjNlNjI1N2FlLWEzODAtNDYwOC04MDk5LTJlZDU1OTI4YzhiMSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIn0=
