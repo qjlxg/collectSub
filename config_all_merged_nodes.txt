@@ -51,6 +51,7 @@ hysteria://108.181.24.77:11512?sni=apple.com#%E7%BE%8E%E5%9B%BD%20-%20%E6%B4%9B%
 hysteria://195.154.200.178:46938?sni=apple.com#%E6%B3%95%E5%9B%BD%20-%20%E5%B7%B4%E9%BB%8E%20-%20Online%20S.A.S.%20-%208
 hysteria://195.154.200.40:15010?sni=apple.com#%E6%B3%95%E5%9B%BD%20-%20%E5%B7%B4%E9%BB%8E%20-%20Online%20S.A.S.%20-%205
 hysteria://51.159.226.1:14241?sni=apple.com#%E6%B3%95%E5%9B%BD%20-%20%E5%B7%B4%E9%BB%8E%20-%20Online%20S.A.S.%20-%206
+ss://,ssd://,http(s)://
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206MTJ4R1JtY0V5M1RWRVR6RTQ3TXJlQT09@183.240.187.198:34664#%E4%B8%AD%E5%9B%BD%20-%20%E5%8F%B0%E6%B9%BE%20-%20Chunghwa%20Telecom%20Co.%2C%20Ltd.%20-%2038
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206WVROa1ptTXdOREJoTjJFMVpqRTBaQT09Ok1EUXdZV1prWmpFdFpUSmxOQzAwWXc9PQ==@zz.xn--mes91t7ofgnw.com:8082#%E7%BE%8E%E5%9B%BD%20-%20%E8%B2%BB%E5%88%A9%E8%92%99%20-%20Hurricane%20Electric%20LLC%20-%20133
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@118.163.198.42:2377#%F0%9F%87%A8%F0%9F%87%B3TW_42%20%40WangCai_8
@@ -204,6 +205,7 @@ ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@103.163.218.2:989#%E8%B6%8A%E5%8D%
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.231.233.112:989#%E8%91%A1%E8%90%84%E7%89%99%20-%20%E9%87%8C%E6%96%AF%E6%9C%AC%20-%20I4W%20-%20Web%20Solutions%2C%20Lda%20-%201
 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@p222.panda001.net:15098#%E9%9F%A9%E5%9B%BD%20-%20Gwanak-gu%20-%20Korea%20Telecom%20-%201
 ss://YWVzLTI1Ni1nY206NzgxYmI1NGMtZjA4OS00OGRmLTgxMDItMDEyODhhODFlYjEw@jsyd.piaomiaoxu.net:44721#%E6%97%A5%E6%9C%AC%20-%20%E4%B8%9C%E4%BA%AC%20-%20Akile%20LTD%20-%201
+ss://、troja
 trojan://bdf3e15e-c64c-11ea-82ef-f23c9164ca5d@ade8cde1-syvts0-t9eu8q-tlhh.cu2.plebai.net:15229?sni=ade8cde1-syvts0-t9eu8q-tlhh.cu2.plebai.net#%E7%BE%8E%E5%9B%BD%20-%20%E8%8A%9D%E5%8A%A0%E5%93%A5%20-%20Sharktech%20-%20141
 trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@102.132.188.117:2096?sni=vle.amclubdns.dpdns.org
 trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@102.177.176.117:2096?sni=vle.amclubdns.dpdns.org
@@ -1463,6 +1465,7 @@ vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@92.60.74.63:8880?sni=sg.laoyoutiao.
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@94.140.0.63:8880?sni=sg.laoyoutiao.link
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@94.247.142.63:8880?sni=sg.laoyoutiao.link
 vless://uuid@example.com:443?security=xtls
+vless://、tuic://...)
 vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IC0g5rC054mb5Z+OIC0gSG9zdFBhcGEgLSAxIiwgImFkZCI6ICIxMDQuMjEuMTYuMSIsICJwb3J0IjogODAsICJpZCI6ICI0MTc0Yjk1ZC0xMTVlLTRkMzktYWRkNi0xZjhkYjk1YmI4NjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLzZXZTNVOURmMVdHeGdGbm9GUHcxIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IC0g5rC054mb5Z+OIC0gSG9zdFBhcGEgLSAyIiwgImFkZCI6ICIxMDQuMjEuNDguMSIsICJwb3J0IjogODAsICJpZCI6ICI0MTc0Yjk1ZC0xMTVlLTRkMzktYWRkNi0xZjhkYjk1YmI4NjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLzZXZTNVOURmMVdHeGdGbm9GUHcxIn0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu9IC0g5rC054mb5Z+OIC0gSG9zdFBhcGEgLSAzIiwgImFkZCI6ICIxMDQuMjEuNjQuMSIsICJwb3J0IjogODAsICJpZCI6ICI0MTc0Yjk1ZC0xMTVlLTRkMzktYWRkNi0xZjhkYjk1YmI4NjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLzZXZTNVOURmMVdHeGdGbm9GUHcxIn0=
