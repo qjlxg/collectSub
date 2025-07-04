@@ -8,7 +8,6 @@ hysteria2://52.221.255.180:10264?password=vlJbyJEtcNjHvV6dnkZ1Z4VjpI
 hysteria2://54.151.205.10:31506?password=meDixlXwWLtMK7KYGlxBjyxxCws
 hysteria2://54.250.24.158:3926?password=bHg5b806w9CkHVldk62vVxtGXBs
 hysteria2://57.180.66.190:29205?password=coqaakQaJbx4ztuc5oJ2GW0WKk
-hysteria2://hk.nfsn666.gq:8888?password=nfsn666
 hysteria2://hk.xn--2vxn29amga.com:21141?password=eef701f6-4f73-427e-b240-88891b56c229
 hysteria2://hk.xn--2vxn29amga.com:21196?password=416c2b0b-93a0-4f6b-9614-cce0fc51903c
 hysteria2://hk1.shiyuandian.shop:24591?password=ae845cbd-08fb-4346-929a-e28a6f3960a8
@@ -201,7 +200,7 @@ ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@154.90.63.177:989#%E9%9F%A9%E5%9B%
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@154.90.63.177:989#%F0%9F%87%B0%F0%9F%87%B7KR_734%20%7C%207.94Mb
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@185.153.197.5:989#%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6%20-%20%E5%9F%BA%E5%B8%8C%E8%AE%B7%E4%B9%8C%20-%20%27%27IT%20FRUIT%27%27%20S.R.L.%20-%201
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@203.23.128.33:989#%F0%9F%87%AD%F0%9F%87%B0HK_687%20%7C%204.02Mb
-ss://YWVzLTI1Ni1jZmI6cWF3c3p4YzEyMw==@13.229.183.5:443#%F0%9F%87%B8%F0%9F%87%ACSG_888
+ss://YWVzLTI1Ni1jZmI6cWF3c3p4YzEyMw==@13.229.183.5:443#%F0%9F%87%B8%F0%9F%87%ACSG_888%20%7C%206.15Mb
 ss://YWVzLTI1Ni1jZmI6cWF3c3p4YzEyMw==@18.143.168.193:443#%F0%9F%87%B8%F0%9F%87%ACSG_886%20%7C%207.35Mb
 ss://YWVzLTI1Ni1jZmI6cWF3c3p4YzEyMw==@47.129.2.253:443#%E6%96%B0%E5%8A%A0%E5%9D%A1%20-%20%E6%96%B0%E5%8A%A0%E5%9D%A1%20-%20Amazon%20Technologies%20Inc%20-%201
 ss://YWVzLTI1Ni1jZmI6cWF3c3p4YzEyMw==@54.169.218.74:443#%F0%9F%87%B8%F0%9F%87%ACSG_884%20%7C%207.95Mb
@@ -814,7 +813,6 @@ vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.53.191.77:8880?sni=Telegram-chan
 vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.60.74.77:8880?sni=Telegram-channel-WangCai2
 vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@94.140.0.77:8880?sni=Telegram-channel-WangCai2
 vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@94.247.142.77:8880?sni=Telegram-channel-WangCai2
-vless://43ef1f94-978f-4539-ba01-1e6005859950@hostone-sg.zdsa.me:443?security=tls
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@102.177.176.177:8880?sni=Telegram-channel-WangCai2
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@103.116.7.177:8880?sni=ip.langmanshanxi.top
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@103.169.142.177:8880?sni=Telegram-channel-WangCai2
