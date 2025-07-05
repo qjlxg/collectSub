@@ -1,5 +1,4 @@
 hysteria2://13.230.97.153:24801?password=kIKFMf0EbDYYTnUYTSWsrZO2CgI
-hysteria2://13.231.234.240:26978?password=ymHrbsqFBVS6jo4NPC7WvpLdlg
 hysteria2://18.181.213.212:28100?password=Rw8RlIbymBVZ0r1wK3R3U6c
 hysteria2://209.141.47.127:3234?password=65a43b6e-19c5-4fab-b960-d110a07d66a4#%E7%BE%8E%E5%9B%BD%20-%20%E6%8B%89%E6%96%AF%E7%BB%B4%E5%8A%A0%E6%96%AF%20-%20FranTech%20Solutions%20-%20180
 hysteria2://38.225.102.237:26429?password=9f647432-7f59-41c4-832d-1d5c55b291e1
@@ -651,7 +650,6 @@ vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.243.75.77:8880?sni=Telegram-chan
 vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.53.188.77:8880?sni=Telegram-channel-WangCai2
 vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.53.190.77:8880?sni=Telegram-channel-WangCai2
 vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.53.191.77:8880?sni=Telegram-channel-WangCai2
-vless://43ef1f94-978f-4539-ba01-1e6005859950@hostone-sg.zdsa.me:443?security=tls
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@102.177.176.177:8880?sni=Telegram-channel-WangCai2
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@103.116.7.177:8880?sni=ip.langmanshanxi.top
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@103.169.142.177:8880?sni=Telegram-channel-WangCai2
