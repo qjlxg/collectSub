@@ -20,7 +20,6 @@ hysteria2://yjjdrb.yunjijd.xyz:26423?password=46d4611b-faf9-4521-81af-efa0b25c4c
 hysteria2://yjjdrb.yunjijd.xyz:26423?password=c8363b26-c951-4c96-8b74-fd529c7a9fd6
 hysteria://195.154.200.178:46938?sni=apple.com#%E6%B3%95%E5%9B%BD%20-%20%E5%B7%B4%E9%BB%8E%20-%20Online%20S.A.S.%20-%204
 hysteria://195.154.200.40:15010?sni=apple.com#%E6%B3%95%E5%9B%BD%20-%20%E5%B7%B4%E9%BB%8E%20-%20Online%20S.A.S.%20-%205
-ss://,ssd://,http(s)://
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTgxNTExYy1iZWNiLTRiNTMtOGE4OS01N2NkM2M5N2IzMjg=@45.76.180.205:31368#%F0%9F%87%B8%F0%9F%87%ACSG_1153%20%7C%207.01Mb
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@118.163.198.42:2377#%F0%9F%87%A8%F0%9F%87%B3TW_42%20%40WangCai_8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@118.163.198.43:2377#%F0%9F%87%A8%F0%9F%87%B3TW_43%20%40WangCai_8
@@ -656,7 +655,6 @@ vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.243.75.77:8880?sni=Telegram-chan
 vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.53.188.77:8880?sni=Telegram-channel-WangCai2
 vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.53.190.77:8880?sni=Telegram-channel-WangCai2
 vless://40c708ca-42e4-4224-a12d-1dbd7ef1e0b7@92.53.191.77:8880?sni=Telegram-channel-WangCai2
-vless://43ef1f94-978f-4539-ba01-1e6005859950@hostone-sg.zdsa.me:443?security=tls
 vless://51997334-8829-47cd-a5ef-4e4311a000e2@121.167.146.253:15364?security=tls
 vless://5653a924-8b8d-4073-97ee-8acbe3591ed7@126.39.63.163:26111?security=tls
 vless://583ceab3-4022-4553-9158-9bedc625ad4e@102.177.176.177:8880?sni=Telegram-channel-WangCai2
