@@ -1005,7 +1005,6 @@ vless://8b5cf811-af1f-475a-9e61-28b93c38d309@104.16.93.190:443?security=tls
 vless://8b5cf811-af1f-475a-9e61-28b93c38d309@104.24.68.5:443?security=tls
 vless://8b5cf811-af1f-475a-9e61-28b93c38d309@172.64.67.126:443?security=tls
 vless://8b5cf811-af1f-475a-9e61-28b93c38d309@190.93.244.204:443?security=tls
-vless://8b9c63ff-6789-449d-e5fd-5b83fef2b440@nnctwclyx.codesofun.pp.ua:443?security=tls
 vless://90d7db9b-972b-4073-8738-12cf42124260@104.16.114.221:443?security=tls
 vless://90d7db9b-972b-4073-8738-12cf42124260@104.16.122.80:443?security=tls
 vless://90d7db9b-972b-4073-8738-12cf42124260@104.19.245.53:443?security=tls
@@ -1014,7 +1013,7 @@ vless://90d7db9b-972b-4073-8738-12cf42124260@104.19.250.244:443?security=tls
 vless://90d7db9b-972b-4073-8738-12cf42124260@104.19.253.84:443?security=tls
 vless://91d9b8d8-2aab-4e1a-9573-0d59e9cd7f8e@188.114.97.1:8880?sni=falcunargo-channel.be3374a836.workers.Dev
 vless://9368b093-d790-4096-9d8a-1265e82f9e2f@172.66.47.15:443?security=tls
-vless://94fa89d1-569f-43f9-b81e-e6356ac8eef0@47.74.34.102:29578#Relay_-%F0%9F%87%AF%F0%9F%87%B5JP_750
+vless://94fa89d1-569f-43f9-b81e-e6356ac8eef0@47.74.34.102:29578#Relay_-%F0%9F%87%AF%F0%9F%87%B5JP_750%20%7C%206.74Mb
 vless://98f9fb8e-ac0c-4a54-80ff-dcce095d9fbd@104.16.46.27:80?sni=cold-snowflake-4912-ppal03.rarenok889.workers.dev
 vless://99ce9188-20c8-437c-b68d-0a6ed701c744@172.67.72.73:443?security=tls
 vless://9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0@103.245.229.13:8880?sni=Telegram-channel-WangCai2
