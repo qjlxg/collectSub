@@ -1376,7 +1376,6 @@ vless://e5c2e234-333e-48b4-8199-2793a64527bc@104.21.96.1:443?security=tls
 vless://e5c2e234-333e-48b4-8199-2793a64527bc@www.speedtest.net:443?security=tls
 vless://e6236ebc-7334-4bed-977f-0c20bcdfcc00@104.18.26.90:443?security=tls
 vless://e97a0128-4785-4323-a2a5-dd01ce49d359@104.21.79.134:443?security=tls
-vless://ea286109-d20f-415e-849e-4af20ab04b65@147135001195.sec22org.com:443?security=tls
 vless://ede64af1-4dfc-46af-b7f8-7e8dc1c2445c@www.speedtest.net:2096?security=tls
 vless://ee06e485-f3d1-46c0-97f4-e98040b828ed@162.159.2.9:443?security=tls
 vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@thaddeus.ns.cloudflare.com:443?security=tls
