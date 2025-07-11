@@ -1,4 +1,4 @@
-#https://github.com/mariahlamb/proxy-sub
+# https://github.com/mariahlamb/proxy-sub
 name: generate_nodes
 
 on:
@@ -72,9 +72,11 @@ jobs:
           set -x
           STRICT_DEDUP=${{ github.event.inputs.strict_dedup || 'true' }}
           if [ "$STRICT_DEDUP" = "true" ]; then
-            python generate_nodes.py --strict_dedup 2>&1 | tee generate_nodes.log
+            # 确保这里传入 --output output/all_nodes.txt
+            python generate_nodes.py --output output/all_nodes.txt --strict_dedup 2>&1 | tee generate_nodes.log
           else
-            python generate_nodes.py 2>&1 | tee generate_nodes.log
+            # 确保这里传入 --output output/all_nodes.txt
+            python generate_nodes.py --output output/all_nodes.txt 2>&1 | tee generate_nodes.log
           fi
           if [ ${PIPESTATUS[0]} -ne 0 ]; then
             echo "脚本执行失败"
@@ -86,27 +88,23 @@ jobs:
 
       - name: 验证输出文件
         run: |
-          shopt -s nullglob
-          OUTPUT_FILES=(output/all_nodes_*.txt)
-          if [ ${#OUTPUT_FILES[@]} -eq 0 ]; then
-            echo "错误：未在 output/all_nodes_*.txt 中找到输出文件"
+          # 修改这里，检查确切的文件名
+          if [ ! -f output/all_nodes.txt ]; then
+            echo "错误：未找到 output/all_nodes.txt 文件"
             exit 1
           fi
-          TOTAL_LINES=0
-          for file in "${OUTPUT_FILES[@]}"; do
-            if [ ! -s "$file" ]; then
-              echo "错误：$file 文件为空"
-              exit 1
-            fi
-            if ! grep -qE '^(ss|ssr|vmess|vless|trojan|hysteria|hy|hy2)://' "$file"; then
-              echo "错误：$file 不包含有效的节点 URL"
-              exit 1
-            fi
-            LINES=$(wc -l < "$file")
-            TOTAL_LINES=$((TOTAL_LINES + LINES))
-            echo "$file 中的节点数：$LINES"
-          done
-          echo "总节点数：$TOTAL_LINES"
+          if [ ! -s output/all_nodes.txt ]; then
+            echo "错误：output/all_nodes.txt 文件为空"
+            exit 1
+          fi
+          # 检查文件内容是否包含有效节点 URL
+          if ! grep -qE '^(ss|ssr|vmess|vless|trojan|hysteria|hy|hy2)://' output/all_nodes.txt; then
+            echo "错误：output/all_nodes.txt 不包含有效的节点 URL"
+            exit 1
+          fi
+          LINES=$(wc -l < output/all_nodes.txt)
+          echo "output/all_nodes.txt 中的节点数：$LINES"
+          echo "总节点数：$LINES" # 因为现在只有一个文件，所以总数就是这个文件的行数
           echo "=== 节点处理统计 ==="
           grep -A 10 "=== 节点处理统计 ===" generate_nodes.log || echo "日志中未找到统计信息"
 
@@ -115,7 +113,7 @@ jobs:
         with:
           name: nodes
           path: |
-            output/all_nodes_*.txt
+            output/all_nodes.txt # 修改这里，上传确切的文件名
             generate_nodes.log
           if-no-files-found: error
 
@@ -123,12 +121,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/all_nodes_*.txt
+          git add output/all_nodes.txt # 修改这里，添加确切的文件名
           if git diff --quiet --staged; then
             echo "无更改需要提交"
             exit 0
           fi
-          TOTAL_NODES=$(wc -l output/all_nodes_*.txt | tail -n 1 | awk '{print $1}')
+          TOTAL_NODES=$(wc -l output/all_nodes.txt | awk '{print $1}') # 修改这里，计算确切文件的行数
           STRICT_MODE=$([[ "${{ github.event.inputs.strict_dedup || 'true' }}" == "true" ]] && echo "严格" || echo "宽松")
           git commit -m "更新节点列表：$TOTAL_NODES 个节点（$STRICT_MODE 去重模式）[skip ci]"
           git push
