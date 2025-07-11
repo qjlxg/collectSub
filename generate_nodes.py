@@ -23,10 +23,10 @@ logger = logging.getLogger(__name__)
 
 def parse_args() -> argparse.Namespace:
     """解析命令行参数。"""
-    parser = argparse.ArgumentParser(description='提取订阅节点并分批输出')
+    parser = argparse.ArgumentParser(description='提取订阅节点并输出') # 描述已更新
     parser.add_argument('--input', default='sub/sub_all_url_check.txt', help='订阅文件路径')
-    parser.add_argument('--output_prefix', default='output/all_nodes', help='输出节点文件的前缀')
-    parser.add_argument('--chunk_size', type=int, default=300, help='每个输出文件的节点数量')
+    # 移除了 --output_prefix 和 --chunk_size 参数
+    parser.add_argument('--output', default='output/all_nodes.txt', help='输出节点文件的路径') # 新增输出文件路径参数
     parser.add_argument(
         '--strict_dedup',
         action='store_true',
@@ -83,33 +83,25 @@ def read_subscriptions(file_path: str) -> List[str]:
         logger.error(f'读取文件 {file_path} 失败: {e}')
         return []
 
-def write_nodes_in_chunks(nodes: List[str], output_prefix: str, chunk_size: int) -> None:
-    """将节点列表分批写入多个文件。"""
+# 修改后的写入函数，不再分片
+def write_all_nodes(nodes: List[str], output_file_path: str) -> None:
+    """将所有节点写入单个文件。"""
     if not nodes:
         logger.info("没有节点可写入。")
         return
 
-    output_dir = os.path.dirname(output_prefix)
+    output_dir = os.path.dirname(output_file_path)
     if output_dir and not os.path.exists(output_dir):
         os.makedirs(output_dir)
         logger.info(f"已创建输出目录: {os.path.abspath(output_dir)}")
 
-    total_chunks = (len(nodes) + chunk_size - 1) // chunk_size
-    logger.info(f"总共有 {len(nodes)} 个节点，将分 {total_chunks} 个文件输出 (每文件 {chunk_size} 个节点)。")
-
-    for i in range(total_chunks):
-        start_index = i * chunk_size
-        end_index = min((i + 1) * chunk_size, len(nodes))
-        chunk = nodes[start_index:end_index]
-        file_name = f"{output_prefix}_{i+1:03d}.txt"
-        
-        try:
-            with open(file_name, 'w', encoding='utf-8') as f:
-                for node in chunk:
-                    f.write(f'{node}\n')
-            logger.info(f'节点信息已写入到：{os.path.abspath(file_name)} (包含 {len(chunk)} 条节点)')
-        except IOError as e:
-            logger.error(f"写入文件 {file_name} 失败: {e}")
+    try:
+        with open(output_file_path, 'w', encoding='utf-8') as f:
+            for node in nodes:
+                f.write(f'{node}\n')
+        logger.info(f'所有 {len(nodes)} 条节点信息已写入到：{os.path.abspath(output_file_path)}')
+    except IOError as e:
+        logger.error(f"写入文件 {output_file_path} 失败: {e}")
 
 @dataclasses.dataclass(frozen=True)
 class ParsedNodeInfo:
@@ -414,7 +406,7 @@ async def fetch_all_urls(urls: List[str], max_concurrent: int = 10) -> List[Opti
     return results
 
 def main():
-    """主函数，执行订阅节点提取和分批输出的整个流程。"""
+    """主函数，执行订阅节点提取和输出的整个流程。""" # 描述已更新
     args = parse_args()
     
     subscriptions = read_subscriptions(args.input)
@@ -452,9 +444,11 @@ def main():
     for protocol, count in total_stats['by_protocol'].items():
         logger.info(f"  {protocol}: {count}")
 
-    write_nodes_in_chunks(all_nodes, args.output_prefix, args.chunk_size)
-    output_directory = os.path.dirname(args.output_prefix) or "."
+    # 调用修改后的写入函数
+    write_all_nodes(all_nodes, args.output)
+    output_directory = os.path.dirname(args.output) or "." # 获取输出文件所在的目录
     logger.info(f"\n所有生成的节点文件已保存到目录: {os.path.abspath(output_directory)}")
+
 
 if __name__ == '__main__':
     main()
