@@ -23,6 +23,9 @@ jobs:
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
+        # ⚠️ 重要：为了允许 GitHub Actions bot 推送，需要设置 token 权限
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # 默认的 GITHUB_TOKEN 通常足够
 
       - name: 设置 Python 环境
         uses: actions/setup-python@v5
@@ -44,8 +47,14 @@ jobs:
             echo "错误：未找到 requirementsnodes.txt 文件"
             exit 1
           fi
+          # 验证每行是否为有效的包名和版本格式
           while IFS= read -r line; do
-            if [[ -n "$line" && ! "$line" =~ ^[a-zA-Z0-9_-]+(>=|==|<|<=)[0-9.] ]]; then
+            # 允许空行和注释行 (#开头)
+            if [[ -z "$line" || "$line" =~ ^# ]]; then
+                continue
+            fi
+            # 检查是否符合 'package_name[op]version' 的基本格式
+            if ! echo "$line" | grep -qE '^[a-zA-Z0-9_-]+(>=|==|<|<=|~=)?[0-9.]*([a-zA-Z0-9_-]+)*$'; then
               echo "错误：requirementsnodes.txt 中格式无效：$line"
               exit 1
             fi
@@ -69,15 +78,15 @@ jobs:
       - name: 生成节点
         run: |
           source venv/bin/activate
-          set -x
+          set -x # 开启调试模式，显示执行的命令
           STRICT_DEDUP=${{ github.event.inputs.strict_dedup || 'true' }}
+          # 确保这里明确传入 --output output/all_nodes.txt
           if [ "$STRICT_DEDUP" = "true" ]; then
-            # 确保这里传入 --output output/all_nodes.txt
             python generate_nodes.py --output output/all_nodes.txt --strict_dedup 2>&1 | tee generate_nodes.log
           else
-            # 确保这里传入 --output output/all_nodes.txt
             python generate_nodes.py --output output/all_nodes.txt 2>&1 | tee generate_nodes.log
           fi
+          # 检查 Python 脚本的退出状态码
           if [ ${PIPESTATUS[0]} -ne 0 ]; then
             echo "脚本执行失败"
             cat generate_nodes.log || echo "无法读取 generate_nodes.log"
@@ -88,7 +97,7 @@ jobs:
 
       - name: 验证输出文件
         run: |
-          # 修改这里，检查确切的文件名
+          # 修改这里，检查确切的文件名 output/all_nodes.txt
           if [ ! -f output/all_nodes.txt ]; then
             echo "错误：未找到 output/all_nodes.txt 文件"
             exit 1
@@ -97,7 +106,7 @@ jobs:
             echo "错误：output/all_nodes.txt 文件为空"
             exit 1
           fi
-          # 检查文件内容是否包含有效节点 URL
+          # 检查文件内容是否包含有效的节点 URL
           if ! grep -qE '^(ss|ssr|vmess|vless|trojan|hysteria|hy|hy2)://' output/all_nodes.txt; then
             echo "错误：output/all_nodes.txt 不包含有效的节点 URL"
             exit 1
@@ -111,24 +120,39 @@ jobs:
       - name: 上传工件
         uses: actions/upload-artifact@v4
         with:
-          name: nodes
+          name: nodes # 工件的名称，您可以在 GitHub Actions 页面下载
           path: |
             output/all_nodes.txt # 修改这里，上传确切的文件名
-            generate_nodes.log
-          if-no-files-found: error
+            generate_nodes.log # 也上传日志文件，方便调试
+          if-no-files-found: error # 如果没有找到文件，则任务失败
 
       - name: 提交并推送更改
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # 关键步骤：在推送前拉取并合并远程仓库的最新更改
+          # 这能解决 'rejected' 错误，确保本地与远程同步
+          # 假设您的默认分支是 'main'，如果不是，请将 'main' 替换为您的分支名
+          git pull --rebase origin main 
+          
+          # 添加生成的节点文件到 Git 暂存区
           git add output/all_nodes.txt # 修改这里，添加确切的文件名
+          
+          # 检查是否有实际的更改需要提交
           if git diff --quiet --staged; then
             echo "无更改需要提交"
-            exit 0
+            exit 0 # 如果没有更改，则正常退出此步骤
           fi
+          
+          # 获取当前生成文件的行数作为提交信息的一部分
           TOTAL_NODES=$(wc -l output/all_nodes.txt | awk '{print $1}') # 修改这里，计算确切文件的行数
           STRICT_MODE=$([[ "${{ github.event.inputs.strict_dedup || 'true' }}" == "true" ]] && echo "严格" || echo "宽松")
+          
+          # 提交更改
           git commit -m "更新节点列表：$TOTAL_NODES 个节点（$STRICT_MODE 去重模式）[skip ci]"
+          
+          # 推送更改到远程仓库
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 确保拥有推送权限
