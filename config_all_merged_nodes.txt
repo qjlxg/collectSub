@@ -1716,7 +1716,6 @@ vless://747df92c-f03a-4672-aa22-8500ff942eca@twgo.388898.xyz:41000?security=tls
 vless://747df92c-f03a-4672-aa22-8500ff942eca@twgo.388898.xyz:50000?security=tls
 vless://747df92c-f03a-4672-aa22-8500ff942eca@twgo.388898.xyz:50001?security=tls
 vless://747df92c-f03a-4672-aa22-8500ff942eca@twgo.388898.xyz:50003?security=tls
-vless://74b7...)
 vless://7a80a8d9-92f9-4f0a-8352-9005a8215ab8@104.18.12.149:443?security=tls
 vless://7a80a8d9-92f9-4f0a-8352-9005a8215ab8@104.24.129.78:443?security=tls
 vless://7a80a8d9-92f9-4f0a-8352-9005a8215ab8@104.25.39.179:443?security=tls
@@ -1744,7 +1743,6 @@ vless://930e2d97-c3e4-4840-9289-748ae4fde82e@www.speedtest.net:443?security=tls
 vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?security=tls
 vless://9d0d265d-0df6-4bcd-b029-9407a88ec2d8@103.88.242.119:443?security=tls
 vless://Parsashonam-Bot-9@104.17.147.22:8880?type=ws
-vless://UUID@server.com:443?allowI
 vless://a2141393-7183-4f29-b27a-0fc3167a6908@www.speedtest.net:443?security=tls
 vless://b20c84f3-988c-489d-a93f-a42c26aa0c59@165.232.83.84:1500?security=tls
 vless://b28eb861-1748-4200-ba72-278669edc33b@104.18.26.90:443?security=tls
@@ -2036,7 +2034,6 @@ vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@92.53.188.213:8880?sni=jp.laoyoutia
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@94.140.0.156:8880?sni=Telegram-channel-WangCai2
 vless://fd9a3396-e9a4-45b5-93b9-a0bed3f8b309@104.18.12.149:443?security=tls
 vless://turboo-server@104.26.6.89:2083?security=tls
-vless://uuid@example.com:443?security=xtls
 vless://、tuic://...)
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NTNFQVx1NjcwOVx1NzIzMVx1NjFDMlx1NzY4NFx1NEVCQVx1NjI0RFx1ODBGRFx1NzUyOCIsDQogICJhZGQiOiAiNDMuMTk5LjI0LjI0NyIsDQogICJwb3J0IjogIjMwMDAiLA0KICAiaWQiOiAiY2MxMDFmZjEtMzQ1Mi00MWMzLTg5ZmUtYzJhNWEyMGRjNmRjIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJodHRwIiwNCiAgImhvc3QiOiAic2Iuemh1YW5zaHUuY29tIiwNCiAgInBhdGgiOiAiLyIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAi576O5Zu944CQ5py65Zy65o6o6I2Q77yaaHR0cHM6Ly9hMGEueHl6L+OAkTE244CW55S15oql77yaQGNjYmFvaGXjgJHlhY3otLnoioLngrnlrprml7bmm7TmlrAiLCAiYWRkIjogIjM0cjUuMTE4OTA2MDQueHl6IiwgInBvcnQiOiA4MCwgImlkIjogImY4OThmZmNiLTY0MTctNDM3My05NjQwLTBiNjYwOTFlODIwNiIsICJuZXQiOiAid3MifQ==
